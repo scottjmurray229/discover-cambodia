@@ -56,7 +56,7 @@ const regionMeta: Record<string, { label: string; desc: string; gradient: string
   <!-- Hero -->
   <header class="dh-hero">
     <video class="dh-hero-video" autoplay muted loop playsinline preload="metadata">
-      <source src="/videos/destinations/el-nido-hero.mp4" type="video/mp4" />
+      <source src="/videos/cambodia-destinations-hero.mp4" type="video/mp4" />
     </video>
     <div class="dh-hero-gradient" />
     <div class="dh-hero-overlay" />
@@ -72,7 +72,7 @@ const regionMeta: Record<string, { label: string; desc: string; gradient: string
   </div>
 
   <!-- Destination Cards by Region -->
-  {(['visayas', 'luzon', 'mindanao'] as const).map(regionKey => {
+  {(['northwest', 'central', 'south-coast', 'northeast'] as const).map(regionKey => {
     const dests = regions[regionKey];
     const meta = regionMeta[regionKey];
     if (!dests || dests.length === 0) return null;

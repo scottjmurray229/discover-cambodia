@@ -491,7 +491,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       html += `
         <div class="budget-summary">
           <span class="budget-summary-label">Estimated Total</span>
-          <span class="budget-summary-value">$${it.totalBudget.usd?.toLocaleString() || it.totalBudget.php?.toLocaleString() || '—'} USD</span>
+          <span class="budget-summary-value">$${it.totalBudget.usd?.toLocaleString() || '—'} USD</span>
         </div>`;
     }
 
@@ -505,8 +505,8 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       for (const item of day.items) {
         const icon = CATEGORY_ICONS[item.category] || '';
         let priceHtml = '';
-        if (item.priceUsd || item.pricePhp) {
-          const price = item.priceUsd || item.pricePhp;
+        if (item.priceUsd) {
+          const price = item.priceUsd;
           dayUsd += price;
           priceHtml = ` <span class="day-price">$${price.toLocaleString()}</span>`;
         }
@@ -722,7 +722,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         marker.addListener('click', () => {
           const icon = { transport:'🚐', accommodation:'🏨', activity:'🏄', food:'🍴', ferry:'⛴️' }[item.category] || '';
           let priceStr = '';
-          if (item.priceUsd || item.pricePhp) priceStr = ` · $${(item.priceUsd || item.pricePhp).toLocaleString()}`;
+          if (item.priceUsd) priceStr = ` · $${(item.priceUsd).toLocaleString()}`;
           itinInfoWindow!.setContent(`
             <div style="font-family:Outfit,sans-serif;max-width:220px;">
               <div style="font-size:11px;font-weight:700;color:#0D7377;">Day ${day.dayNumber} · ${escapeHtml(item.time)}</div>
@@ -951,12 +951,12 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       const btn = document.getElementById('copyItinerary');
       const copyIt = currentItinerary || it;
       let text = copyIt.title + '\n' + copyIt.subtitle + '\n\n';
-      if (copyIt.totalBudget) text += `Estimated Total: $${copyIt.totalBudget.usd?.toLocaleString() || copyIt.totalBudget.php?.toLocaleString()} USD\n\n`;
+      if (copyIt.totalBudget) text += `Estimated Total: $${copyIt.totalBudget.usd?.toLocaleString() || '—'} USD\n\n`;
       for (const day of copyIt.days) {
         text += `--- Day ${day.dayNumber}: ${day.title} ---\n`;
         for (const item of day.items) {
           text += `  ${item.time} \u2014 ${item.description}`;
-          if (item.priceUsd || item.pricePhp) text += ` ($${item.priceUsd || item.pricePhp})`;
+          if (item.priceUsd) text += ` ($${item.priceUsd})`;
           text += '\n';
         }
         text += '\n';

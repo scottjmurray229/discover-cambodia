@@ -22,7 +22,6 @@ interface RequestBody {
 interface DayItem {
   time: string;
   description: string;
-  pricePhp?: number;
   priceUsd?: number;
   category: 'transport' | 'accommodation' | 'activity' | 'food' | 'ferry';
   affiliateType?: 'hotel' | 'tour' | 'transport' | null;
@@ -42,7 +41,7 @@ interface Day {
 interface Itinerary {
   title: string;
   subtitle: string;
-  totalBudget: { php: number; usd: number };
+  totalBudget: { usd: number };
   days: Day[];
 }
 
@@ -288,7 +287,7 @@ RULES:
 - Use first-person singular voice: "I recommend...", "you'll love..."
 - Be specific: real place names, real prices, real transport options
 - Tag hotel/tour/transport items with affiliateType and affiliateSlotId for future monetization
-- affiliateSlotId format: "day{N}-{type}-{destination}" e.g. "day1-hotel-cebu"
+- affiliateSlotId format: "day{N}-{type}-{destination}" e.g. "day1-hotel-siem-reap"
 
 SCALING BY TRIP LENGTH — this is critical to stay within output limits:
 - 1-7 days: 3-5 items per day, full descriptions (1-2 sentences each)
@@ -302,7 +301,7 @@ RESPONSE FORMAT — Return ONLY valid JSON matching this schema:
 {
   "title": "string — trip title like '7-Day Cambodia Highlights'",
   "subtitle": "string — budget + month like 'Mid-Range · March 2026'",
-  "totalBudget": { "php": number, "usd": number },
+  "totalBudget": { "usd": number },
   "days": [
     {
       "dayNumber": 1,
@@ -312,7 +311,6 @@ RESPONSE FORMAT — Return ONLY valid JSON matching this schema:
         {
           "time": "string — like 'Morning' or '5:30 AM'",
           "description": "string — what to do, with personality",
-          "pricePhp": number_or_null,
           "priceUsd": number_or_null,
           "category": "transport|accommodation|activity|food|ferry",
           "affiliateType": "hotel|tour|transport|null",

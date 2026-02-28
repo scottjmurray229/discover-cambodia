@@ -8,7 +8,6 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 interface DayItem {
   time: string;
   description: string;
-  pricePhp?: number;
   priceUsd?: number;
   category: string;
   affiliateType?: string | null;
@@ -25,7 +24,7 @@ interface Day {
 interface Itinerary {
   title: string;
   subtitle: string;
-  totalBudget?: { php: number; usd: number };
+  totalBudget?: { usd: number };
   days: Day[];
 }
 
@@ -88,14 +87,13 @@ function buildItineraryEmail(it: Itinerary, tp?: TripParams): string {
 
   for (const day of it.days) {
     let itemsHtml = '';
-    let dayPhp = 0;
     let dayUsd = 0;
 
     for (const item of day.items) {
       const icon = CATEGORY_ICONS[item.category] || '';
       let priceStr = '';
-      if (item.priceUsd || item.pricePhp) {
-        const price = item.priceUsd || item.pricePhp;
+      if (item.priceUsd) {
+        const price = item.priceUsd;
         dayUsd += price;
         priceStr = ` — $${price.toLocaleString()}`;
       }
@@ -135,7 +133,7 @@ function buildItineraryEmail(it: Itinerary, tp?: TripParams): string {
   const budgetHtml = it.totalBudget ? `
     <div style="display:flex;justify-content:space-between;align-items:center;background:#E8F4F5;border-radius:10px;padding:12px 20px;margin-bottom:20px;">
       <span style="font-size:14px;font-weight:600;color:#0D7377;">Estimated Total</span>
-      <span style="font-size:16px;font-weight:800;color:#1A2332;">$${it.totalBudget.usd?.toLocaleString() || it.totalBudget.php?.toLocaleString() || '—'} USD</span>
+      <span style="font-size:16px;font-weight:800;color:#1A2332;">$${it.totalBudget.usd?.toLocaleString() || '—'} USD</span>
     </div>` : '';
 
   return `<!DOCTYPE html>

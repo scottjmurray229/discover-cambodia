@@ -11,7 +11,6 @@ import { checkAndAlertAbuse, alertRateLimitHit } from '../../lib/abuse-alerts';
 interface DayItem {
   time: string;
   description: string;
-  pricePhp?: number;
   priceUsd?: number;
   category: 'transport' | 'accommodation' | 'activity' | 'food' | 'ferry';
   affiliateType?: 'hotel' | 'tour' | 'transport' | null;
@@ -28,7 +27,7 @@ interface Day {
 interface Itinerary {
   title: string;
   subtitle: string;
-  totalBudget: { php: number; usd: number };
+  totalBudget: { usd: number };
   days: Day[];
 }
 
@@ -148,7 +147,7 @@ RULES:
 - Use first-person singular voice: "I recommend...", "you'll love..."
 - Be specific: real place names, real prices, real transport options
 - Tag hotel/tour/transport items with affiliateType and affiliateSlotId for future monetization
-- affiliateSlotId format: "day{N}-{type}-{destination}" e.g. "day1-hotel-cebu"
+- affiliateSlotId format: "day{N}-{type}-{destination}" e.g. "day1-hotel-siem-reap"
 - When swapping destinations, update transport/ferry items between days
 - When changing budget, adjust hotel and restaurant recommendations accordingly
 - When adding/removing days, renumber all dayNumber fields sequentially
@@ -167,7 +166,7 @@ RESPONSE FORMAT — Return ONLY valid JSON with this schema:
   "itinerary": {
     "title": "string",
     "subtitle": "string",
-    "totalBudget": { "php": number, "usd": number },
+    "totalBudget": { "usd": number },
     "days": [
       {
         "dayNumber": 1,
@@ -177,7 +176,6 @@ RESPONSE FORMAT — Return ONLY valid JSON with this schema:
           {
             "time": "string",
             "description": "string",
-            "pricePhp": null,
             "priceUsd": number_or_null,
             "category": "transport|accommodation|activity|food|ferry",
             "affiliateType": "hotel|tour|transport|null",
