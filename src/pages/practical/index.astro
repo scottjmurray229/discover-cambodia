@@ -1,0 +1,818 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Travel Tips', url: '/practical/' },
+];
+
+const pageTitle = 'Cambodia Travel Tips — Visa, Money, Transport & Safety Guide 2026';
+const pageDescription = 'Everything you need before your first trip to Cambodia — visa-on-arrival, USD and riel, tuk-tuks, SIM cards, safety, packing, and cultural etiquette.';
+
+interface TopicSection {
+  id: string;
+  icon: string;
+  title: string;
+  gradient: string;
+  video?: string;
+  items: { label: string; text: string }[];
+}
+
+const topics: TopicSection[] = [
+  {
+    id: 'visa',
+    icon: '🛂',
+    title: 'Visa & Entry Requirements',
+    gradient: 'linear-gradient(135deg, #1565C0 0%, #42A5F5 100%)',
+    video: '/videos/pillar/practical-break-visa.mp4',
+    items: [
+      { label: '30-Day Visa on Arrival', text: 'Most nationalities (including USA, UK, Canada, Australia, EU) can get a 30-day tourist visa on arrival at Phnom Penh or Siem Reap airports. Cost: $30 USD, paid in cash (bring exact change). You need a passport valid for at least 6 months, one passport photo, and a completed arrival form. It takes about 5–10 minutes.' },
+      { label: 'E-Visa Option', text: 'Apply online at evisa.gov.kh before your trip — $36 USD (includes a $6 processing fee). Takes 3 business days. Print the approval letter and show it at immigration. Faster at the airport since you skip the visa-on-arrival queue, but only valid for entry at Phnom Penh airport, Siem Reap airport, and select land borders.' },
+      { label: 'Land Border Crossings', text: 'Visa on arrival is available at major land borders: Poipet (from Thailand), Bavet (from Vietnam), and others. The Poipet crossing from Bangkok is the most popular but also the most chaotic — watch out for unofficial "helpers" trying to charge extra fees. The official fee is $30 USD, period. Bring your own passport photos.' },
+      { label: 'Extending Your Stay', text: 'Extensions are handled at the Immigration Department in Phnom Penh (near the airport). A 30-day extension costs $45 USD. You can also get extensions through travel agents in Siem Reap and Phnom Penh for a small service fee ($10–15 extra). Process takes 1–3 business days.' },
+      { label: 'Documents to Carry', text: 'Always lock your passport in your hotel safe when exploring — carry a photocopy on your phone. Hotels need your passport at check-in. For domestic bus travel, you don\'t need your passport, but keep it handy for any police checkpoints. Always have your visa page photographed on your phone as backup.' },
+    ],
+  },
+  {
+    id: 'money',
+    icon: '💰',
+    title: 'Money & ATMs',
+    gradient: 'linear-gradient(135deg, #2E7D32 0%, #66BB6A 100%)',
+    video: '/videos/pillar/practical-break-money.mp4',
+    items: [
+      { label: 'USD Is the Second Currency', text: 'Cambodia runs on a dual-currency system — US dollars and Cambodian riel (KHR). Dollars are accepted everywhere for anything over $1. You\'ll get riel as change for amounts under $1 (4,000 riel = $1). Carry clean, undamaged US bills — Cambodians will reject torn, marked, or heavily creased notes. Seriously, check every bill before you leave home.' },
+      { label: 'ATM Strategy', text: 'ATMs dispense US dollars (most) or riel. ABA Bank, ACLEDA Bank, and Canadia Bank ATMs are the most reliable. Withdrawal fees are $4–5 per transaction. Maximum withdrawal is typically $400–500 per transaction. I use a Fidelity Cash Management card that reimburses ATM fees — saves $20+ per trip.' },
+      { label: 'Split Your Cards', text: 'ALWAYS bring two or three ATM cards and credit cards. Only carry one of each when you go out — keep backups in your hotel safe. If you lose your only card, your trip gets very complicated very fast.' },
+      { label: 'Cash Is King', text: 'Outside Phnom Penh and Siem Reap, most places are cash-only — restaurants, tuk-tuks, markets, guesthouses. Even in tourist areas, many smaller businesses don\'t accept cards. Always carry $50–100 in small bills ($1s and $5s). Street food and tuk-tuk drivers can\'t break a $50.' },
+      { label: 'Daily Budget Ranges', text: 'Backpacker: $20–35/day — hostels, street food, shared transport. Mid-range: $50–100/day — boutique hotels, restaurants, private tuk-tuk. Luxury: $150+/day — resorts, fine dining, private tours. Cambodia is one of the most affordable countries in Southeast Asia.' },
+      { label: 'Tipping Norms', text: 'Tipping isn\'t traditionally Cambodian but is appreciated in tourist areas. $1–2 for restaurant service, $2–5 for tour guides, round up for tuk-tuk drivers. At upscale restaurants, check if a service charge is already included.' },
+    ],
+  },
+  {
+    id: 'transport',
+    icon: '✈️',
+    title: 'Getting Around',
+    gradient: 'linear-gradient(135deg, #E65100 0%, #FF9800 100%)',
+    video: '/videos/pillar/practical-break-transport.mp4',
+    items: [
+      { label: 'Intercity Buses', text: '<strong>Giant Ibis</strong> is the gold standard — comfortable, punctual, WiFi, USB charging, and English-speaking staff. Phnom Penh to Siem Reap: $15–18, 6 hours. Phnom Penh to Kampot: $10, 3–4 hours. <strong>Mekong Express</strong> is the other premium option. Book on their websites or at your hotel. Avoid the cheapest minivan operators — they drive recklessly.' },
+      { label: 'Tuk-Tuks', text: 'The primary way to get around Cambodian cities and towns. A motorized rickshaw (remork) attached to a motorcycle. Short rides in Phnom Penh: $1–3. Full-day temple tour in Siem Reap: $15–25. Always agree on the price before getting in. For multi-day temple exploring, arrange a dedicated tuk-tuk driver through your hotel — they\'ll wait for you at each stop.' },
+      { label: 'Grab & PassApp', text: '<strong>Grab</strong> and <strong>PassApp</strong> (Cambodia\'s local ride-hailing app) both work in Phnom Penh. Download both before your trip. Metered fares, no haggling, air-conditioned cars. PassApp is often cheaper than Grab for short rides. Neither works reliably outside Phnom Penh.' },
+      { label: 'Domestic Flights', text: 'Cambodia Angkor Air flies between Phnom Penh and Siem Reap (45 minutes, $60–120 one-way). This is the only significant domestic route. The 6-hour bus ride is cheaper and scenic, but the flight saves a full day. Book 1–2 weeks ahead for best prices.' },
+      { label: 'Boats & Ferries', text: 'The <strong>Phnom Penh to Siem Reap speedboat</strong> via Tonle Sap lake runs during high-water season (Aug–Mar). It\'s scenic but long (5–6 hours) and uncomfortable. The <strong>Kampot to Koh Rong</strong> route goes via Sihanoukville by bus, then speed ferry to the island ($15–20, 45 min). Ferries to Koh Rong leave from Sihanoukville port.' },
+      { label: 'Scooter Rental', text: 'Available in most tourist areas for $5–10/day. An international driving permit (IDP) is technically required but rarely checked. Helmets are mandatory. Roads in Cambodia can be unpredictable — potholes, dust, animals, and oncoming traffic in your lane are all common. Only rent if you\'re an experienced rider. Never hand over your passport as deposit — offer a photocopy or a cash deposit instead.' },
+    ],
+  },
+  {
+    id: 'connectivity',
+    icon: '📱',
+    title: 'SIM Cards & Connectivity',
+    gradient: 'linear-gradient(135deg, #6A1B9A 0%, #AB47BC 100%)',
+    video: '/videos/pillar/practical-break-connectivity.mp4',
+    items: [
+      { label: 'Get a Local SIM', text: 'A local SIM card is the best option in Cambodia — cheap and easy. <strong>Cellcard</strong> (best coverage), <strong>Smart</strong> (best value), and <strong>Metfone</strong> (widest rural coverage) are the three providers. Buy a tourist SIM at the airport for $2–5 with 10–30 GB of data. SIM registration requires your passport.' },
+      { label: 'eSIM Option', text: 'If your phone supports eSIM, you can buy a Cambodian eSIM from providers like Airalo or Holafly before you arrive — $5–15 for 5–15 GB. Convenient if you want data from the moment you land without visiting a kiosk. Check your phone compatibility first.' },
+      { label: 'Data Coverage', text: '4G/LTE works in Phnom Penh, Siem Reap, Sihanoukville, Kampot, and major towns. Coverage gets spotty in rural areas, especially Mondulkiri, Ratanakiri, and remote Cardamom Mountains. Cellcard has the best overall coverage; Metfone is stronger in rural areas. Data packages: $1–5 for 2–15 GB.' },
+      { label: 'WiFi Reliability', text: 'Hotel and cafe WiFi is decent in Phnom Penh and Siem Reap (10–30 Mbps). Kampot and Battambang are slower but usable. Remote areas and islands (Koh Rong) can have limited connectivity. Your local SIM data is the reliable backup — always have it ready.' },
+    ],
+  },
+  {
+    id: 'safety',
+    icon: '🏥',
+    title: 'Safety & Health',
+    gradient: 'linear-gradient(135deg, #C62828 0%, #EF5350 100%)',
+    video: '/videos/pillar/practical-break-safety.mp4',
+    items: [
+      { label: 'Travel Insurance', text: 'Non-negotiable. Get a policy that covers medical evacuation — the best hospitals are in Phnom Penh, and a medevac from a remote province can cost $5,000+. I use <a href="https://safetywing.com/?referenceID=24858745&utm_source=24858745&utm_medium=Ambassador" target="_blank" rel="noopener sponsored">SafetyWing</a> for every trip — affordable, covers nomads and short-trippers alike, and you can sign up after you\'ve left home. Peace of mind every time.' },
+      { label: 'Tap Water', text: 'Don\'t drink tap water anywhere in Cambodia. Bottled water costs $0.25–0.50 and is available everywhere. Ice in restaurants and bars in tourist areas is commercially produced and safe. Street stalls — use your judgment.' },
+      { label: 'Hospitals & Clinics', text: 'Phnom Penh has the best medical facilities: <strong>Royal Phnom Penh Hospital</strong> and <strong>Calmette Hospital</strong> for serious issues. <strong>Royal Angkor International Hospital</strong> in Siem Reap handles most tourist medical needs. For anything serious, medical evacuation to Bangkok (1 hour by air) is the standard protocol — another reason for good travel insurance.' },
+      { label: 'Dengue & Mosquitoes', text: 'Dengue is present year-round, especially during rainy season (May–Oct). Use mosquito repellent with DEET, wear long sleeves at dusk, and choose accommodation with screens or air conditioning. Malaria risk exists in remote forest areas (Mondulkiri, Ratanakiri) but not in tourist areas.' },
+      { label: 'Landmines', text: 'Cambodia has a legacy of landmines and unexploded ordnance from decades of conflict. <strong>Stick to marked paths</strong> in rural areas, especially around Battambang, Banteay Meanchey, and Pailin. Never walk into unmarked fields or forest areas. Tourist areas (Angkor, cities, beaches) are completely safe. This is a rural concern only, but an important one.' },
+      { label: 'General Safety', text: 'Cambodia is generally safe for tourists. Bag-snatching by motorbike is the main risk in Phnom Penh — hold bags on the building side, not the road side. Don\'t walk alone in dark areas at night. Keep valuables in a hotel safe. Scams targeting tourists exist in Siem Reap (overpriced tours, fake orphanages) — book through reputable operators.' },
+    ],
+  },
+  {
+    id: 'packing',
+    icon: '🎒',
+    title: 'Packing Essentials',
+    gradient: 'linear-gradient(135deg, #78350F 0%, #D97706 100%)',
+    video: '/videos/pillar/practical-break-packing.mp4',
+    items: [
+      { label: 'Sunscreen', text: 'Bring your own good sunscreen — quality brands are expensive and hard to find locally. I use <a href="https://www.amazon.com/dp/B07PKWHTR1?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">this reef-safe SPF 50+</a>; you will burn faster than you expect. Essential for temple exploring when you\'re outside all day with minimal shade.' },
+      { label: 'Mosquito Repellent', text: 'Bring <a href="https://www.amazon.com/dp/B004H89KFC?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">DEET-based repellent</a> (40% concentration or higher). Local brands are available but international brands work better. Essential for evenings, especially near water and in the countryside. Dengue is real — don\'t skip this.' },
+      { label: 'Temple-Appropriate Clothing', text: 'Angkor Wat and all Cambodian temples require <strong>covered shoulders and knees</strong>. This is strictly enforced — you will be turned away. Pack lightweight long pants or a sarong and shirts that cover your shoulders. A <a href="https://www.amazon.com/dp/B0CLR8QXKW?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">lightweight long-sleeve shirt</a> doubles as sun protection during all-day temple tours.' },
+      { label: 'Power & Voltage', text: 'Cambodia uses Type A, Type C, and Type G plugs at 230V. The plug situation is chaotic — bring a <a href="https://www.amazon.com/dp/B0CXD881LN?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">universal travel adapter with USB ports</a>. Your phone chargers and laptops are dual-voltage and will work fine. Don\'t bring appliances rated for 110V only.' },
+      { label: 'Rain Jacket or Poncho', text: 'Even in dry season (Nov–Apr), sudden showers happen. A <a href="https://www.amazon.com/dp/B0CLR8QXKW?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">lightweight packable rain jacket</a> is essential. During wet season (May–Oct), afternoon downpours are a daily certainty. Cheap ponchos are available everywhere for $1 if you get caught out.' },
+      { label: 'Footwear', text: 'You need comfortable walking shoes for temples — <a href="https://www.amazon.com/dp/B002Y25BSS?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">Keen Newport sandals</a> or <a href="https://www.amazon.com/dp/B097755RHH?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">closed-toe Crocs</a> work well. Temple floors can be rough and hot stone. Flip-flops are fine for the hotel and beach. For Mondulkiri treks, bring proper hiking shoes.' },
+      { label: 'First Aid & Hydration', text: 'Pack a <a href="https://www.amazon.com/dp/B0DB794BKQ?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">small first aid kit</a> — bandages, antiseptic, Imodium, and pain relievers. Bring <a href="https://www.amazon.com/dp/B0DK26RFG4?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">electrolyte tablets</a> for dehydration — the heat drains you faster than you think, especially during full-day temple visits. Bottled water is cheap ($0.25) — drink constantly.' },
+      { label: 'Day Bag & Organization', text: 'Use <a href="https://www.amazon.com/dp/B014VBI5MS?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">packing cubes</a> to stay organized. For daily temple exploring, a <a href="https://www.amazon.com/dp/B0DKTBMFZJ?tag=discovercamb-20" target="_blank" rel="nofollow sponsored">crossbody sling bag</a> keeps essentials accessible — phone, cash, water, sunscreen, and hat all within reach. Keep it on the building side in Phnom Penh to deter motorbike snatchers.' },
+    ],
+  },
+  {
+    id: 'culture',
+    icon: '🇰🇭',
+    title: 'Language & Cultural Etiquette',
+    gradient: 'linear-gradient(135deg, #0D7377 0%, #14B8A6 100%)',
+    video: '/videos/pillar/practical-break-culture.mp4',
+    items: [
+      { label: 'Basic Khmer Phrases', text: '"Awkun" (thank you), "Sua s\'dai" (hello), "Sok sabay?" (how are you?), "T\'lai ponman?" (how much?), "Chnam" (delicious), "Srahm" (water), "Bong-kuhn" (toilet). Even a few words of Khmer earn huge smiles and goodwill from locals.' },
+      { label: 'The Sampeah Greeting', text: 'The <strong>sampeah</strong> — pressing your palms together in front of your chest with a slight bow — is the traditional Cambodian greeting. The higher the hands, the more respect shown. You don\'t need to do it to everyone, but returning a sampeah when offered is polite and appreciated. Use it when greeting elders, monks, and in formal situations.' },
+      { label: 'Temple Etiquette', text: 'Remove shoes before entering temple buildings. Don\'t point your feet at Buddha statues — sit with feet tucked behind you. Don\'t touch monks (especially important for women — never touch or hand anything directly to a monk). Dress modestly (covered shoulders and knees). Don\'t climb on ruins or sit on sacred structures for photos.' },
+      { label: 'Interacting with Monks', text: 'Monks are deeply respected in Cambodian society. It\'s fine to photograph monks (ask first). Women should not touch monks or hand them objects directly — place items on a cloth or table for them to pick up. Morning alms rounds happen around 6am — you can observe respectfully but don\'t interfere.' },
+      { label: 'Cambodian Hospitality', text: 'Cambodians are genuinely warm and welcoming. Don\'t be surprised if locals invite you to share a meal or go out of their way to help with directions. Accepting food or invitations (even briefly) is polite and builds connections. A smile goes a long way everywhere in Cambodia.' },
+      { label: 'English & Communication', text: 'English is widely spoken in Phnom Penh, Siem Reap, and tourist areas — especially by younger Cambodians. Older generations and rural areas speak limited English. French is spoken by some older Cambodians. Download a Khmer phrase app or Google Translate with offline Khmer for rural travel. WhatsApp is the standard messaging app for hotels and tour operators.' },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  schemaData={{ title: pageTitle, description: pageDescription }}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="prac-hero">
+    <video class="prac-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/practical-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="prac-hero-gradient"></div>
+    <div class="prac-hero-noise"></div>
+    <div class="prac-hero-content">
+      <h1 class="prac-hero-title">Cambodia Travel Essentials</h1>
+      <p class="prac-hero-subtitle">Visa rules, ATM strategy, transport cheat sheets, SIM cards, safety tips, packing lists, and the cultural etiquette that turns a good trip into a great one.</p>
+      <div class="prac-hero-meta">
+        <div class="prac-hero-meta-item">
+          <span class="prac-hero-meta-label">Topics</span>
+          <span class="prac-hero-meta-value">7</span>
+        </div>
+        <div class="prac-hero-meta-item">
+          <span class="prac-hero-meta-label">Updated</span>
+          <span class="prac-hero-meta-value">Feb 2026</span>
+        </div>
+        <div class="prac-hero-meta-item">
+          <span class="prac-hero-meta-label">Trips</span>
+          <span class="prac-hero-meta-value">Multiple</span>
+        </div>
+      </div>
+    </div>
+    <div class="prac-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="prac-personal reveal">
+    <div class="container-content">
+      <blockquote class="prac-personal-quote">
+        <p>I've made every mistake in this guide at least once — from running out of cash in a rural town to getting in a tuk-tuk without agreeing on a price first. After multiple trips across Cambodia, I've figured out the practical side of traveling here so you don't have to learn the hard way. This is the cheat sheet I wish someone had handed me on my first trip.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Quick Nav -->
+  <section class="prac-quicknav reveal">
+    <div class="container-content">
+      <div class="prac-quicknav-grid">
+        {topics.map((t) => (
+          <a href={`#${t.id}`} class="prac-quicknav-chip">
+            <span class="prac-quicknav-icon">{t.icon}</span>
+            <span class="prac-quicknav-label">{t.title.split(' ').slice(0, 2).join(' ')}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Topic Sections -->
+  {topics.map((topic) => (
+    <section class="prac-topic reveal" id={topic.id}>
+      <div class="container-content">
+        <div class="prac-topic-header" style={`background: ${topic.gradient};`}>
+          {topic.video && (
+            <video class="prac-topic-video" autoplay muted loop playsinline preload="none">
+              <source src={topic.video} type="video/mp4" />
+            </video>
+          )}
+          <div class="prac-topic-header-inner">
+            <span class="prac-topic-icon">{topic.icon}</span>
+            <h2 class="prac-topic-title">{topic.title}</h2>
+            <span class="prac-topic-count">{topic.items.length} tips</span>
+          </div>
+        </div>
+
+        <div class="prac-tip-grid">
+          {topic.items.map((item) => (
+            <div class="prac-tip-card">
+              <h3 class="prac-tip-label">{item.label}</h3>
+              <p class="prac-tip-text" set:html={item.text} />
+            </div>
+          ))}
+        </div>
+
+        {topic.id === 'transport' && (
+          <div class="prac-transport-widget">
+            <h3 class="prac-transport-widget-title">Search Routes & Book Transport</h3>
+            <p class="prac-transport-widget-desc">Compare buses, vans, and domestic flights between Cambodian destinations.</p>
+            <div class="prac-transport-widget-inner">
+              <script src="//cdn0.trainbusferry.com/tools/form/en/?id=15062413&domain=12go.asia" data-one2go="15062413" data-color="blue" data-language="en" data-width="250" data-height="320" data-border="1" data-radius="8" data-caption="Find Transport in Cambodia" data-sub_id="discovercambodia" data-domain="12go.asia"></script>
+            </div>
+            <div class="prac-transport-widget-powered">Powered by <a href="https://12go.asia/?z=15062413&sub_id=discovercambodia" target="_blank" rel="noopener sponsored">12Go Asia</a></div>
+          </div>
+        )}
+      </div>
+    </section>
+  ))}
+
+  <!-- Affiliate Disclosure -->
+  <div class="container-content reveal" style="padding-bottom: 0;">
+    <p class="prac-affiliate-disclosure">Some links on this page are affiliate links — I earn a small commission if you purchase through them, at no extra cost to you. I only recommend gear I personally use on my Cambodia trips. <a href="/legal/affiliate-disclosure/">Full disclosure</a>.</p>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="prac-cta-section reveal">
+    <div class="container-content">
+      <div class="prac-cta-card">
+        <h2 class="prac-cta-heading">Plan Your Cambodia Trip</h2>
+        <p class="prac-cta-text">Tell our AI planner your dates, budget, and interests — it builds a custom day-by-day itinerary with transport, hotels, and activities.</p>
+        <a href="/plan/" class="prac-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "Do I need a visa to visit Cambodia?", answer: "Most nationalities can get a 30-day tourist visa on arrival at Phnom Penh or Siem Reap airports for $30 USD (cash only). You need a passport valid for 6+ months and one passport photo. You can also apply online via evisa.gov.kh ($36 USD) before your trip. Extensions of 30 days cost $45 at the Immigration Department in Phnom Penh." },
+    { question: "Is Cambodia safe for tourists?", answer: "Cambodia is generally safe for tourists. Bag-snatching by motorbike is the main risk in Phnom Penh — hold bags on the building side when walking. Avoid walking alone in dark areas at night. Stick to marked paths in rural areas due to landmine legacy. Tourist areas (Siem Reap, Phnom Penh, Kampot, beaches) are well-traveled and safe with normal precautions." },
+    { question: "How much money should I bring to Cambodia?", answer: "Budget travelers: $20-35/day covers hostels, street food, and shared transport. Mid-range: $50-100/day for boutique hotels, restaurants, and private tours. Luxury: $150+/day for resorts and fine dining. US dollars are accepted everywhere — bring clean, undamaged bills. ATMs dispense USD in most cities. Cash is king outside major tourist areas." },
+    { question: "What currency does Cambodia use?", answer: "Cambodia uses a dual-currency system: US dollars and Cambodian riel (KHR). Dollars are used for most transactions over $1. You'll receive riel as change for amounts under $1 (4,000 KHR = $1 USD). Bring clean, undamaged US bills — torn or marked notes are often rejected. ATMs dispense US dollars in most cities." },
+    { question: "What is the best way to get around Cambodia?", answer: "Between cities: Giant Ibis or Mekong Express buses (comfortable, $10-18 per route). Within cities: tuk-tuks ($1-3 short rides), Grab/PassApp in Phnom Penh. Phnom Penh to Siem Reap: 6-hour bus ($15-18) or 45-minute flight ($60-120). To islands: speedboat from Sihanoukville to Koh Rong ($15-20). Scooter rental: $5-10/day for experienced riders." },
+    { question: "Do I need a SIM card for Cambodia?", answer: "A local SIM card is recommended — cheap and easy to get. Cellcard, Smart, and Metfone are the three providers. Buy a tourist SIM at the airport for $2-5 with 10-30 GB of data. 4G coverage is good in cities and tourist areas. Remote provinces (Mondulkiri, Ratanakiri) have spotty coverage. eSIM options like Airalo also work." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get My Free Cambodia Travel Essentials Guide"
+      description="A printable PDF covering everything in this guide — plus offline maps, emergency contacts, and a packing checklist."
+      bullets={[
+        'Visa on arrival step-by-step with costs and requirements',
+        'ATM strategy and daily budget planner by travel style',
+        'Printable Khmer phrase card for markets and transport',
+        'Packing checklist with temple and beach variants',
+      ]}
+      guideTag="pillar-practical"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="prac-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="prac-crosslinks-heading">Explore More</h3>
+      <div class="prac-crosslinks-grid">
+        <a href="/festivals/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127914;</span>
+          <span class="prac-crosslink-label">Festival Calendar</span>
+          <span class="prac-crosslink-desc">Cambodian festivals and celebrations, month by month</span>
+        </a>
+        <a href="/cuisine/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127860;</span>
+          <span class="prac-crosslink-label">Food & Cuisine</span>
+          <span class="prac-crosslink-desc">17 dishes by region with where to find the best version</span>
+        </a>
+        <a href="/history/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127963;</span>
+          <span class="prac-crosslink-label">History & Heritage</span>
+          <span class="prac-crosslink-desc">From Angkor Empire to modern Cambodia</span>
+        </a>
+        <a href="/finer-things/" class="prac-crosslink-card">
+          <span class="prac-crosslink-icon">&#127866;</span>
+          <span class="prac-crosslink-label">The Finer Things</span>
+          <span class="prac-crosslink-desc">Beer, cocktails, nightlife, and drinking culture</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Practical travel gradient (no video)
+     ================================================================ */
+  .prac-hero {
+    position: relative;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .prac-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .prac-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .prac-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .prac-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .prac-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .prac-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .prac-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .prac-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .prac-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .prac-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .prac-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: pracBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes pracBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     PERSONAL INTRO
+     ================================================================ */
+  .prac-personal {
+    padding-block: var(--space-8);
+  }
+
+  .prac-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid var(--color-ocean-teal);
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .prac-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .prac-personal-quote cite {
+    font-size: var(--text-caption);
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+
+  /* ================================================================
+     QUICK NAV — Jump-to chips
+     ================================================================ */
+  .prac-quicknav {
+    padding: 0 0 var(--space-6);
+  }
+
+  .prac-quicknav-grid {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .prac-quicknav-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: var(--weight-medium);
+    color: var(--color-slate);
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+
+  .prac-quicknav-chip:hover {
+    background: var(--color-sky);
+    color: var(--color-ocean-teal);
+    transform: translateY(-2px);
+  }
+
+  .prac-quicknav-icon {
+    font-size: 1rem;
+  }
+
+  .prac-quicknav-label {
+    white-space: nowrap;
+  }
+
+  /* ================================================================
+     TOPIC SECTION
+     ================================================================ */
+  .prac-topic {
+    padding: var(--space-4) 0 var(--space-6);
+    scroll-margin-top: 80px;
+  }
+
+  .prac-topic-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-5) var(--space-6);
+    margin-bottom: var(--space-5);
+    overflow: hidden;
+  }
+
+  .prac-topic-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.35;
+  }
+
+  .prac-topic-header-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .prac-topic-icon {
+    font-size: 1.6rem;
+  }
+
+  .prac-topic-title {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0;
+    line-height: 1.2;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .prac-topic-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  /* ================================================================
+     TIP CARDS
+     ================================================================ */
+  .prac-tip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (max-width: 768px) {
+    .prac-tip-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .prac-tip-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    padding: var(--space-5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .prac-tip-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .prac-tip-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-2);
+    line-height: 1.3;
+  }
+
+  .prac-tip-text {
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .prac-tip-text :global(a) {
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-semibold);
+    text-decoration: underline;
+    text-decoration-color: rgba(13, 115, 119, 0.3);
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+
+  .prac-tip-text :global(a:hover) {
+    text-decoration-color: var(--color-ocean-teal);
+  }
+
+  /* ================================================================
+     12GO TRANSPORT WIDGET
+     ================================================================ */
+  .prac-transport-widget {
+    text-align: center;
+    margin-top: var(--space-6);
+    padding: var(--space-6);
+    background: var(--color-sky);
+    border-radius: 16px;
+  }
+
+  .prac-transport-widget-title {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-1);
+  }
+
+  .prac-transport-widget-desc {
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    margin: 0 0 var(--space-4);
+  }
+
+  .prac-transport-widget-inner {
+    display: inline-block;
+    max-width: 282px;
+  }
+
+  .prac-transport-widget-powered {
+    font-size: 0.7rem;
+    color: var(--color-slate);
+    margin-top: var(--space-2);
+  }
+
+  .prac-transport-widget-powered a {
+    color: var(--color-ocean-teal);
+    text-decoration: underline;
+  }
+
+  /* ================================================================
+     AFFILIATE DISCLOSURE
+     ================================================================ */
+  .prac-affiliate-disclosure {
+    font-size: 0.75rem;
+    color: var(--color-slate);
+    line-height: 1.5;
+    text-align: center;
+    padding: var(--space-4) var(--space-6);
+    background: var(--color-sky);
+    border-radius: 10px;
+    margin-bottom: var(--space-4);
+  }
+
+  .prac-affiliate-disclosure a {
+    color: var(--color-ocean-teal);
+    text-decoration: underline;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .prac-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .prac-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .prac-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .prac-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .prac-cta-button {
+    display: inline-block;
+    background: var(--color-warm-coral);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .prac-cta-button:hover {
+    background: #d4553b;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .prac-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .prac-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .prac-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .prac-crosslinks-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .prac-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .prac-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .prac-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .prac-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .prac-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .prac-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE
+     ================================================================ */
+  @media (max-width: 640px) {
+    .prac-hero {
+      min-height: 50vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .prac-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .prac-scroll-hint {
+      display: none;
+    }
+
+    .prac-topic-header {
+      padding: var(--space-4) var(--space-4);
+    }
+  }
+</style>

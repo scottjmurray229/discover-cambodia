@@ -1,0 +1,175 @@
+{
+  "destinations": {
+    "phnom-penh": {
+      "title": "Phnom Penh",
+      "tagline": "The Pearl of Asia",
+      "region": "central",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar"],
+      "budgetPerDay": { "backpacker": 20, "midRange": 60, "luxury": 150 },
+      "gettingThere": "Fly to Phnom Penh International Airport (PNH) — direct flights from Bangkok, Ho Chi Minh City, Singapore, Kuala Lumpur, and more.",
+      "highlights": ["Royal Palace & Silver Pagoda", "Tuol Sleng Genocide Museum", "Choeung Ek Killing Fields", "Central Market (Phsar Thmei)", "Riverside promenade & sunset"],
+      "essentials": {
+        "gettingAround": "Tuk-tuks ($2-5 within city), Grab/PassApp ride-hailing, motos ($1-2 short trips).",
+        "airport": "Phnom Penh International (PNH)",
+        "ferryConnections": ["Siem Reap (speedboat, seasonal)", "Chau Doc, Vietnam (ferry, 5 hr)"],
+        "language": "Khmer, English widely spoken in tourist areas"
+      }
+    },
+    "siem-reap": {
+      "title": "Siem Reap",
+      "tagline": "Gateway to Angkor",
+      "region": "northwest",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar"],
+      "budgetPerDay": { "backpacker": 25, "midRange": 70, "luxury": 200 },
+      "gettingThere": "Fly to Siem Reap International Airport (REP) — direct flights from Bangkok, Phnom Penh, Ho Chi Minh City, and Kuala Lumpur.",
+      "highlights": ["Angkor Wat sunrise", "Bayon Temple faces", "Ta Prohm (Tomb Raider temple)", "Tonle Sap floating villages", "Pub Street & night market"],
+      "essentials": {
+        "gettingAround": "Tuk-tuks ($15-20/day for Angkor circuit), bicycle rental ($2-5/day), e-bike rental ($8-15/day).",
+        "airport": "Siem Reap International (REP)",
+        "ferryConnections": ["Battambang (boat, seasonal, 7 hr)", "Phnom Penh (speedboat, seasonal)"],
+        "language": "Khmer, English widely spoken"
+      }
+    },
+    "sihanoukville": {
+      "title": "Sihanoukville",
+      "tagline": "Gateway to Cambodia's Islands",
+      "region": "south-coast",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar", "Apr"],
+      "budgetPerDay": { "backpacker": 25, "midRange": 60, "luxury": 150 },
+      "gettingThere": "Bus from Phnom Penh (4-5 hours, $8-15) or fly to Sihanoukville Airport (KOS). Ferry hub for Koh Rong islands.",
+      "highlights": ["Ferry to Koh Rong & Koh Rong Sanloem", "Otres Beach", "Ream National Park", "Seafood restaurants"],
+      "essentials": {
+        "gettingAround": "Tuk-tuks and motos. Ferries to islands from Serendipity Pier.",
+        "airport": "Sihanoukville (KOS)",
+        "ferryConnections": ["Koh Rong (45 min, $12-25)", "Koh Rong Sanloem (45 min, $12-25)"],
+        "language": "Khmer, English in tourist areas"
+      }
+    },
+    "battambang": {
+      "title": "Battambang",
+      "tagline": "Cambodia's Cultural Heart",
+      "region": "northwest",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar"],
+      "budgetPerDay": { "backpacker": 15, "midRange": 40, "luxury": 100 },
+      "gettingThere": "Bus from Phnom Penh (5-6 hours, $8-12) or Siem Reap (3-4 hours, $5-8). Seasonal boat from Siem Reap.",
+      "highlights": ["Bamboo Train", "Bat cave at sunset", "Phare Circus", "French colonial architecture", "Countryside cycling"],
+      "essentials": {
+        "gettingAround": "Tuk-tuks ($10-15/day for sightseeing), bicycle rental ($2-3/day).",
+        "airport": "None — nearest is Siem Reap (REP)",
+        "ferryConnections": ["Siem Reap (seasonal boat, 7 hr)"],
+        "language": "Khmer, limited English"
+      }
+    },
+    "kampot": {
+      "title": "Kampot",
+      "tagline": "Riverside Charm and Pepper Country",
+      "region": "south-coast",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar", "Apr"],
+      "budgetPerDay": { "backpacker": 15, "midRange": 40, "luxury": 100 },
+      "gettingThere": "Bus from Phnom Penh (3-4 hours, $6-10) or Sihanoukville (2-3 hours, $5-8).",
+      "highlights": ["Kampot pepper farms", "Bokor Hill Station", "Riverside sunset", "Teuk Chhou rapids", "French colonial town"],
+      "essentials": {
+        "gettingAround": "Motorbike rental ($5-8/day), tuk-tuks, bicycle rental ($2-3/day).",
+        "airport": "None — nearest is Sihanoukville (KOS) or Phnom Penh (PNH)",
+        "ferryConnections": [],
+        "language": "Khmer, English in tourist areas"
+      }
+    },
+    "kep": {
+      "title": "Kep",
+      "tagline": "Seaside Serenity and Famous Crab",
+      "region": "south-coast",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar", "Apr"],
+      "budgetPerDay": { "backpacker": 15, "midRange": 40, "luxury": 100 },
+      "gettingThere": "30-minute drive from Kampot by tuk-tuk ($8-10) or bus from Phnom Penh (4 hours).",
+      "highlights": ["Kep Crab Market", "Rabbit Island (Koh Tonsay)", "Kep National Park", "Abandoned villas", "Sunset over the Gulf"],
+      "essentials": {
+        "gettingAround": "Motorbike or tuk-tuk. Small town — walkable center.",
+        "airport": "None — nearest is Phnom Penh (PNH)",
+        "ferryConnections": ["Rabbit Island (20 min, $8-10 return)"],
+        "language": "Khmer, basic English"
+      }
+    },
+    "koh-rong": {
+      "title": "Koh Rong",
+      "tagline": "Paradise Island in the Gulf of Thailand",
+      "region": "south-coast",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar", "Apr"],
+      "budgetPerDay": { "backpacker": 20, "midRange": 50, "luxury": 120 },
+      "gettingThere": "Ferry from Sihanoukville (45 minutes, $12-25 one way).",
+      "highlights": ["Long Beach (Sok San)", "Bioluminescent plankton", "Jungle trekking", "Snorkeling & diving", "Beach parties"],
+      "essentials": {
+        "gettingAround": "Walking or boat taxis between beaches. No roads for vehicles.",
+        "airport": "None — ferry from Sihanoukville",
+        "ferryConnections": ["Sihanoukville (45 min, $12-25)", "Koh Rong Sanloem (20 min, $8)"],
+        "language": "Khmer, English on tourist beaches"
+      }
+    },
+    "kratie": {
+      "title": "Kratie",
+      "tagline": "Home of the Irrawaddy Dolphins",
+      "region": "northeast",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar"],
+      "budgetPerDay": { "backpacker": 12, "midRange": 30, "luxury": 60 },
+      "gettingThere": "Bus from Phnom Penh (6-7 hours, $8-12) or minivan.",
+      "highlights": ["Irrawaddy dolphin watching", "Koh Trong island cycling", "Mekong sunsets", "French colonial buildings", "100-pillar pagoda"],
+      "essentials": {
+        "gettingAround": "Bicycle rental ($2-3/day), moto-dops, tuk-tuks.",
+        "airport": "None — bus from Phnom Penh",
+        "ferryConnections": [],
+        "language": "Khmer, very limited English"
+      }
+    },
+    "mondulkiri": {
+      "title": "Mondulkiri",
+      "tagline": "Wild Cambodia — Elephants and Waterfalls",
+      "region": "northeast",
+      "bestMonths": ["Nov", "Dec", "Jan", "Feb", "Mar"],
+      "budgetPerDay": { "backpacker": 15, "midRange": 40, "luxury": 80 },
+      "gettingThere": "Bus from Phnom Penh (7-8 hours, $10-15) to Sen Monorom.",
+      "highlights": ["Elephant Valley Project", "Bou Sra Waterfall", "Indigenous Bunong villages", "Pine forests & rolling hills", "Coffee plantations"],
+      "essentials": {
+        "gettingAround": "Motorbike rental ($8-12/day, needed for waterfalls). Some dirt roads.",
+        "airport": "None — bus from Phnom Penh or Kratie",
+        "ferryConnections": [],
+        "language": "Khmer, Bunong, minimal English"
+      }
+    },
+    "tonle-sap": {
+      "title": "Tonle Sap",
+      "tagline": "Southeast Asia's Greatest Lake",
+      "region": "central",
+      "bestMonths": ["Sep", "Oct", "Nov", "Dec", "Jan", "Feb"],
+      "budgetPerDay": { "backpacker": 15, "midRange": 40, "luxury": 80 },
+      "gettingThere": "Day trip from Siem Reap (30-60 min by tuk-tuk to boat landing). Multiple access points.",
+      "highlights": ["Floating villages", "Kompong Phluk stilted village", "Bird sanctuaries", "Sunset boat tours", "Fishing communities"],
+      "essentials": {
+        "gettingAround": "Boat tours from Chong Kneas or Kompong Khleang. Arrange via Siem Reap.",
+        "airport": "Siem Reap International (REP)",
+        "ferryConnections": [],
+        "language": "Khmer, guides speak English"
+      }
+    }
+  },
+  "connections": {
+    "phnom-penh-siem-reap": { "mode": "bus/flight", "duration": "6 hr bus or 45 min flight", "operator": "Giant Ibis / Cambodia Angkor Air", "cost": "$10-15 bus, $60-100 flight" },
+    "phnom-penh-sihanoukville": { "mode": "bus", "duration": "4-5 hours", "operator": "Giant Ibis / Capitol Tour", "cost": "$8-15" },
+    "phnom-penh-kampot": { "mode": "bus", "duration": "3-4 hours", "operator": "Giant Ibis / Capitol Tour", "cost": "$6-10" },
+    "phnom-penh-battambang": { "mode": "bus", "duration": "5-6 hours", "operator": "Capitol Tour / Sorya", "cost": "$8-12" },
+    "phnom-penh-kratie": { "mode": "bus", "duration": "6-7 hours", "operator": "Sorya / Phnom Penh Sorya", "cost": "$8-12" },
+    "phnom-penh-mondulkiri": { "mode": "bus", "duration": "7-8 hours", "operator": "Kim Seng / Rith Mony", "cost": "$10-15" },
+    "siem-reap-battambang": { "mode": "bus", "duration": "3-4 hours", "operator": "Capitol Tour / Sorya", "cost": "$5-8" },
+    "sihanoukville-koh-rong": { "mode": "ferry", "duration": "45 min", "operator": "Speed Ferry Cambodia / Buva Sea", "cost": "$12-25" },
+    "sihanoukville-kampot": { "mode": "bus", "duration": "2-3 hours", "operator": "Various", "cost": "$5-8" },
+    "kampot-kep": { "mode": "tuk-tuk", "duration": "30 min", "operator": "Tuk-tuk", "cost": "$8-10" },
+    "kratie-mondulkiri": { "mode": "bus", "duration": "4-5 hours", "operator": "Kim Seng", "cost": "$8-10" }
+  },
+  "travelTips": {
+    "currency": "US Dollar (USD) is the primary currency. Cambodian Riel (KHR) used for small change. $1 = ~4,100 KHR.",
+    "visaFree": "Most nationalities need a visa on arrival ($30 tourist visa) or e-visa. Valid for 30 days, extendable.",
+    "bestOverallMonths": "November to March (cool dry season). Peak: December-February.",
+    "monsoonSeason": "May to October — rain usually comes in short afternoon bursts. Tonle Sap is fullest Sep-Nov.",
+    "simCard": "Smart or Cellcard SIM at airport. $2-5 for 30 days data.",
+    "ridehailing": "Grab and PassApp work in Phnom Penh and Siem Reap."
+  }
+}

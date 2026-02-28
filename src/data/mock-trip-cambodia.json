@@ -1,0 +1,780 @@
+{
+  "name": "Temples, Rivers & Coast",
+  "subtitle": "7 Days Across Cambodia",
+  "dates": "Mar 15 – 21, 2026",
+  "group": [
+    { "id": "scott", "name": "Scott", "avatar": "🧢", "role": "host", "color": "#0D7377" },
+    { "id": "companion", "name": "Companion", "avatar": "🌸", "role": "editor", "color": "#E8654A" },
+    { "id": "sok", "name": "Sok", "avatar": "🏛️", "role": "viewer", "color": "#7C3AED" }
+  ],
+  "weather": [
+    { "day": "Sat", "icon": "☀️", "high": 36, "low": 25, "rain": 5 },
+    { "day": "Sun", "icon": "⛅", "high": 35, "low": 24, "rain": 15 },
+    { "day": "Mon", "icon": "☀️", "high": 34, "low": 24, "rain": 10 },
+    { "day": "Tue", "icon": "🌤️", "high": 35, "low": 25, "rain": 10 },
+    { "day": "Wed", "icon": "⛅", "high": 33, "low": 24, "rain": 20 },
+    { "day": "Thu", "icon": "☀️", "high": 34, "low": 25, "rain": 5 },
+    { "day": "Fri", "icon": "☀️", "high": 35, "low": 26, "rain": 5 }
+  ],
+  "contacts": [
+    { "icon": "🏨", "name": "Shinta Mani Angkor", "role": "Hotel – Siem Reap", "phone": "+855 63 761 998" },
+    { "icon": "🚐", "name": "Mr. Vann", "role": "Private Driver (all transfers)", "phone": "+855 12 345 678" },
+    { "icon": "🏛️", "name": "Sok Chanthy", "role": "Licensed Angkor Guide", "phone": "+855 77 234 567" },
+    { "icon": "🏥", "name": "Royal Angkor Hospital", "role": "Emergency – Siem Reap", "phone": "+855 63 761 888" },
+    { "icon": "🇺🇸", "name": "US Embassy Phnom Penh", "role": "Consular Emergency", "phone": "+855 23 728 000" },
+    { "icon": "🏖️", "name": "Song Saa Foundation", "role": "Koh Rong boat transfer", "phone": "+855 36 686 0360" }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "type": "weather",
+      "text": "Clear skies forecast for sunrise at Angkor Wat on Day 1 — perfect conditions.",
+      "time": "2h ago",
+      "read": false
+    },
+    {
+      "id": 2,
+      "type": "change",
+      "by": "sok",
+      "text": "Sok added Phare Cambodian Circus to Day 3 — sells out fast, tickets pre-booked.",
+      "time": "5h ago",
+      "read": false
+    },
+    {
+      "id": 3,
+      "type": "enriched",
+      "text": "Angkor pass prices verified: 1-day $37, 3-day $62, 7-day $72. You have a 1-day pass.",
+      "time": "1d ago",
+      "read": true
+    },
+    {
+      "id": 4,
+      "type": "currency",
+      "text": "Cambodia uses USD alongside Khmer Riel (KHR). $1 ≈ 4,100 KHR. Small change often given in riel.",
+      "time": "1d ago",
+      "read": true
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "text": "All 7 days synced for offline access. Maps and directions cached.",
+      "time": "2d ago",
+      "read": true
+    }
+  ],
+  "changeLog": [
+    {
+      "id": 1,
+      "type": "added",
+      "by": "sok",
+      "time": "5h ago",
+      "title": "Phare Cambodian Circus",
+      "detail": "Added to Day 3 evening",
+      "day": 3,
+      "synced": true
+    },
+    {
+      "id": 2,
+      "type": "time_changed",
+      "by": "scott",
+      "time": "1d ago",
+      "title": "Angkor Wat Sunrise",
+      "from": "5:30 AM",
+      "to": "4:45 AM",
+      "reason": "Earlier pickup to beat the crowds at east gate",
+      "day": 1,
+      "synced": true
+    },
+    {
+      "id": 3,
+      "type": "swapped",
+      "by": "companion",
+      "time": "2d ago",
+      "title": "Bamboo Train",
+      "from": "Afternoon",
+      "to": "Morning",
+      "reason": "Cooler in the morning, less crowded",
+      "day": 3,
+      "synced": true
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "Sat, Mar 15",
+      "title": "Angkor Wat & the Grand Circuit",
+      "location": "Siem Reap",
+      "bounds": { "north": 13.46, "south": 13.35, "east": 103.90, "west": 103.82 },
+      "items": [
+        {
+          "id": "d1-1",
+          "time": "4:45 AM",
+          "icon": "🌅",
+          "type": "activity",
+          "title": "Angkor Wat Sunrise",
+          "detail": "Arrive early for the reflection pool. Enter via east gate. Angkor pass required ($37/day). Bring a flashlight for the dark corridors.",
+          "directions": "15 min tuk-tuk from Siem Reap center. Driver picks up at hotel.",
+          "status": "confirmed",
+          "lat": 13.4125,
+          "lng": 103.8670,
+          "placeId": "angkor-wat"
+        },
+        {
+          "id": "d1-2",
+          "time": "7:30 AM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Breakfast at Hotel",
+          "detail": "Included buffet at Shinta Mani. Khmer noodle soup station, fresh tropical fruit, strong Cambodian coffee.",
+          "status": "confirmed",
+          "lat": 13.3537,
+          "lng": 103.8560
+        },
+        {
+          "id": "d1-3",
+          "time": "9:00 AM",
+          "icon": "🏛️",
+          "type": "activity",
+          "title": "Angkor Thom & Bayon Temple",
+          "detail": "Enter through the South Gate — lined with 54 stone giants. Bayon has 216 serene stone faces. Allow 2 hours. Sok will explain the bas-reliefs.",
+          "directions": "10 min drive north from Angkor Wat. Stay on the main temple circuit road.",
+          "status": "confirmed",
+          "lat": 13.4411,
+          "lng": 103.8586,
+          "placeId": "bayon-temple"
+        },
+        {
+          "id": "d1-4",
+          "time": "11:30 AM",
+          "icon": "🌳",
+          "type": "activity",
+          "title": "Ta Prohm (Tomb Raider Temple)",
+          "detail": "Giant silk-cotton trees swallowing stone walls. The most photogenic temple. Visit the 'Angelina Jolie tree' — the famous doorway from the film.",
+          "directions": "15 min from Bayon, east on the inner circuit road.",
+          "status": "confirmed",
+          "lat": 13.4350,
+          "lng": 103.8889,
+          "placeId": "ta-prohm"
+        },
+        {
+          "id": "d1-5",
+          "time": "1:00 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Lunch at Mahob Khmer",
+          "detail": "Traditional Khmer cuisine in a wooden house. Try the fish amok ($6) and morning glory stir-fry ($4). Reserve the garden table.",
+          "directions": "Wat Bo area, 5 min tuk-tuk from the temple zone.",
+          "status": "confirmed",
+          "lat": 13.3548,
+          "lng": 103.8630
+        },
+        {
+          "id": "d1-6",
+          "time": "3:00 PM",
+          "icon": "🏛️",
+          "type": "activity",
+          "title": "Banteay Kdei & Srah Srang",
+          "detail": "Quieter temple with beautiful carvings. Then walk to Srah Srang — the royal bathing pool. Good spot to rest and photograph the water.",
+          "status": "confirmed",
+          "lat": 13.4275,
+          "lng": 103.8933
+        },
+        {
+          "id": "d1-7",
+          "time": "5:00 PM",
+          "icon": "🌅",
+          "type": "activity",
+          "title": "Sunset at Phnom Bakheng",
+          "detail": "Hilltop temple with panoramic sunset views over Angkor Wat. Limited to 300 visitors — arrive by 4:30 PM. Steep climb, about 15 min.",
+          "directions": "Between Angkor Wat and Angkor Thom. 400m uphill walk from the road.",
+          "status": "weather_watch",
+          "weatherNote": "5% rain chance — should be clear",
+          "lat": 13.4244,
+          "lng": 103.8586
+        },
+        {
+          "id": "d1-8",
+          "time": "7:30 PM",
+          "icon": "🍻",
+          "type": "food",
+          "title": "Pub Street & Night Market",
+          "detail": "Lively strip in old town. $0.50 draft beers, street-side fish BBQ, and insect carts if you dare. Pick up souvenirs at the night market next door.",
+          "directions": "Heart of Siem Reap. Walk from most central hotels.",
+          "status": "confirmed",
+          "lat": 13.3530,
+          "lng": 103.8558
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "Sun, Mar 16",
+      "title": "Outer Temples & Floating Village",
+      "location": "Siem Reap",
+      "bounds": { "north": 13.60, "south": 13.28, "east": 103.95, "west": 103.75 },
+      "items": [
+        {
+          "id": "d2-1",
+          "time": "6:30 AM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Breakfast at Blue Pumpkin",
+          "detail": "Popular bakery-cafe on Pub Street. Excellent pastries, iced coffee, and eggs benedict ($5). Upstairs bean-bag lounge is iconic.",
+          "status": "confirmed",
+          "lat": 13.3533,
+          "lng": 103.8555
+        },
+        {
+          "id": "d2-2",
+          "time": "8:00 AM",
+          "icon": "🏛️",
+          "type": "activity",
+          "title": "Banteay Srei",
+          "detail": "The 'Citadel of Women' — intricate pink sandstone carvings, the finest in all of Angkor. 45 min drive but absolutely worth it. Allow 1.5 hours.",
+          "directions": "37 km northeast of Siem Reap. Paved road the whole way.",
+          "status": "confirmed",
+          "lat": 13.5879,
+          "lng": 103.9619,
+          "placeId": "banteay-srei"
+        },
+        {
+          "id": "d2-3",
+          "time": "10:30 AM",
+          "icon": "🌊",
+          "type": "activity",
+          "title": "Kbal Spean (River of a Thousand Lingas)",
+          "detail": "Sacred riverbed carved with Hindu symbols. 1.5 km jungle hike each way — moderate difficulty. Bring water and sturdy shoes. Waterfall at the end.",
+          "directions": "15 km past Banteay Srei, then a 30 min hike uphill.",
+          "status": "confirmed",
+          "lat": 13.6700,
+          "lng": 104.0100
+        },
+        {
+          "id": "d2-4",
+          "time": "1:00 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Lunch at a Roadside Khmer BBQ",
+          "detail": "Stop at a local roadside grill on the way back. Grilled chicken, sticky rice, and green mango salad — about $3–4 per person. Pure Cambodian countryside eating.",
+          "status": "confirmed",
+          "lat": 13.4800,
+          "lng": 103.9200
+        },
+        {
+          "id": "d2-5",
+          "time": "3:00 PM",
+          "icon": "🚤",
+          "type": "activity",
+          "title": "Kompong Khleang Floating Village",
+          "detail": "Stilted village on Tonle Sap — more authentic than Kompong Phluk. Boat tour through the village ($15/person). Houses on 10m stilts, floating school. Respectful visit with local guide.",
+          "directions": "50 km east of Siem Reap. Mr. Vann drives, then boat from the dock.",
+          "status": "confirmed",
+          "lat": 13.2850,
+          "lng": 104.0450
+        },
+        {
+          "id": "d2-6",
+          "time": "6:00 PM",
+          "icon": "💆",
+          "type": "activity",
+          "title": "Khmer Massage at Frangipani Spa",
+          "detail": "Traditional Khmer massage ($12/hour). Hot stone option available. Perfect after two days of temple walking. Book the couples room.",
+          "directions": "Sivatha Blvd, central Siem Reap. 5 min walk from Pub Street.",
+          "status": "confirmed",
+          "lat": 13.3540,
+          "lng": 103.8570
+        },
+        {
+          "id": "d2-7",
+          "time": "7:30 PM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Dinner at Cuisine Wat Damnak",
+          "detail": "Michelin-recognized Khmer tasting menu ($28/person). Six courses using local ingredients — smoked fish, Kampot pepper, palm sugar. Reservations essential.",
+          "directions": "Wat Damnak area, east side of the river. Tuk-tuk $2 from center.",
+          "status": "confirmed",
+          "lat": 13.3600,
+          "lng": 103.8620
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "Mon, Mar 17",
+      "title": "Battambang — Bamboo Train & Circus",
+      "location": "Battambang",
+      "bounds": { "north": 13.40, "south": 13.05, "east": 103.25, "west": 103.10 },
+      "items": [
+        {
+          "id": "d3-1",
+          "time": "6:00 AM",
+          "icon": "🚐",
+          "type": "transport",
+          "title": "Drive to Battambang",
+          "detail": "3-hour scenic drive via NH6. Rolling rice paddies and sugar palm trees the whole way. Stop at Sisophon for fuel and snacks.",
+          "directions": "NH6 west from Siem Reap, then NH5 south to Battambang.",
+          "status": "confirmed",
+          "lat": 13.1000,
+          "lng": 103.2000
+        },
+        {
+          "id": "d3-2",
+          "time": "9:30 AM",
+          "icon": "🚂",
+          "type": "activity",
+          "title": "Bamboo Train (Norry)",
+          "detail": "Rickety bamboo platform on old French railway tracks — a uniquely Cambodian experience. $5/person for the ride. One track, so one train must disassemble when they meet!",
+          "directions": "7 km south of Battambang center, near O Dambong village.",
+          "status": "confirmed",
+          "lat": 13.0564,
+          "lng": 103.1928,
+          "placeId": "bamboo-train"
+        },
+        {
+          "id": "d3-3",
+          "time": "11:00 AM",
+          "icon": "🏛️",
+          "type": "activity",
+          "title": "Battambang Colonial Architecture Walk",
+          "detail": "French colonial buildings along the Sangker River. See the old governor's residence, the central market, and beautiful shophouse facades. Battambang has the best-preserved colonial architecture in Cambodia.",
+          "status": "confirmed",
+          "lat": 13.1023,
+          "lng": 103.1985
+        },
+        {
+          "id": "d3-4",
+          "time": "12:30 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Lunch at Jaan Bai",
+          "detail": "Social enterprise restaurant training former street youth. Excellent Khmer fusion — try the Battambang orange curry ($5) and rice-flour crepes. Beautiful garden courtyard.",
+          "status": "confirmed",
+          "lat": 13.1030,
+          "lng": 103.1960
+        },
+        {
+          "id": "d3-5",
+          "time": "2:00 PM",
+          "icon": "🦇",
+          "type": "activity",
+          "title": "Phnom Sampeau & Bat Caves",
+          "detail": "Hilltop temple with dark Khmer Rouge history (killing caves memorial). At 5:30 PM, millions of bats stream out of the cave — an unforgettable natural spectacle. Allow 3 hours total.",
+          "directions": "12 km southwest of Battambang. Mr. Vann drives, then climb 700 steps.",
+          "status": "confirmed",
+          "lat": 13.0500,
+          "lng": 103.1200
+        },
+        {
+          "id": "d3-6",
+          "time": "6:30 PM",
+          "icon": "🎪",
+          "type": "activity",
+          "title": "Phare Cambodian Circus",
+          "detail": "World-class circus by former street children. Acrobatics, music, and storytelling that tells Cambodian history. $18/person, $28 for VIP with drinks. Truly moving — the highlight of Battambang.",
+          "directions": "Phare Ponleu Selpak campus, west of the river.",
+          "status": "confirmed",
+          "lat": 13.1050,
+          "lng": 103.1920,
+          "placeId": "phare-circus"
+        },
+        {
+          "id": "d3-7",
+          "time": "8:30 PM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Dinner at Smokin' Pot",
+          "detail": "Riverside restaurant with great atmosphere. Khmer curry in clay pots ($5), cold Angkor beer ($1.50). Sit on the terrace overlooking the Sangker River.",
+          "status": "confirmed",
+          "lat": 13.1010,
+          "lng": 103.1975
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "Tue, Mar 18",
+      "title": "Phnom Penh — Palace, History & Riverside",
+      "location": "Phnom Penh",
+      "bounds": { "north": 11.59, "south": 11.53, "east": 104.94, "west": 104.90 },
+      "items": [
+        {
+          "id": "d4-1",
+          "time": "6:00 AM",
+          "icon": "🚐",
+          "type": "transport",
+          "title": "Drive to Phnom Penh",
+          "detail": "5-hour drive via NH5 through the Cambodian heartland. Flat roads, rice fields, and small market towns. Stop in Pursat for coconut water.",
+          "directions": "NH5 south from Battambang through Pursat to Phnom Penh.",
+          "status": "confirmed",
+          "lat": 11.5564,
+          "lng": 104.9282
+        },
+        {
+          "id": "d4-2",
+          "time": "11:30 AM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Lunch at Friends Restaurant",
+          "detail": "Another social enterprise training at-risk youth. Excellent Khmer tapas ($3–5 each). The spring rolls and lok lak are standout. Rooftop terrace with city views.",
+          "directions": "Street 13, near the National Museum.",
+          "status": "confirmed",
+          "lat": 11.5710,
+          "lng": 104.9310
+        },
+        {
+          "id": "d4-3",
+          "time": "1:00 PM",
+          "icon": "👑",
+          "type": "activity",
+          "title": "Royal Palace & Silver Pagoda",
+          "detail": "Stunning Khmer architecture — the Throne Hall is breathtaking. Silver Pagoda floor has 5,000+ silver tiles. $10 entry. Dress code: cover knees and shoulders. Allow 2 hours.",
+          "directions": "Riverside, central Phnom Penh. Walk south from the National Museum.",
+          "status": "confirmed",
+          "lat": 11.5622,
+          "lng": 104.9316,
+          "placeId": "royal-palace-pp"
+        },
+        {
+          "id": "d4-4",
+          "time": "3:30 PM",
+          "icon": "🕯️",
+          "type": "activity",
+          "title": "Tuol Sleng Genocide Museum (S-21)",
+          "detail": "Former high school turned Khmer Rouge prison. Haunting and essential. Audio guide ($3) is highly recommended. Emotionally difficult but important for understanding Cambodia. Allow 1.5–2 hours.",
+          "directions": "Street 113, Boeung Keng Kang. 15 min tuk-tuk from the palace.",
+          "status": "confirmed",
+          "lat": 11.5499,
+          "lng": 104.9177,
+          "placeId": "tuol-sleng"
+        },
+        {
+          "id": "d4-5",
+          "time": "5:30 PM",
+          "icon": "🚶",
+          "type": "activity",
+          "title": "Sisowath Quay Riverside Walk",
+          "detail": "Promenade along the Tonle Sap and Mekong confluence. Locals exercising, monks in orange robes, street vendors selling grilled corn. Golden hour light is magical here.",
+          "directions": "Waterfront road, stretches 3 km north from the Royal Palace.",
+          "status": "confirmed",
+          "lat": 11.5700,
+          "lng": 104.9320
+        },
+        {
+          "id": "d4-6",
+          "time": "7:00 PM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Dinner at Romdeng",
+          "detail": "Fine Khmer dining in a colonial villa with pool. Famous for its tarantula fritters (yes, really) and tree-ant beef dip. Regular dishes are superb too — try the Mekong fish in banana leaf ($8).",
+          "directions": "Street 174, 10 min walk from the riverside.",
+          "status": "confirmed",
+          "lat": 11.5680,
+          "lng": 104.9260
+        },
+        {
+          "id": "d4-7",
+          "time": "9:00 PM",
+          "icon": "🏨",
+          "type": "accommodation",
+          "title": "Check in at Plantation Urban Resort",
+          "detail": "Boutique hotel in a restored 1930s mansion. Lush garden, saltwater pool, quiet neighborhood. Rooms from $85/night. Walking distance to riverside.",
+          "status": "confirmed",
+          "lat": 11.5660,
+          "lng": 104.9250
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "Wed, Mar 19",
+      "title": "Kampot — Pepper, Mountains & River",
+      "location": "Kampot",
+      "bounds": { "north": 10.70, "south": 10.55, "east": 104.22, "west": 104.00 },
+      "items": [
+        {
+          "id": "d5-1",
+          "time": "7:00 AM",
+          "icon": "🚐",
+          "type": "transport",
+          "title": "Drive to Kampot",
+          "detail": "3-hour drive south on NH3. Flat lowlands give way to dramatic karst mountains as you approach Kampot. Beautiful final stretch along the river.",
+          "directions": "NH3 south from Phnom Penh. Well-paved highway the whole way.",
+          "status": "confirmed",
+          "lat": 10.5940,
+          "lng": 104.1640
+        },
+        {
+          "id": "d5-2",
+          "time": "10:30 AM",
+          "icon": "🌿",
+          "type": "activity",
+          "title": "La Plantation Pepper Farm",
+          "detail": "World-famous Kampot pepper — tour the farm, learn about black, white, and red pepper varieties. Free tasting. Gift shop has excellent prices ($8/bag). The countryside drive alone is gorgeous.",
+          "directions": "18 km north of Kampot town, near Phnom Voar mountain.",
+          "status": "confirmed",
+          "lat": 10.6600,
+          "lng": 104.1100,
+          "placeId": "la-plantation"
+        },
+        {
+          "id": "d5-3",
+          "time": "12:30 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Lunch at Epic Arts Cafe",
+          "detail": "Social enterprise employing deaf and disabled Cambodians. Amazing shakes, fresh salads, and Khmer dishes ($3–5). The crab fried rice with Kampot pepper is incredible.",
+          "directions": "Old Market area, central Kampot.",
+          "status": "confirmed",
+          "lat": 10.5930,
+          "lng": 104.1680
+        },
+        {
+          "id": "d5-4",
+          "time": "2:00 PM",
+          "icon": "⛰️",
+          "type": "activity",
+          "title": "Bokor Hill Station",
+          "detail": "Abandoned French hill station at 1,080m. Eerie old casino, church ruins, and Black Palace. Sweeping views of the coast and jungle. Much cooler temperature up top. $2 park entry.",
+          "directions": "42 km winding mountain road from Kampot. Mr. Vann drives (1 hour up).",
+          "status": "confirmed",
+          "lat": 10.6310,
+          "lng": 104.0250,
+          "placeId": "bokor-hill"
+        },
+        {
+          "id": "d5-5",
+          "time": "5:00 PM",
+          "icon": "🌅",
+          "type": "activity",
+          "title": "Kampot River Sunset Cruise",
+          "detail": "Rent a paddleboard or kayak ($5/hour) on the Praek Tuek Chhu River. Or just sit at a riverside bar. The sunset behind the mountains is one of Cambodia's most beautiful scenes.",
+          "directions": "Riverside road, south of the old bridge. Rentals near the fish market.",
+          "status": "confirmed",
+          "lat": 10.5920,
+          "lng": 104.1630
+        },
+        {
+          "id": "d5-6",
+          "time": "7:00 PM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Dinner at The Fish Market",
+          "detail": "Open-air riverside restaurant — catch of the day grilled whole ($7–10). Kampot pepper crab is legendary ($12). Cold draught beer, fairy lights, river breeze. This is peak Cambodia.",
+          "directions": "On the river, south end of town. Impossible to miss.",
+          "status": "confirmed",
+          "lat": 10.5910,
+          "lng": 104.1625
+        },
+        {
+          "id": "d5-7",
+          "time": "9:00 PM",
+          "icon": "🏨",
+          "type": "accommodation",
+          "title": "Check in at Rikitikitavi",
+          "detail": "Quirky boutique hotel above a popular restaurant. Rooftop pool with river views. Rooms from $55/night. Great cocktails at the bar. Central location.",
+          "status": "confirmed",
+          "lat": 10.5935,
+          "lng": 104.1655
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "Thu, Mar 20",
+      "title": "Kep — Crabs, Coast & Island",
+      "location": "Kep",
+      "bounds": { "north": 10.55, "south": 10.44, "east": 104.37, "west": 104.28 },
+      "items": [
+        {
+          "id": "d6-1",
+          "time": "7:30 AM",
+          "icon": "🚐",
+          "type": "transport",
+          "title": "Drive to Kep",
+          "detail": "Quick 30-min drive along the coast. Pass through salt flats and crab farms. Kep was Cambodia's glamorous beach resort in the 1960s — abandoned villas still dot the hillside.",
+          "directions": "NH33A east from Kampot. Coastal road with sea views.",
+          "status": "confirmed",
+          "lat": 10.4836,
+          "lng": 104.2936
+        },
+        {
+          "id": "d6-2",
+          "time": "8:30 AM",
+          "icon": "🦀",
+          "type": "food",
+          "title": "Kep Crab Market",
+          "detail": "Famous open-air market right on the water. Choose your live crab, they grill it with Kampot pepper sauce ($5–8 per crab). Best seafood experience in Cambodia. Eat at the stilted platforms over the sea.",
+          "directions": "Kep Beach Road, south end. Look for the blue crab statue.",
+          "status": "confirmed",
+          "lat": 10.4820,
+          "lng": 104.2960,
+          "placeId": "kep-crab-market"
+        },
+        {
+          "id": "d6-3",
+          "time": "10:00 AM",
+          "icon": "🏝️",
+          "type": "activity",
+          "title": "Rabbit Island (Koh Tonsay)",
+          "detail": "20-min boat ride ($8 return) to a sleepy island with palm-fringed beaches. Hammocks, basic bungalows, zero development. Swim, nap, repeat. Bring snacks — limited food options.",
+          "directions": "Boats depart from Kep pier, near the crab market. Last boat back at 4 PM.",
+          "status": "confirmed",
+          "lat": 10.4550,
+          "lng": 104.3150,
+          "placeId": "rabbit-island"
+        },
+        {
+          "id": "d6-4",
+          "time": "1:00 PM",
+          "icon": "🍜",
+          "type": "food",
+          "title": "Lunch on Rabbit Island",
+          "detail": "Simple grilled fish and rice at a beach shack ($4). Cold drinks in a bucket of ice. Toes in the sand. This is the Cambodia that the package tourists never see.",
+          "status": "confirmed",
+          "lat": 10.4548,
+          "lng": 104.3145
+        },
+        {
+          "id": "d6-5",
+          "time": "3:30 PM",
+          "icon": "🚤",
+          "type": "transport",
+          "title": "Boat Back to Kep",
+          "detail": "Last comfortable boat back. Catch it by 3:30 PM to have time for the national park hike.",
+          "status": "confirmed",
+          "lat": 10.4836,
+          "lng": 104.2936
+        },
+        {
+          "id": "d6-6",
+          "time": "4:00 PM",
+          "icon": "🌿",
+          "type": "activity",
+          "title": "Kep National Park Hike",
+          "detail": "8 km loop trail through coastal jungle. Led Zep trail has the best viewpoints — panoramic views of the Gulf of Thailand and Vietnam in the distance. $1 entry. Bring water.",
+          "directions": "Trailhead opposite the main Kep Beach.",
+          "status": "confirmed",
+          "lat": 10.4900,
+          "lng": 104.2980
+        },
+        {
+          "id": "d6-7",
+          "time": "6:30 PM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Sunset Dinner at Sailing Club",
+          "detail": "Breezy terrace facing the sea. Grilled squid, prawn skewers, and Kampot pepper everything. Cocktails from $4. Watch the sunset over Rabbit Island. A perfect ending to the coast.",
+          "directions": "Kep Beach Road, near the white horse statue.",
+          "status": "confirmed",
+          "lat": 10.4850,
+          "lng": 104.2950
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "Fri, Mar 21",
+      "title": "Koh Rong — Beach, Snorkel & Farewell",
+      "location": "Koh Rong",
+      "bounds": { "north": 10.75, "south": 10.58, "east": 103.35, "west": 103.18 },
+      "items": [
+        {
+          "id": "d7-1",
+          "time": "5:30 AM",
+          "icon": "🚐",
+          "type": "transport",
+          "title": "Early Drive to Sihanoukville",
+          "detail": "3.5-hour drive to the coast. Highway is good. Arrive in time for the morning ferry. Mr. Vann will wait with luggage for the return trip.",
+          "directions": "NH3 and NH4 via Kampot to Sihanoukville port.",
+          "status": "confirmed",
+          "lat": 10.6275,
+          "lng": 103.5225
+        },
+        {
+          "id": "d7-2",
+          "time": "9:30 AM",
+          "icon": "⛴️",
+          "type": "transport",
+          "title": "Speed Ferry to Koh Rong",
+          "detail": "45-min speed ferry ($12 one-way). Can be bumpy — take motion sickness meds if needed. Arrive at Koh Toch pier. Crystal clear water visible from the boat.",
+          "directions": "Serendipity Pier or Ochheuteal Pier, Sihanoukville.",
+          "status": "confirmed",
+          "lat": 10.7000,
+          "lng": 103.2400
+        },
+        {
+          "id": "d7-3",
+          "time": "10:30 AM",
+          "icon": "🏖️",
+          "type": "activity",
+          "title": "Long Set Beach (7km Beach)",
+          "detail": "One of Southeast Asia's most beautiful beaches — 7 km of powder-white sand with almost nobody on it. Wade in turquoise shallows. The water is impossibly clear.",
+          "directions": "20-min walk or $5 boat taxi from Koh Toch pier.",
+          "status": "confirmed",
+          "lat": 10.7250,
+          "lng": 103.2050,
+          "placeId": "long-set-beach"
+        },
+        {
+          "id": "d7-4",
+          "time": "12:00 PM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Beach Lunch at Treehouse Bungalows",
+          "detail": "Wood-fired pizza and fresh seafood right on the sand. Mango smoothie ($2), grilled prawn plate ($6). Hammocks and swings between palm trees.",
+          "status": "confirmed",
+          "lat": 10.7240,
+          "lng": 103.2060
+        },
+        {
+          "id": "d7-5",
+          "time": "1:30 PM",
+          "icon": "🤿",
+          "type": "activity",
+          "title": "Snorkeling at Coral Garden",
+          "detail": "Boat trip to coral reef off the west coast ($15/person including gear). Sea horses, clownfish, blue starfish. Visibility 10-15m in dry season. Non-swimmers can use life vests.",
+          "directions": "Arranged through Koh Toch dive shops. 20 min boat ride.",
+          "status": "confirmed",
+          "lat": 10.6800,
+          "lng": 103.1900
+        },
+        {
+          "id": "d7-6",
+          "time": "3:30 PM",
+          "icon": "🌴",
+          "type": "activity",
+          "title": "Last Swim & Bioluminescence Briefing",
+          "detail": "Final swim at the beach. If you ever return, Koh Rong has the world's best bioluminescent plankton (visible Oct–May at night). For now, soak up the last afternoon.",
+          "status": "confirmed",
+          "lat": 10.7200,
+          "lng": 103.2080
+        },
+        {
+          "id": "d7-7",
+          "time": "4:30 PM",
+          "icon": "⛴️",
+          "type": "transport",
+          "title": "Ferry Back to Sihanoukville",
+          "detail": "Last speed ferry of the day ($12). Mr. Vann meets at the pier for the drive to Phnom Penh airport (3.5 hours) or onward travel.",
+          "directions": "Koh Toch pier. Be there 15 min early.",
+          "status": "confirmed",
+          "lat": 10.6275,
+          "lng": 103.5225
+        },
+        {
+          "id": "d7-8",
+          "time": "8:30 PM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Arrive Phnom Penh International Airport",
+          "detail": "Mr. Vann drops at departures. Allow 2 hours for check-in. Duty-free has Kampot pepper and Angkor cookies — last chance for gifts. Som arkoun, Cambodia! (Thank you!)",
+          "directions": "Phnom Penh International Airport (PNH). 30 min from city center.",
+          "status": "confirmed",
+          "lat": 11.5466,
+          "lng": 104.8440,
+          "placeId": "pnh-airport"
+        }
+      ]
+    }
+  ]
+}

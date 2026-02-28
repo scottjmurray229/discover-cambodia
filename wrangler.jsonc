@@ -1,0 +1,23 @@
+{
+	"main": "dist/_worker.js/index.js",
+	"name": "discover-cambodia",
+  "compatibility_date": "2026-02-04",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./dist"
+	},
+	"observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "trip-planner-cache-kh",
+      "database_id": "30d7bb69-3bb0-48ca-a802-ce5f6a4c09d5"
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Cambodian Cuisine Guide', url: '/cuisine/' },
+];
+
+const pageTitle = 'Cambodian Cuisine Guide — Eat Your Way Across Cambodia';
+const pageDescription = 'A region-by-region menu of the dishes that define Cambodian food culture — from Phnom Penh street food to Kampot pepper crab. Find where to eat the real thing.';
+
+interface Dish {
+  name: string;
+  image?: string;
+  destination: string;
+  slug: string;
+  price: string;
+  description: string;
+  tag?: string;
+}
+
+interface MenuSection {
+  region: string;
+  tagline: string;
+  gradient: string;
+  dishes: Dish[];
+}
+
+const menu: MenuSection[] = [
+  {
+    region: 'Northwest & Central',
+    tagline: 'From Siem Reap\'s temple-side restaurants to Phnom Penh\'s legendary street food',
+    gradient: 'linear-gradient(135deg, #BF360C 0%, #E8654A 100%)',
+    dishes: [
+      {
+        name: 'Fish Amok',
+        image: '/images/cuisine/fish-amok.jpg',
+        destination: 'Siem Reap',
+        slug: 'siem-reap',
+        price: '$3–6 USD',
+        description: 'Cambodia\'s national dish — freshwater fish steamed in a coconut curry custard with slok ngor leaves, served in a banana leaf bowl. Creamy, fragrant, and unlike any curry you\'ve had before.',
+        tag: 'National Dish',
+      },
+      {
+        name: 'Lok Lak',
+        image: '/images/cuisine/lok-lak.jpg',
+        destination: 'Phnom Penh',
+        slug: 'phnom-penh',
+        price: '$3–5 USD',
+        description: 'Stir-fried beef cubes in a tangy lime-and-pepper sauce, served on a bed of fresh greens with a fried egg on top. The lime-pepper dipping sauce is the secret — every restaurant has their own version.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Bai Sach Chrouk',
+        image: '/images/cuisine/bai-sach-chrouk.jpg',
+        destination: 'Phnom Penh',
+        slug: 'phnom-penh',
+        price: '$1–2 USD',
+        description: 'Thinly sliced pork marinated in coconut milk and garlic, grilled over charcoal, and served over broken rice with pickled vegetables. Cambodia\'s beloved breakfast — found at street carts starting at 6 AM.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Nom Banh Chok',
+        image: '/images/cuisine/nom-banh-chok.jpg',
+        destination: 'Siem Reap',
+        slug: 'siem-reap',
+        price: '$1–2 USD',
+        description: 'Fresh rice noodles topped with a green fish curry sauce, raw vegetables, and banana blossom. Cambodians call it "Khmer noodles" — it\'s the quintessential morning meal found at every market.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Kuy Teav',
+        image: '/images/cuisine/kuy-teav.jpg',
+        destination: 'Phnom Penh',
+        slug: 'phnom-penh',
+        price: '$1–3 USD',
+        description: 'Cambodia\'s answer to pho — rice noodle soup with pork broth, bean sprouts, and a squeeze of lime. Each shop has a secret recipe. The best bowls are at crowded morning stalls near Central Market.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Samlor Korko',
+        image: '/images/cuisine/samlor-korko.jpg',
+        destination: 'Battambang',
+        slug: 'battambang',
+        price: '$2–4 USD',
+        description: 'A rich, complex vegetable soup with prahok (fermented fish paste), roasted ground rice, and whatever vegetables are in season. Often called Cambodia\'s most important traditional dish — every grandmother has her version.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Beef Cha Kroeung',
+        image: '/images/cuisine/cha-kroeung.jpg',
+        destination: 'Siem Reap',
+        slug: 'siem-reap',
+        price: '$3–5 USD',
+        description: 'Beef stir-fried with lemongrass paste (kroeung), holy basil, and green peppercorns. The kroeung — a pounded paste of lemongrass, galangal, turmeric, and garlic — is the heart of Khmer cooking.',
+      },
+      {
+        name: 'Fried Tarantula',
+        image: '/images/cuisine/fried-tarantula.jpg',
+        destination: 'Siem Reap',
+        slug: 'siem-reap',
+        price: '$1–2 USD each',
+        description: 'Deep-fried spiders from Skuon market — crispy on the outside, soft inside. Originally a survival food during the Khmer Rouge era, now a famous Cambodian delicacy. The legs are the best part.',
+        tag: 'Rare',
+      },
+    ],
+  },
+  {
+    region: 'South Coast',
+    tagline: 'Kampot pepper, Kep crab, and the fresh seafood of the Cambodian coast',
+    gradient: 'linear-gradient(135deg, #0D7377 0%, #4DB6AC 100%)',
+    dishes: [
+      {
+        name: 'Kampot Pepper Crab',
+        image: '/images/cuisine/kampot-pepper-crab.jpg',
+        destination: 'Kep',
+        slug: 'kep',
+        price: '$5–10 USD',
+        description: 'Fresh blue crab stir-fried with green Kampot peppercorns — the region\'s signature dish. The peppercorns burst with a floral heat that complements the sweet crab meat perfectly. Best eaten at Kep\'s famous Crab Market.',
+        tag: 'Legendary',
+      },
+      {
+        name: 'Kampot Pepper Steak',
+        image: '/images/cuisine/pepper-steak.jpg',
+        destination: 'Kampot',
+        slug: 'kampot',
+        price: '$5–8 USD',
+        description: 'Beef steak crusted with Kampot black pepper and pan-seared — a French-Cambodian fusion that highlights the world-famous pepper. The pepper\'s complexity sets it apart from any steak you\'ve had.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Grilled Squid',
+        image: '/images/cuisine/grilled-squid.jpg',
+        destination: 'Koh Rong',
+        slug: 'koh-rong',
+        price: '$3–5 USD',
+        description: 'Whole squid grilled over charcoal and served with a lime-and-pepper dipping sauce. Koh Rong\'s beach restaurants grill them fresh off the boats — simple, smoky, perfect.',
+        tag: 'Fresh Catch',
+      },
+      {
+        name: 'Fish with Green Mango',
+        image: '/images/cuisine/fish-green-mango.jpg',
+        destination: 'Sihanoukville',
+        slug: 'sihanoukville',
+        price: '$3–6 USD',
+        description: 'Whole fried fish topped with shredded green mango, chili, peanuts, and a sweet-sour dressing. The crunch of the mango against the crispy fish skin is quintessential Cambodian coast.',
+      },
+      {
+        name: 'Num Pang (Cambodian Sandwich)',
+        image: '/images/cuisine/num-pang.jpg',
+        destination: 'Kampot',
+        slug: 'kampot',
+        price: '$1–2 USD',
+        description: 'A crispy baguette filled with pate, pickled vegetables, cilantro, and your choice of meat — Cambodia\'s French colonial legacy turned into the perfect street snack.',
+        tag: 'Iconic',
+      },
+    ],
+  },
+  {
+    region: 'Northeast & Beyond',
+    tagline: 'Indigenous flavors, wild ingredients, and the cooking traditions of rural Cambodia',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #6A1B9A 50%, #D4A853 100%)',
+    dishes: [
+      {
+        name: 'Prahok Ktis',
+        image: '/images/cuisine/prahok-ktis.jpg',
+        destination: 'Kratie',
+        slug: 'kratie',
+        price: '$2–4 USD',
+        description: 'Fermented fish paste (prahok) cooked with minced pork, coconut milk, and lemongrass — served as a dip with fresh vegetables. Prahok is the backbone of Cambodian cuisine, and this is its richest expression.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Ping Gai',
+        image: '/images/cuisine/ping-gai.jpg',
+        destination: 'Mondulkiri',
+        slug: 'mondulkiri',
+        price: '$2–4 USD',
+        description: 'Grilled chicken marinated in lemongrass and turmeric, cooked over charcoal by the roadside. Mondulkiri\'s cooler climate makes it perfect grilling weather — the chicken is smoky, tender, and served with sticky rice.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Bamboo Sticky Rice',
+        image: '/images/cuisine/bamboo-sticky-rice.jpg',
+        destination: 'Mondulkiri',
+        slug: 'mondulkiri',
+        price: '$0.50–1 USD',
+        description: 'Sticky rice with coconut milk and black beans, steamed inside bamboo tubes over an open fire. A traditional Bunong indigenous specialty found at roadside stalls throughout the northeast highlands.',
+      },
+      {
+        name: 'Samlor Machu Trey',
+        image: '/images/cuisine/samlor-machu-trey.jpg',
+        destination: 'Kratie',
+        slug: 'kratie',
+        price: '$2–4 USD',
+        description: 'Sour fish soup with tamarind, tomatoes, pineapple, and fresh herbs. A staple of Mekong riverside life — the freshwater fish goes straight from the river to the pot.',
+        tag: 'Fresh Catch',
+      },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  schemaData={{ title: pageTitle, description: pageDescription }}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="menu-hero">
+    <video class="menu-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/cuisine-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="menu-hero-gradient"></div>
+    <div class="menu-hero-noise"></div>
+    <div class="menu-hero-content">
+      <h1 class="menu-hero-title">The Cambodian Menu</h1>
+      <p class="menu-hero-subtitle">Fish amok in banana leaf bowls, Kampot pepper crab, and street-side bai sach chrouk at dawn — eat your way across Cambodia and discover the dishes that define each destination.</p>
+      <div class="menu-hero-meta">
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Dishes</span>
+          <span class="menu-hero-meta-value">17</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Regions</span>
+          <span class="menu-hero-meta-value">3</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Destinations</span>
+          <span class="menu-hero-meta-value">10</span>
+        </div>
+      </div>
+    </div>
+    <div class="menu-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="menu-personal reveal">
+    <div class="container-content">
+      <blockquote class="menu-personal-quote">
+        <p>Cambodian food was a revelation from my very first meal. I started with the classics — fish amok, lok lak, kuy teav — and was hooked immediately. But the deeper I went, the more I discovered. Prahok dips in Kratie, pepper crab at Kep's crab market, bamboo sticky rice in Mondulkiri's highlands. Every trip now, the food is half the reason I keep coming back.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Menu Intro -->
+  <section class="menu-intro reveal">
+    <div class="container-content">
+      <div class="menu-intro-card">
+        <p class="menu-intro-text">Think of this as your tasting menu for Cambodia. I've organized the country's essential dishes by region — <strong>Northwest & Central</strong> covering Siem Reap, Phnom Penh, and Battambang, the <strong>South Coast</strong> with Kampot, Kep, and the islands, and the <strong>Northeast</strong> with Kratie and Mondulkiri. Click any dish to explore the destination where it's famous.</p>
+        <div class="menu-intro-legend">
+          <span class="menu-tag menu-tag--heritage">Heritage</span>
+          <span class="menu-tag menu-tag--musttry">Must-Try</span>
+          <span class="menu-tag menu-tag--iconic">Iconic</span>
+          <span class="menu-tag menu-tag--fresh">Fresh Catch</span>
+          <span class="menu-tag menu-tag--rare">Rare</span>
+          <span class="menu-tag menu-tag--pasalubong">Pasalubong</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Sections by Region -->
+  {menu.map((section) => (
+    <section class="menu-region reveal">
+      <div class="container-content">
+        <div class="menu-region-header" style={`background: ${section.gradient};`}>
+          <div class="menu-region-header-inner">
+            <h2 class="menu-region-name">{section.region}</h2>
+            <p class="menu-region-tagline">{section.tagline}</p>
+            <span class="menu-region-count">{section.dishes.length} dishes</span>
+          </div>
+          <div class="menu-region-ornament">&#9733;</div>
+        </div>
+
+        <div class="menu-dish-grid">
+          {section.dishes.map((dish) => (
+            <a href={`/destinations/${dish.slug}/`} class="menu-dish-card">
+              <div class="menu-dish-media" style={`background: ${section.gradient};`}>
+                {dish.image && (
+                  <img src={dish.image} alt={`${dish.name} — ${dish.destination}`} class="menu-dish-img" loading="lazy" />
+                )}
+                {dish.tag && (
+                  <span class={`menu-tag menu-tag--${dish.tag.toLowerCase().replace(/[^a-z]/g, '')}`}>{dish.tag}</span>
+                )}
+              </div>
+              <div class="menu-dish-body">
+                <div class="menu-dish-top">
+                  <h3 class="menu-dish-name">{dish.name}</h3>
+                  <span class="menu-dish-price">{dish.price}</span>
+                </div>
+                <p class="menu-dish-destination">{dish.destination}</p>
+                <p class="menu-dish-desc">{dish.description}</p>
+                <span class="menu-dish-cta">Explore {dish.destination} &rarr;</span>
+              </div>
+              <div class="menu-dish-overlay">
+                <p class="menu-dish-overlay-desc">{dish.description}</p>
+                <span class="menu-dish-overlay-cta">Explore {dish.destination} &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Bottom CTA -->
+  <section class="menu-cta-section reveal">
+    <div class="container-content">
+      <div class="menu-cta-card">
+        <h2 class="menu-cta-heading">Plan Your Food Trip</h2>
+        <p class="menu-cta-text">Tell our AI planner which dishes you want to try and it will build a region-by-region itinerary — with the best restaurants, markets, and street food stops.</p>
+        <a href="/plan/" class="menu-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "What is the national dish of Cambodia?", answer: "Fish amok is widely considered the national dish — freshwater fish steamed in a coconut curry custard with kroeung paste and slok ngor leaves, served in a banana leaf bowl. It showcases the core of Khmer cooking: aromatic pastes, coconut milk, and fresh herbs." },
+    { question: "Is Cambodian food spicy?", answer: "Cambodian food is generally milder than Thai or Vietnamese cuisine. The flavors lean toward sweet, sour, and savory rather than fiery heat. Fresh herbs, lemongrass, galangal, and Kampot pepper provide complexity without overwhelming spice. Chili is usually served on the side as a condiment." },
+    { question: "What are the must-try street foods in Cambodia?", answer: "Bai sach chrouk (grilled pork over rice) is the essential breakfast. Num pang (Cambodian baguette sandwiches), kuy teav (rice noodle soup), and grilled skewers are everywhere. For the adventurous, fried tarantulas and deep-fried crickets are famous Cambodian delicacies. Street food costs $0.50-$2 per item." },
+    { question: "How much does a meal cost in Cambodia?", answer: "Street food: $0.50-$2. Local restaurants: $2-5 for rice with a main dish. Mid-range restaurants: $5-12. Upscale dining in Phnom Penh or Siem Reap: $15-30. A daily food budget of $8-15 covers three meals comfortably. Cambodia uses US dollars for most transactions." },
+    { question: "Is it safe to eat street food in Cambodia?", answer: "Street food is generally safe if you follow basic rules: eat from busy stalls with high turnover, choose items cooked fresh in front of you, and avoid raw vegetables unless at reputable restaurants. Stick to bottled or filtered water. The busier the stall, the fresher and safer the food." },
+    { question: "What is prahok and should I try it?", answer: "Prahok is fermented fish paste — the backbone of Cambodian cuisine. It adds deep umami flavor to soups, dips, and curries. Prahok ktis (cooked with minced pork and coconut milk as a dip) is the most approachable way to try it. The flavor is intense but addictive once you acquire the taste." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get My Free Cambodian Food Guide"
+      description="A region-by-region PDF guide to Cambodian cuisine — with the best restaurants, street food stalls, and dishes you can't miss."
+      bullets={[
+        'All 17 dishes with where to find the best version',
+        'Price guide — from $0.50 street food to $10 restaurant plates',
+        'Food safety tips and dietary considerations',
+        'Printable Khmer food phrase card for ordering like a local',
+      ]}
+      guideTag="pillar-cuisine"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="menu-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="menu-crosslinks-heading">Explore More</h3>
+      <div class="menu-crosslinks-grid">
+        <a href="/festivals/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127914;</span>
+          <span class="menu-crosslink-label">Festival Calendar</span>
+          <span class="menu-crosslink-desc">Cambodia's major festivals and celebrations by month</span>
+        </a>
+        <a href="/history/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127963;</span>
+          <span class="menu-crosslink-label">History & Heritage</span>
+          <span class="menu-crosslink-desc">From Angkor to modern Cambodia — the sites and stories</span>
+        </a>
+        <a href="/destinations/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127965;</span>
+          <span class="menu-crosslink-label">All Destinations</span>
+          <span class="menu-crosslink-desc">Every destination I've explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Warm, food-inspired gradient
+     ================================================================ */
+  .menu-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .menu-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .menu-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .menu-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .menu-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .menu-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .menu-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .menu-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .menu-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .menu-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .menu-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: menuBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes menuBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     MENU INTRO
+     ================================================================ */
+  .menu-intro {
+    padding: var(--space-8) 0 var(--space-4);
+  }
+
+  .menu-intro-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: var(--space-5) var(--space-6);
+    text-align: center;
+  }
+
+  .menu-intro-text {
+    font-size: 1rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    max-width: 640px;
+    margin: 0 auto var(--space-4);
+  }
+
+  .menu-intro-legend {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  /* ================================================================
+     TAGS
+     ================================================================ */
+  .menu-tag {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 8px;
+    border-radius: 6px;
+    line-height: 1.4;
+  }
+
+  .menu-tag--heritage {
+    background: rgba(191, 54, 12, 0.1);
+    color: #BF360C;
+  }
+
+  .menu-tag--musttry, .menu-tag--mustry {
+    background: rgba(13, 115, 119, 0.1);
+    color: var(--color-ocean-teal);
+  }
+
+  .menu-tag--iconic {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  .menu-tag--freshcatch {
+    background: rgba(33, 150, 243, 0.1);
+    color: #1565C0;
+  }
+
+  .menu-tag--rare {
+    background: rgba(106, 27, 154, 0.1);
+    color: #6A1B9A;
+  }
+
+  .menu-tag--pasalubong {
+    background: rgba(232, 101, 74, 0.1);
+    color: var(--color-warm-coral);
+  }
+
+  .menu-tag--legendary {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  .menu-tag--nationaldish {
+    background: rgba(191, 54, 12, 0.1);
+    color: #BF360C;
+  }
+
+  /* ================================================================
+     REGION SECTION
+     ================================================================ */
+  .menu-region {
+    padding: var(--space-6) 0;
+  }
+
+  .menu-region-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-6) var(--space-6);
+    margin-bottom: var(--space-6);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-region-header-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .menu-region-name {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0 0 var(--space-1);
+    line-height: 1.1;
+  }
+
+  .menu-region-tagline {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 var(--space-3);
+    max-width: 480px;
+    line-height: 1.5;
+  }
+
+  .menu-region-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  .menu-region-ornament {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.08);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ================================================================
+     DISH GRID — Menu-style cards
+     ================================================================ */
+  .menu-dish-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 1024px) {
+    .menu-dish-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .menu-dish-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-dish-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-dish-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Media placeholder */
+  .menu-dish-media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--space-2);
+    overflow: hidden;
+  }
+
+  .menu-dish-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: transform 0.4s ease;
+  }
+
+  .menu-dish-card:hover .menu-dish-img {
+    transform: scale(1.06);
+  }
+
+  .menu-dish-media .menu-tag {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Card body */
+  .menu-dish-body {
+    padding: var(--space-3) var(--space-4) var(--space-4);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .menu-dish-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-bottom: 4px;
+  }
+
+  .menu-dish-name {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .menu-dish-price {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-warm-coral);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .menu-dish-destination {
+    font-size: 0.72rem;
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-medium);
+    margin: 0 0 var(--space-2);
+  }
+
+  .menu-dish-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.55;
+    margin: 0 0 var(--space-3);
+    flex: 1;
+  }
+
+  .menu-dish-cta {
+    font-size: 0.72rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-ocean-teal);
+    letter-spacing: 0.02em;
+  }
+
+  /* Hover overlay — visible on non-touch hover */
+  .menu-dish-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.93);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .menu-dish-card:hover .menu-dish-overlay {
+    opacity: 1;
+  }
+
+  .menu-dish-overlay-desc {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.6;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-dish-overlay-cta {
+    font-size: 0.75rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-warm-coral);
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .menu-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .menu-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .menu-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .menu-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .menu-cta-button {
+    display: inline-block;
+    background: var(--color-warm-coral);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .menu-cta-button:hover {
+    background: #d4553b;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .menu-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .menu-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .menu-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .menu-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .menu-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .menu-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .menu-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE — Hero & misc
+     ================================================================ */
+  @media (max-width: 640px) {
+    .menu-hero {
+      min-height: 55vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .menu-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .menu-scroll-hint {
+      display: none;
+    }
+
+    .menu-region-header {
+      padding: var(--space-5) var(--space-4);
+    }
+
+    .menu-region-ornament {
+      display: none;
+    }
+  }
+
+  /* Personal intro */
+  .menu-personal {
+    padding-block: var(--space-8);
+  }
+
+  .menu-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid var(--color-warm-coral);
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .menu-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .menu-personal-quote cite {
+    font-size: var(--text-caption);
+    color: var(--color-warm-coral);
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+</style>
