@@ -6,11 +6,11 @@ import FAQ from '../../components/FAQ.astro';
 
 const breadcrumbs = [
   { name: 'Home', url: '/' },
-  { name: 'History & Heritage', url: '/history/' },
+  { name: 'Khmer Rouge History', url: '/history/' },
 ];
 
-const pageTitle = 'Cambodia History — From Angkor Empire to Modern Recovery';
-const pageDescription = 'From the golden age of the Khmer Empire to the darkness of the Khmer Rouge and Cambodia\'s remarkable recovery — trace history through the places where it still stands.';
+const pageTitle = "The Khmer Rouge — A Guide to Cambodia's Dark History Sites";
+const pageDescription = "From the fall of Phnom Penh to the Killing Fields of Choeung Ek — a guide to Cambodia's genocide history, with visiting logistics and honest context for travelers.";
 
 interface TimelineEvent {
   date: string;
@@ -21,207 +21,183 @@ interface TimelineEvent {
   description: string;
   whatToSee?: string;
   side: 'left' | 'right';
-  era: 'empire' | 'colonial' | 'conflict' | 'recovery';
+  era: 'khmer-rise' | 'year-zero' | 'liberation' | 'legacy';
 }
 
 const timeline: TimelineEvent[] = [
   {
-    date: '802 AD',
-    year: 802,
-    title: 'Foundation of the Khmer Empire',
-    location: 'Angkor Region',
-    slug: 'siem-reap',
-    description: 'King Jayavarman II declared independence from Java and established the Khmer Empire with its capital near modern-day Siem Reap. He proclaimed himself a "universal monarch" in a ceremony on Phnom Kulen mountain, unifying the Khmer kingdoms and launching the greatest civilization in Southeast Asian history.',
-    whatToSee: 'Phnom Kulen National Park — the sacred mountain where the empire was founded. River of a Thousand Lingas, ancient carvings, and waterfalls. A day trip from Siem Reap.',
-    side: 'left',
-    era: 'empire',
-  },
-  {
-    date: '1113–1150 AD',
-    year: 1113,
-    title: 'Construction of Angkor Wat',
-    location: 'Angkor, Siem Reap',
-    slug: 'siem-reap',
-    description: 'King Suryavarman II built Angkor Wat as a Hindu temple dedicated to Vishnu — the largest religious monument ever constructed. Over 300,000 workers and 6,000 elephants labored for 37 years to create this masterpiece of Khmer architecture. It would later become a Buddhist temple.',
-    whatToSee: 'Angkor Wat — the crown jewel of Cambodian heritage. Sunrise visits, the 800m bas-relief gallery depicting Hindu epics, and the central tower are must-sees. Budget a full day minimum.',
-    side: 'right',
-    era: 'empire',
-  },
-  {
-    date: '1181–1218 AD',
-    year: 1181,
-    title: 'Jayavarman VII & the Golden Age',
-    location: 'Angkor Thom, Siem Reap',
-    slug: 'siem-reap',
-    description: 'The last great Khmer king built Angkor Thom, the Bayon temple with its 216 smiling stone faces, Ta Prohm, Preah Khan, and a network of hospitals and roads across the empire. He converted the empire to Mahayana Buddhism and expanded Khmer territory to its greatest extent — stretching across modern Thailand, Laos, Vietnam, and Myanmar.',
-    whatToSee: 'Angkor Thom complex — the Bayon faces, Ta Prohm (the "jungle temple"), Preah Khan, and the Terrace of the Elephants. Allow 2–3 days for the full Angkor Archaeological Park.',
-    side: 'left',
-    era: 'empire',
-  },
-  {
-    date: '15th Century',
-    year: 1431,
-    title: 'Fall of Angkor',
-    location: 'Angkor Region',
-    slug: 'siem-reap',
-    description: 'After repeated Thai invasions and the sacking of Angkor in 1431, the Khmer capital shifted south to Phnom Penh. The great temples were gradually reclaimed by the jungle over the following centuries. Angkor Wat was never completely abandoned — Buddhist monks maintained it — but the empire that built it was gone.',
-    side: 'right',
-    era: 'empire',
-  },
-  {
-    date: '1863',
-    year: 1863,
-    title: 'French Protectorate Established',
-    location: 'Phnom Penh',
-    slug: 'phnom-penh',
-    description: 'King Norodom signed a treaty making Cambodia a French protectorate — trading sovereignty for protection against Thai and Vietnamese encroachment. French colonial rule would last 90 years, reshaping Cambodia\'s architecture, infrastructure, and education system while exploiting its resources.',
-    whatToSee: 'French colonial architecture along the Phnom Penh riverfront, the National Museum (built in Khmer style by French architects), and the Royal Palace compound.',
-    side: 'left',
-    era: 'colonial',
-  },
-  {
-    date: '1860s–1900s',
-    year: 1870,
-    title: 'Rediscovery of Angkor',
-    location: 'Siem Reap',
-    slug: 'siem-reap',
-    description: 'French naturalist Henri Mouhot popularized the "discovery" of Angkor Wat to the Western world in the 1860s (local Cambodians always knew it was there). French archaeologists spent decades clearing jungle, cataloguing ruins, and restoring temples. The work established Angkor as one of the world\'s great archaeological sites.',
-    whatToSee: 'The Conservation d\'Angkor workshop in Siem Reap (limited access) continues restoration work. The Angkor National Museum in Siem Reap provides excellent context.',
-    side: 'right',
-    era: 'colonial',
-  },
-  {
-    date: '1953',
+    date: 'November 9, 1953',
     year: 1953,
-    title: 'Independence from France',
+    title: 'Cambodian Independence',
     location: 'Phnom Penh',
     slug: 'phnom-penh',
-    description: 'King Norodom Sihanouk secured Cambodia\'s independence from France through diplomatic pressure and a "royal crusade." November 9, 1953 is celebrated annually as Independence Day. The Independence Monument in Phnom Penh — shaped like an Angkorian lotus tower — commemorates this achievement.',
-    whatToSee: 'The Independence Monument on Norodom Boulevard — dramatically illuminated at night, especially during Independence Day celebrations in November.',
+    description: 'Cambodia gained independence from France under King Norodom Sihanouk, who abdicated the throne to become a political leader — Prince Sihanouk. Cambodia entered a period of relative peace and neutrality. Sihanouk tried to steer Cambodia between the Communist and Western blocs as war raged in neighboring Vietnam.',
+    whatToSee: 'The Royal Palace in Phnom Penh dates from 1866 and remains the royal residence. The National Museum of Cambodia houses the world\'s finest collection of Khmer art and sculpture.',
     side: 'left',
-    era: 'colonial',
+    era: 'khmer-rise',
   },
   {
-    date: '1953–1970',
-    year: 1960,
-    title: 'Sihanouk\'s Cambodia — The Golden Era',
-    location: 'Phnom Penh & Nationwide',
-    slug: 'phnom-penh',
-    description: 'Under Sihanouk, Cambodia experienced a cultural renaissance. Phnom Penh was called the "Pearl of Asia" — a sophisticated city of French-influenced architecture, thriving arts, and relative peace. New Khmer Architecture blended modernism with traditional forms. This brief golden era would end abruptly.',
-    whatToSee: 'The former Olympic Stadium, Central Market (Art Deco), and surviving New Khmer Architecture buildings across Phnom Penh. The Royal Palace and Silver Pagoda complex.',
+    date: '1960–1970',
+    year: 1965,
+    title: 'The Khmer Rouge Forms in the Jungle',
+    location: 'Rural Cambodia',
+    description: 'Saloth Sar — who would become known as Pol Pot — returned from studying in Paris with a radical interpretation of Maoism and began organizing a communist insurgency in Cambodia\'s remote jungles. The movement called itself the Khmer Rouge (Red Khmers). Drawing on rural peasants resentful of the urban elite, they built a secretive organization in the northeastern highlands.',
     side: 'right',
-    era: 'colonial',
+    era: 'khmer-rise',
   },
   {
-    date: '1970–1975',
+    date: 'March 18, 1970',
     year: 1970,
-    title: 'Civil War & US Bombing Campaign',
-    location: 'Across Cambodia',
-    description: 'A US-backed coup deposed Sihanouk in 1970. Cambodia was dragged into the Vietnam War, with massive US bombing campaigns (2.7 million tons of bombs — more than the Allies dropped in all of WWII) devastating the countryside and driving peasants toward the Khmer Rouge insurgency. An estimated 100,000–150,000 Cambodians died in the bombing.',
+    title: 'US-Backed Coup Against Sihanouk',
+    location: 'Phnom Penh',
+    slug: 'phnom-penh',
+    description: 'While Sihanouk was abroad, US-backed General Lon Nol overthrew him in a coup. The new Khmer Republic aligned with the United States and South Vietnam. Sihanouk, furious, threw his support behind the Khmer Rouge from exile in Beijing. His support gave the Khmer Rouge enormous credibility with the Cambodian peasantry.',
     side: 'left',
-    era: 'conflict',
+    era: 'khmer-rise',
+  },
+  {
+    date: '1969–1973',
+    year: 1970,
+    title: 'Secret US Bombing Campaign',
+    location: 'Rural Cambodia',
+    description: 'The Nixon administration secretly authorized massive B-52 bombing of Cambodia to destroy North Vietnamese supply routes (the Ho Chi Minh Trail). Between 1969 and 1973, the US dropped more bombs on Cambodia than were dropped on Japan in all of World War II. The campaign killed tens of thousands of Cambodian civilians and drove hundreds of thousands of desperate, traumatized rural people directly into the arms of the Khmer Rouge.',
+    side: 'right',
+    era: 'khmer-rise',
   },
   {
     date: 'April 17, 1975',
     year: 1975,
-    title: 'Khmer Rouge Takes Phnom Penh',
+    title: 'Fall of Phnom Penh — The Khmer Rouge Take Power',
     location: 'Phnom Penh',
     slug: 'phnom-penh',
-    description: 'The Khmer Rouge marched into Phnom Penh and immediately evacuated the entire city — forcing 2 million residents into the countryside at gunpoint. Year Zero had begun. Money was abolished, religion banned, schools closed. The next four years would become one of the darkest chapters in human history.',
-    whatToSee: 'Tuol Sleng Genocide Museum (S-21) — a former high school converted into a torture prison. The building, cells, and photographs of victims remain as they were. A profoundly difficult but essential visit.',
+    description: 'Khmer Rouge forces entered Phnom Penh on April 17, 1975 — just two weeks before the fall of Saigon. Residents initially welcomed them, hoping the civil war was finally over. Within hours, the Khmer Rouge began forcibly evacuating the entire city. Two million people were ordered out at gunpoint, on foot, in days — patients dragged from hospital beds, the elderly, infants. The Democratic Kampuchea era had begun.',
+    whatToSee: 'Phnom Penh\'s boulevards and the French-era architecture give a sense of the city that was emptied overnight. The Tuol Sleng Genocide Museum (S-21) is the city\'s most important historical site.',
+    side: 'left',
+    era: 'year-zero',
+  },
+  {
+    date: 'April 1975',
+    year: 1975,
+    title: 'Year Zero — Cambodia Erased',
+    location: 'Across Cambodia',
+    description: 'The Khmer Rouge declared Year Zero — the start of a new society, wiping out all history before their revolution. Money was abolished and banks blown up. Schools and universities were closed. Hospitals were emptied. Religion was banned; Buddhist monks were forced to disrobe or were killed. The concept of family was attacked. Children were separated from parents and formed into youth brigades. Cambodia was to be a purely agrarian society.',
     side: 'right',
-    era: 'conflict',
+    era: 'year-zero',
+  },
+  {
+    date: '1975–1979',
+    year: 1976,
+    title: 'S-21 — Tuol Sleng Security Prison',
+    location: 'Phnom Penh',
+    slug: 'phnom-penh',
+    description: 'A former high school in Phnom Penh was converted into Security Prison 21 (S-21) — the regime\'s main interrogation and torture center. At least 18,000 people were imprisoned here. Each prisoner was photographed on arrival. All were tortured; virtually all were executed. The Khmer Rouge kept meticulous records — a bureaucratic instinct that would later provide crucial evidence at genocide tribunals.',
+    whatToSee: 'The Tuol Sleng Genocide Museum is essential. The buildings are largely unchanged — the beds and shackles remain in the torture rooms. The photograph gallery — thousands of faces of prisoners — is one of the most harrowing experiences in Southeast Asia. Allow 2–3 hours minimum.',
+    side: 'left',
+    era: 'year-zero',
   },
   {
     date: '1975–1979',
     year: 1977,
-    title: 'The Killing Fields',
-    location: 'Choeung Ek & Nationwide',
+    title: 'The Killing Fields of Choeung Ek',
+    location: 'Phnom Penh',
     slug: 'phnom-penh',
-    description: 'Under Pol Pot\'s regime, an estimated 1.5–2 million Cambodians — nearly a quarter of the population — died from execution, starvation, forced labor, and disease. Intellectuals, monks, ethnic minorities, and anyone suspected of disloyalty were killed. Over 20,000 mass graves have been discovered across Cambodia.',
-    whatToSee: 'Choeung Ek Killing Fields — 15 km south of Phnom Penh. The memorial stupa holds thousands of skulls. Audio tours guide you through the site\'s horrific history. Allow 2–3 hours. Combine with Tuol Sleng for a full-day heritage visit.',
+    description: 'S-21 prisoners, after confession under torture, were trucked 15km to Choeung Ek and executed to save bullets — beaten to death or throats cut. Their bodies were buried in mass graves. Choeung Ek was one of hundreds of killing fields across Cambodia. In total, between 1.5 and 2 million people — roughly a quarter of Cambodia\'s population — died between 1975 and 1979 through execution, starvation, overwork, and disease.',
+    whatToSee: 'The Choeung Ek Genocidal Center (15km from central Phnom Penh) has a memorial stupa filled with 8,000 skulls. The audio tour — narrated partly by survivors — is deeply affecting. Bone fragments and teeth still emerge from the earth after heavy rains.',
+    side: 'right',
+    era: 'year-zero',
+  },
+  {
+    date: '1975–1979',
+    year: 1978,
+    title: 'Forced Labor, Famine, and Internal Purges',
+    location: 'Across Cambodia',
+    description: 'Under the Khmer Rouge, Cambodia became a vast forced labor camp. City dwellers — "new people" — were worked to death on irrigation projects and rice fields. Rations were deliberately kept near starvation level. Internal paranoia led to waves of purges: the eastern zones were especially targeted, with entire districts massacred as suspected CIA agents. Vietnam launched military incursions in 1977–1978 in response to Khmer Rouge raids across the border.',
     side: 'left',
-    era: 'conflict',
+    era: 'year-zero',
   },
   {
     date: 'January 7, 1979',
     year: 1979,
-    title: 'Fall of the Khmer Rouge',
+    title: 'Vietnamese Liberation — The Khmer Rouge Flee',
     location: 'Phnom Penh',
     slug: 'phnom-penh',
-    description: 'Vietnamese forces invaded and captured Phnom Penh, ending the Khmer Rouge regime. Survivors emerged from the countryside to find their cities empty, their families gone, and their country devastated. January 7 is celebrated annually as Victory over Genocide Day.',
+    description: 'The Vietnamese Army, after years of border raids by the Khmer Rouge, launched a full-scale invasion on December 25, 1978. Phnom Penh fell on January 7, 1979. Khmer Rouge forces fled to the jungles along the Thai border. Vietnamese soldiers and returning Cambodians found S-21 still operational — the last prisoners had been killed days before. The evidence they discovered shocked the world.',
+    whatToSee: 'The Vietnamese liberation is commemorated at the Victory Monument in Phnom Penh. The timeline of S-21\'s discovery — including photographs taken by the first Vietnamese soldiers to enter — is documented at the Tuol Sleng museum.',
     side: 'right',
-    era: 'conflict',
+    era: 'liberation',
   },
   {
-    date: '1991–1993',
-    year: 1991,
-    title: 'Paris Peace Accords & UN Mission',
+    date: '1979–1989',
+    year: 1983,
+    title: 'The People\'s Republic of Kampuchea',
     location: 'Phnom Penh',
     slug: 'phnom-penh',
-    description: 'The Paris Peace Accords brought a formal end to conflict, and the United Nations Transitional Authority in Cambodia (UNTAC) organized elections in 1993. Cambodia became a constitutional monarchy again. The country began its long road to recovery with international support and the return of diaspora Cambodians.',
+    description: 'Vietnam installed a new Cambodian government under Heng Samrin and Hun Sen. The Khmer Rouge, absurdly, retained Cambodia\'s UN seat (with US and Chinese support as a counterbalance to Vietnamese influence). The new government began rebuilding — Buddhism was restored, schools reopened, and people slowly returned to Phnom Penh. A decade of reconstruction began amid an international embargo.',
     side: 'left',
-    era: 'recovery',
+    era: 'liberation',
   },
   {
-    date: '1992',
-    year: 1992,
-    title: 'Angkor Becomes a UNESCO World Heritage Site',
-    location: 'Siem Reap',
-    slug: 'siem-reap',
-    description: 'UNESCO designated the Angkor Archaeological Park as a World Heritage Site, triggering international conservation efforts and eventually transforming Siem Reap from a dusty provincial town into Cambodia\'s tourism capital. Today over 2 million visitors per year explore the temples.',
-    whatToSee: 'The entire Angkor Archaeological Park — 400+ square kilometers of temples, reservoirs, and ancient infrastructure. The three-day pass ($62) is the best value for thorough exploration.',
+    date: 'May 1993',
+    year: 1993,
+    title: 'UN Elections & the Paris Peace Agreements',
+    location: 'Phnom Penh',
+    slug: 'phnom-penh',
+    description: 'The UN Transitional Authority in Cambodia (UNTAC) oversaw elections in 1993 — the first free elections Cambodia had ever held. Turnout was over 90% despite Khmer Rouge threats to disrupt polling. The election established a constitutional monarchy under King Norodom Sihanouk. Cambodia began to emerge from isolation and start receiving foreign investment and aid.',
+    whatToSee: 'The Constitutional Council and National Assembly buildings in Phnom Penh date from the UNTAC period. The Cambodian People\'s Party, which emerged from the Vietnamese-backed government, continues to dominate politics today.',
     side: 'right',
-    era: 'recovery',
+    era: 'liberation',
   },
   {
-    date: '2000s–Present',
+    date: 'July 26, 2010',
     year: 2010,
-    title: 'Cambodia\'s Remarkable Recovery',
-    location: 'Nationwide',
-    description: 'Cambodia has experienced sustained economic growth, rapid development, and a tourism boom. Phnom Penh has transformed into a modern capital with skyscrapers, craft cocktail bars, and a thriving food scene. Siem Reap has world-class hotels. Kampot, Koh Rong, and Battambang have emerged as distinctive destinations. The scars of the past remain, but Cambodia\'s resilience is extraordinary.',
+    title: 'Duch Convicted — First Khmer Rouge Verdict',
+    location: 'Phnom Penh',
+    slug: 'phnom-penh',
+    description: 'Kaing Guek Eav, known as Duch, the commandant of S-21, was convicted of crimes against humanity and war crimes by the Extraordinary Chambers in the Courts of Cambodia (ECCC) — a hybrid UN/Cambodian tribunal. He received a life sentence. Subsequent trials convicted other senior Khmer Rouge leaders. Pol Pot died in 1998 before he could be tried. Many Cambodians felt the process was too slow and too incomplete.',
+    whatToSee: 'The ECCC courtroom in Phnom Penh is open to the public on trial days. The court\'s archive and documentation center is accessible to researchers. The documentation is extraordinary — the Khmer Rouge\'s obsessive record-keeping made prosecution possible.',
     side: 'left',
-    era: 'recovery',
+    era: 'legacy',
   },
   {
     date: 'Present Day',
-    year: 2026,
-    title: 'The Heritage That Remains',
-    location: 'All Destinations',
-    description: 'From Angkor\'s sublime temples to the Killing Fields\' stark memorial, from French colonial elegance to the vibrant modern capital — Cambodia\'s history is layered, complex, and present everywhere you look. Understanding this history transforms your visit from sightseeing to something deeper.',
+    year: 2025,
+    title: 'Cambodia Today — Memory, Recovery, and Tourism',
+    location: 'Phnom Penh',
+    slug: 'phnom-penh',
+    description: 'Cambodia has rebuilt dramatically since 1979. Phnom Penh is a vibrant, modern city. Siem Reap hosts millions of visitors to Angkor Wat annually. But the trauma of the Khmer Rouge years runs deep — almost every Cambodian family lost members. A generation of educated people was wiped out, and that loss of human capital affected the country for decades. Understanding what happened here is not separable from understanding Cambodia today.',
+    whatToSee: 'Beyond S-21 and Choeung Ek, the Documentation Center of Cambodia (DC-Cam) in Phnom Penh has the most comprehensive archive of Khmer Rouge materials in the world and is open to researchers. The Bophana Audiovisual Resource Center preserves film and audio records from before, during, and after the Khmer Rouge period.',
     side: 'right',
-    era: 'recovery',
+    era: 'legacy',
   },
 ];
 
 const eraLabels: Record<string, string> = {
-  empire: 'The Khmer Empire — 802–1431 AD',
-  colonial: 'Colonial Era & Independence — 1863–1970',
-  conflict: 'War & Genocide — 1970–1991',
-  recovery: 'Recovery & Renewal — 1991–Present',
+  'khmer-rise': 'The Rise of the Khmer Rouge — 1960–1975',
+  'year-zero': 'Year Zero — 1975–1979',
+  'liberation': 'Vietnamese Liberation & Rebuilding — 1979–1993',
+  'legacy': 'Justice, Memory & Recovery',
 };
 
 const eraGradients: Record<string, string> = {
-  empire: 'linear-gradient(135deg, #78350F 0%, #D97706 100%)',
-  colonial: 'linear-gradient(135deg, #1565C0 0%, #42A5F5 100%)',
-  conflict: 'linear-gradient(135deg, #B71C1C 0%, #D32F2F 100%)',
-  recovery: 'linear-gradient(135deg, #1B5E20 0%, #388E3C 100%)',
+  'khmer-rise': 'linear-gradient(135deg, #B71C1C, #D32F2F)',
+  'year-zero': 'linear-gradient(135deg, #1A1A2E, #16213E)',
+  'liberation': 'linear-gradient(135deg, #1B5E20, #388E3C)',
+  'legacy': 'linear-gradient(135deg, #0D7377, #4DB6AC)',
 };
 
 const eraColors: Record<string, string> = {
-  empire: '#D97706',
-  colonial: '#1565C0',
-  conflict: '#D32F2F',
-  recovery: '#388E3C',
+  'khmer-rise': '#D32F2F',
+  'year-zero': '#37474F',
+  'liberation': '#388E3C',
+  'legacy': '#0D7377',
 };
 
-// Geo coordinates for map markers
 const geoLookup: Record<string, { lat: number; lng: number }> = {
   'phnom-penh': { lat: 11.5564, lng: 104.9282 },
-  'siem-reap': { lat: 13.3633, lng: 103.8564 },
+  'siem-reap': { lat: 13.3671, lng: 103.8448 },
+  'sihanoukville': { lat: 10.6076, lng: 103.5291 },
 };
 
-// Build map markers from timeline events that have slugs
 const wwiiMapMarkers = timeline
   .filter(e => e.slug)
   .map(e => {
@@ -242,9 +218,7 @@ const wwiiMapMarkers = timeline
   })
   .filter(Boolean);
 
-// History card videos — 7 clips cycled across timeline events
-const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/history-card-${i + 1}.mp4`);
-
+const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/ww2-card-${i + 1}.mp4`);
 ---
 <BaseLayout
   title={pageTitle}
@@ -261,20 +235,20 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
     <div class="ww2-hero-gradient"></div>
     <div class="ww2-hero-noise"></div>
     <div class="ww2-hero-content">
-      <h1 class="ww2-hero-title">History of Cambodia</h1>
-      <p class="ww2-hero-subtitle">From the golden age of Angkor to the darkness of the Khmer Rouge and the country's remarkable recovery — trace history through the places where it still stands.</p>
+      <h1 class="ww2-hero-title">The Khmer Rouge — A Guide to Cambodia's Dark History Sites</h1>
+      <p class="ww2-hero-subtitle">From the fall of Phnom Penh to the Killing Fields of Choeung Ek — a guide to Cambodia's genocide history, with visiting logistics and honest context for travelers.</p>
       <div class="ww2-hero-meta">
         <div class="ww2-hero-meta-item">
           <span class="ww2-hero-meta-label">Events</span>
-          <span class="ww2-hero-meta-value">15</span>
+          <span class="ww2-hero-meta-value">14</span>
         </div>
         <div class="ww2-hero-meta-item">
           <span class="ww2-hero-meta-label">Destinations</span>
-          <span class="ww2-hero-meta-value">2</span>
+          <span class="ww2-hero-meta-value">3</span>
         </div>
         <div class="ww2-hero-meta-item">
           <span class="ww2-hero-meta-label">Timeline</span>
-          <span class="ww2-hero-meta-value">802 AD–Present</span>
+          <span class="ww2-hero-meta-value">1953–Present</span>
         </div>
       </div>
     </div>
@@ -290,7 +264,7 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
   <section class="ww2-personal reveal">
     <div class="container-content">
       <blockquote class="ww2-personal-quote">
-        <p>Cambodia's history hit me harder than anywhere else I've traveled. Walking through Tuol Sleng, standing in the killing fields at Choeung Ek, and then watching kids laugh and play at the temples of Angkor the next day — the contrast is overwhelming. This is a country that went from building one of the greatest civilizations in human history to enduring one of its worst genocides, and somehow came out the other side. Understanding that arc makes every temple, every market, every conversation in Cambodia feel different. I think it's impossible to truly appreciate this country without knowing what it's been through.</p>
+        <p>Tuol Sleng (S-21) is a former high school. You walk through rooms that became interrogation cells. You see the bed frames where people were chained. Then you see the photographs — thousands of photographs, faces of every prisoner who passed through. Adults, teenagers, children. The Khmer Rouge photographed everyone. The photographs are why we know so much. They are also the hardest thing I've ever looked at as a traveler. I think every visitor to Cambodia should go. Understanding what happened here is part of understanding where this country is now.</p>
         <cite>— Scott</cite>
       </blockquote>
     </div>
@@ -308,8 +282,8 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
   <div id="ww2TimelineView">
   <section class="ww2-timeline-section">
     <div class="container-content">
-      <h2 class="ww2-timeline-heading reveal">A Thousand Years of History</h2>
-      <p class="ww2-timeline-sub reveal">Cambodia's story spans the rise and fall of the greatest empire in Southeast Asia, colonial rule, independence, genocide, and a remarkable recovery. These are the places where that history is still visible — and still worth understanding.</p>
+      <h2 class="ww2-timeline-heading reveal">The Genocide That Destroyed a Quarter of a Nation</h2>
+      <p class="ww2-timeline-sub reveal">Between 1975 and 1979, the Khmer Rouge killed an estimated 1.5 to 2 million Cambodians — roughly a quarter of the country's population — through execution, starvation, forced labor, and disease. These are the places where that history is preserved, documented, and witnessed.</p>
 
       <div class="ww2-timeline">
         <div class="ww2-timeline-line" aria-hidden="true"></div>
@@ -421,10 +395,10 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
           </div>
           <div id="ww2LeafletMap"></div>
           <div class="ww2-map-legend">
-            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#D97706;"></div>Empire</div>
-            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#1565C0;"></div>Colonial</div>
-            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#D32F2F;"></div>Conflict</div>
-            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#388E3C;"></div>Recovery</div>
+            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#D32F2F;"></div>Khmer Rouge Rise</div>
+            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#37474F;"></div>Year Zero</div>
+            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#388E3C;"></div>Liberation</div>
+            <div class="ww2-map-legend-item"><div class="ww2-map-legend-dot" style="background:#0D7377;"></div>Legacy</div>
           </div>
         </div>
       </div>
@@ -435,8 +409,8 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
   <section class="ww2-cta-section reveal">
     <div class="container-content">
       <div class="ww2-cta-card">
-        <h2 class="ww2-cta-heading">Plan a Heritage Trip</h2>
-        <p class="ww2-cta-text">Tell our AI planner you want to explore Cambodia's history and it will build an itinerary — Angkor temples, the Killing Fields, the Royal Palace, Tuol Sleng, and more.</p>
+        <h2 class="ww2-cta-heading">Plan a Cambodia History Trip</h2>
+        <p class="ww2-cta-text">Tell our AI planner you want to understand Cambodia's modern history and it will build an itinerary combining S-21, Choeung Ek, Angkor Wat, and the living culture of Phnom Penh and Siem Reap.</p>
         <a href="/plan/" class="ww2-cta-button">Start Planning &rarr;</a>
       </div>
     </div>
@@ -444,26 +418,26 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
 
   <!-- FAQ -->
   <FAQ items={[
-    { question: "What is the history of Cambodia?", answer: "Cambodia's history spans over a thousand years. The Khmer Empire (802-1431 AD) built Angkor Wat and ruled much of Southeast Asia. After the empire's decline, Cambodia endured centuries of foreign influence, became a French protectorate in 1863, gained independence in 1953, then suffered the devastating Khmer Rouge genocide (1975-1979) that killed nearly 2 million people. Since the 1991 Paris Peace Accords, Cambodia has undergone a remarkable recovery." },
-    { question: "Can you visit historical sites in Cambodia today?", answer: "Yes — Cambodia's historical sites are among the most visited in Southeast Asia. Angkor Archaeological Park has over 1,000 temples across 400 square kilometers. Tuol Sleng Genocide Museum and the Killing Fields at Choeung Ek are open daily in Phnom Penh. The Royal Palace and Silver Pagoda, the National Museum, and numerous colonial-era buildings are all accessible. Most sites charge $3-37 entrance." },
-    { question: "What happened during the Khmer Rouge period?", answer: "The Khmer Rouge, led by Pol Pot, seized power in April 1975 and emptied Cambodia's cities in an attempt to create an agrarian utopia. Over nearly four years, an estimated 1.7-2.2 million people — roughly a quarter of the population — died from execution, starvation, disease, and forced labor. The regime fell in January 1979 when Vietnamese forces invaded, but the effects are still felt today." },
-    { question: "How do I visit Angkor Wat and the temples?", answer: "Angkor Archaeological Park is accessed from Siem Reap. Tickets cost $37 for a one-day pass, $62 for three days, or $72 for seven days. The park is open sunrise to sunset. Most visitors hire a tuk-tuk driver ($15-20/day) or rent an e-bike. The Small Circuit (Angkor Wat, Bayon, Ta Prohm) takes a full day. I recommend at least three days to avoid temple fatigue and appreciate the sites properly." },
-    { question: "Should I visit the Killing Fields and Tuol Sleng?", answer: "Yes, if you can handle it emotionally. Tuol Sleng (S-21 Prison) in Phnom Penh is a former high school converted into a torture facility — the audio guide is essential. Choeung Ek (the Killing Fields) is 17 km south of the city and takes about 2 hours. Visit both on the same day. Allow time afterward to process. These sites are important for understanding modern Cambodia and honoring the victims." },
-    { question: "What is the best order to experience Cambodia's history?", answer: "I recommend starting in Siem Reap with Angkor's temples to understand the Khmer Empire at its peak. Then travel to Phnom Penh for the Royal Palace, National Museum, and the Khmer Rouge sites (Tuol Sleng and Choeung Ek). This chronological approach — empire, colonialism, independence, genocide, recovery — gives the full emotional arc. The contrast between Angkor's grandeur and the Killing Fields is profound." },
+    { question: "How many people died under the Khmer Rouge?", answer: "Estimates range from 1.5 to 2.2 million people — between 21% and 25% of Cambodia's entire population. Deaths resulted from execution (particularly of educated people, ethnic minorities, and those deemed politically suspect), forced labor, starvation caused by failed agricultural policies, and disease. The eastern zone purges of 1978 were among the most lethal, with entire villages massacred as suspected Vietnamese agents." },
+    { question: "What was S-21 (Tuol Sleng)?", answer: "S-21 was Security Prison 21, the Khmer Rouge's main interrogation center, located in a former high school in Phnom Penh. At least 18,000 people were imprisoned there between 1975 and 1979. All prisoners were tortured to extract confessions; virtually all were then executed at Choeung Ek. The Khmer Rouge kept meticulous records and photographs of every prisoner — records that are now displayed at the Tuol Sleng Genocide Museum and used as evidence in genocide trials." },
+    { question: "What are the Killing Fields?", answer: "The Killing Fields is a term for the hundreds of sites across Cambodia where Khmer Rouge victims were executed and buried in mass graves. The most visited is Choeung Ek, 15km south of Phnom Penh, which served as the main execution site for S-21 prisoners. Victims were killed to save bullets — beaten, throats cut, or thrown into pits. A memorial stupa at Choeung Ek contains 8,000 skulls. Bone fragments still surface after rain." },
+    { question: "Is it appropriate to visit S-21 and the Killing Fields?", answer: "Yes — and many Cambodians actively encourage visitors to go. These sites exist precisely because Cambodia wants the world to understand what happened. Visiting thoughtfully — reading the context, listening to the audio guide, treating the sites with respect — is an act of witness and solidarity. The museums operate in part to fund ongoing documentation and survivor testimony programs. Photography is permitted but should be done with sensitivity." },
+    { question: "What is the status of the Khmer Rouge trials?", answer: "The Extraordinary Chambers in the Courts of Cambodia (ECCC) — a hybrid UN/Cambodian tribunal — convicted S-21 commandant Duch in 2010 (life sentence) and senior leaders Nuon Chea and Khieu Samphan in 2014 and 2018 (also life sentences). Pol Pot died in 1998 before he could be tried. Many Cambodians feel the process took too long and that only a fraction of perpetrators were ever held accountable. The ECCC formally concluded operations in 2022." },
+    { question: "How does the Khmer Rouge period affect Cambodia today?", answer: "The effects are profound and ongoing. The Khmer Rouge systematically killed doctors, teachers, engineers, and other educated professionals — a loss of human capital that set Cambodia's development back by decades. An entire generation of institutional knowledge was destroyed. Today, Cambodia is one of Southeast Asia's fastest-growing economies, but poverty remains significant and political freedoms are constrained. Many Cambodians in their 50s and older survived the period and carry direct trauma. Tourism revenue from Angkor Wat and Phnom Penh is a critical economic driver." },
   ]} />
 
   <!-- Email Capture -->
   <div class="container-content reveal" style="padding-bottom: var(--space-6);">
     <EmailCapture
-      leadMagnet="Get My Free Cambodia History & Heritage Guide"
-      description="A chronological PDF guide to Cambodia's most important historical sites — with directions, opening hours, and the history behind each location."
+      leadMagnet="Get Our Free Cambodia History Guide"
+      description="A PDF guide to Cambodia's dark history sites — S-21, Choeung Ek, the Documentation Center, and how to visit with context, respect, and understanding."
       bullets={[
-        'Angkor temple circuit planner with suggested routes',
-        'Phnom Penh heritage day — Tuol Sleng, Killing Fields, Royal Palace',
-        'Timeline overview from Khmer Empire to modern recovery',
-        'Suggested 5-day history and heritage itinerary',
+        'Tuol Sleng (S-21) visiting guide with historical context',
+        'Choeung Ek Killing Fields — what to expect and how to prepare',
+        'Khmer Rouge timeline: from forest insurgency to genocide',
+        'Recommended reading and films before your visit',
       ]}
-      guideTag="pillar-history"
+      guideTag="pillar-khmer-rouge"
     />
   </div>
 
@@ -472,20 +446,20 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
     <div class="container-content">
       <h3 class="ww2-crosslinks-heading">Explore More</h3>
       <div class="ww2-crosslinks-grid">
-        <a href="/festivals/" class="ww2-crosslink-card">
-          <span class="ww2-crosslink-icon">&#127914;</span>
-          <span class="ww2-crosslink-label">Festival Calendar</span>
-          <span class="ww2-crosslink-desc">14 festivals across 4 destinations</span>
+        <a href="/destinations/phnom-penh/" class="ww2-crosslink-card">
+          <span class="ww2-crosslink-icon">&#127963;</span>
+          <span class="ww2-crosslink-label">Phnom Penh</span>
+          <span class="ww2-crosslink-desc">S-21, Killing Fields, Royal Palace, and riverside dining</span>
         </a>
-        <a href="/cuisine/" class="ww2-crosslink-card">
-          <span class="ww2-crosslink-icon">&#127860;</span>
-          <span class="ww2-crosslink-label">Food & Cuisine</span>
-          <span class="ww2-crosslink-desc">17 dishes across 10 destinations</span>
+        <a href="/destinations/siem-reap/" class="ww2-crosslink-card">
+          <span class="ww2-crosslink-icon">&#127981;</span>
+          <span class="ww2-crosslink-label">Siem Reap</span>
+          <span class="ww2-crosslink-desc">Gateway to Angkor Wat and the Khmer Empire temples</span>
         </a>
-        <a href="/practical/" class="ww2-crosslink-card">
-          <span class="ww2-crosslink-icon">&#127890;</span>
-          <span class="ww2-crosslink-label">Travel Essentials</span>
-          <span class="ww2-crosslink-desc">Visa, money, transport & safety</span>
+        <a href="/destinations/sihanoukville/" class="ww2-crosslink-card">
+          <span class="ww2-crosslink-icon">&#127754;</span>
+          <span class="ww2-crosslink-label">Sihanoukville</span>
+          <span class="ww2-crosslink-desc">Beaches, islands, and Cambodia's coast</span>
         </a>
       </div>
     </div>
@@ -563,9 +537,8 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
   }
 </script>
 
-<!-- Leaflet Map for WWII -->
+<!-- Leaflet Map -->
 <script is:inline define:vars={{ markers: wwiiMapMarkers }}>
-  // Load Leaflet CSS
   if (!document.getElementById('leaflet-css')) {
     var lnk = document.createElement('link');
     lnk.id = 'leaflet-css';
@@ -579,12 +552,12 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
     if (!mapEl || typeof L === 'undefined') return;
 
     var map = L.map(mapEl, {
-      center: [12.5, 104.9],
+      center: [12.5, 104.5],
       zoom: 7,
       scrollWheelZoom: false,
-      minZoom: 6,
+      minZoom: 5,
       maxZoom: 12,
-      maxBounds: [[9, 101], [16, 108]],
+      maxBounds: [[9, 100], [16, 110]],
       zoomControl: false,
       attributionControl: false,
     });
@@ -640,7 +613,6 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
     });
   }
 
-  // Load Leaflet JS
   if (typeof L !== 'undefined') {
     initWwiiMap();
   } else {
@@ -652,740 +624,100 @@ const ww2CardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/histor
 </script>
 
 <style>
-  /* ================================================================
-     HERO — Dark, somber gradient
-     ================================================================ */
-  .ww2-hero {
-    position: relative;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 5rem var(--space-6) 60px;
-    overflow: hidden;
-  }
-
-  .ww2-hero-video {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-  }
-
-  .ww2-hero-gradient {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
-  }
-
-  .ww2-hero-noise {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
-    pointer-events: none;
-  }
-
-  .ww2-hero-content {
-    position: relative;
-    z-index: 3;
-    max-width: 720px;
-  }
-
-  .ww2-hero-title {
-    font-size: clamp(2rem, 5vw, 3.2rem);
-    font-weight: var(--weight-bold);
-    color: #fff;
-    line-height: 1.1;
-    margin: 0 0 var(--space-3);
-  }
-
-  .ww2-hero-subtitle {
-    font-size: clamp(1rem, 2vw, 1.15rem);
-    color: rgba(255, 255, 255, 0.85);
-    line-height: 1.6;
-    margin: 0 0 var(--space-5);
-    max-width: 580px;
-  }
-
-  .ww2-hero-meta {
-    display: flex;
-    gap: var(--space-5);
-    flex-wrap: wrap;
-  }
-
-  .ww2-hero-meta-item {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .ww2-hero-meta-label {
-    font-size: 0.65rem;
-    font-weight: var(--weight-semibold);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: rgba(255, 255, 255, 0.5);
-  }
-
-  .ww2-hero-meta-value {
-    font-size: 1.1rem;
-    font-weight: var(--weight-bold);
-    color: #fff;
-  }
-
-  .ww2-scroll-hint {
-    position: absolute;
-    bottom: 16px;
-    right: var(--space-6);
-    z-index: 3;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    color: rgba(255, 255, 255, 0.35);
-    text-align: center;
-    animation: ww2Bounce 2s ease-in-out infinite;
-  }
-
-  @keyframes ww2Bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(6px); }
-  }
-
-  /* ================================================================
-     TIMELINE SECTION
-     ================================================================ */
-  .ww2-timeline-section {
-    padding: var(--space-10) 0 var(--space-8);
-  }
-
-  .ww2-timeline-heading {
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    font-weight: var(--weight-bold);
-    color: var(--color-deep-night);
-    margin: 0 0 var(--space-2);
-    text-align: center;
-  }
-
-  .ww2-timeline-sub {
-    font-size: 1rem;
-    color: var(--color-slate);
-    text-align: center;
-    max-width: 640px;
-    margin: 0 auto var(--space-10);
-    line-height: 1.6;
-  }
-
-  /* Timeline container */
-  .ww2-timeline {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  /* Central vertical line */
-  .ww2-timeline-line {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(to bottom, #B71C1C 0%, #4A5568 40%, #388E3C 75%, #0D7377 100%);
-    transform: translateX(-50%);
-    opacity: 0.3;
-  }
-
-  /* ================================================================
-     ERA MARKERS
-     ================================================================ */
-  .ww2-era-marker {
-    position: relative;
-    text-align: center;
-    margin: var(--space-8) 0 var(--space-6);
-    z-index: 2;
-  }
-
-  .ww2-era-marker:first-child {
-    margin-top: 0;
-  }
-
-  .ww2-era-pill {
-    display: inline-block;
-    font-size: 0.72rem;
-    font-weight: var(--weight-bold);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #fff;
-    padding: 8px 20px;
-    border-radius: 40px;
-  }
-
-  /* ================================================================
-     TIMELINE EVENT
-     ================================================================ */
-  .ww2-event {
-    position: relative;
-    display: flex;
-    margin-bottom: var(--space-6);
-    padding: 0 var(--space-4);
-  }
-
-  .ww2-event--left {
-    justify-content: flex-start;
-    padding-right: calc(50% + 24px);
-  }
-
-  .ww2-event--right {
-    justify-content: flex-end;
-    padding-left: calc(50% + 24px);
-  }
-
-  /* Dot on the timeline */
-  .ww2-event-dot {
-    position: absolute;
-    left: 50%;
-    top: 24px;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    transform: translateX(-50%);
-    border: 3px solid var(--color-sand);
-    z-index: 2;
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
-  }
-
-  /* Event card */
-  .ww2-event-card {
-    position: relative;
-    display: block;
-    background: var(--color-white);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-radius: 14px;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    width: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .ww2-event-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
-  }
-
-  .ww2-event-card--nolink {
-    cursor: default;
-    border-style: dashed;
-    border-color: rgba(0, 0, 0, 0.12);
-  }
-
-  .ww2-event-card--nolink:hover {
-    transform: none;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  }
-
-  .ww2-event-media {
-    position: relative;
-    aspect-ratio: 21 / 9;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: var(--space-3);
-    overflow: hidden;
-  }
-
-  .ww2-event-video {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-  }
-
-  .ww2-event-date-badge {
-    position: relative;
-    z-index: 1;
-  }
-
-  .ww2-event-date-badge {
-    font-size: 0.65rem;
-    font-weight: var(--weight-bold);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: rgba(255, 255, 255, 0.9);
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    padding: 4px 12px;
-    border-radius: 6px;
-  }
-
-  .ww2-event-body {
-    padding: var(--space-3) var(--space-4) var(--space-5);
-  }
-
-  .ww2-event-title {
-    font-size: 0.95rem;
-    font-weight: var(--weight-bold);
-    color: var(--color-deep-night);
-    margin: 0 0 4px;
-    line-height: 1.25;
-  }
-
-  .ww2-event-location {
-    font-size: 0.72rem;
-    color: var(--color-ocean-teal);
-    font-weight: var(--weight-medium);
-    margin: 0 0 var(--space-2);
-  }
-
-  .ww2-event-desc {
-    font-size: 0.78rem;
-    color: var(--color-slate);
-    line-height: 1.55;
-    margin: 0 0 var(--space-3);
-  }
-
-  .ww2-event-see {
-    background: var(--color-sky);
-    border-radius: 8px;
-    padding: var(--space-2) var(--space-3);
-    margin-bottom: var(--space-3);
-  }
-
-  .ww2-event-see-label {
-    font-size: 0.65rem;
-    font-weight: var(--weight-bold);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--color-ocean-teal);
-    display: block;
-    margin-bottom: 4px;
-  }
-
-  .ww2-event-see-text {
-    font-size: 0.75rem;
-    color: var(--color-slate);
-    line-height: 1.5;
-    margin: 0;
-  }
-
-  .ww2-event-cta {
-    font-size: 0.72rem;
-    font-weight: var(--weight-semibold);
-    color: var(--color-ocean-teal);
-  }
-
-  .ww2-event-cta-group {
-    display: flex;
-    gap: var(--space-3);
-    flex-wrap: wrap;
-  }
-
-  .ww2-event-cta-link {
-    color: var(--color-ocean-teal);
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-
-  .ww2-event-cta-link:hover {
-    color: var(--color-ocean-teal-dark, #095456);
-    text-decoration: underline;
-  }
-
-  .ww2-event-card--multi {
-    cursor: default;
-  }
-
-  .ww2-event-card--multi:hover {
-    transform: translateY(-2px);
-  }
-
-  /* Hover overlay */
-  .ww2-event-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(26, 35, 50, 0.94);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: var(--space-4);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-    overflow-y: auto;
-  }
-
-  .ww2-event-card:hover .ww2-event-overlay {
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  .ww2-event-overlay-text {
-    font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.92);
-    line-height: 1.55;
-    margin: 0 0 var(--space-2);
-  }
-
-  .ww2-event-overlay-see {
-    margin-bottom: var(--space-3);
-  }
-
-  .ww2-event-overlay-see-label {
-    font-size: 0.6rem;
-    font-weight: var(--weight-bold);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: rgba(255, 255, 255, 0.5);
-    display: block;
-    margin-bottom: 4px;
-  }
-
-  .ww2-event-overlay-see p {
-    font-size: 0.72rem;
-    color: rgba(255, 255, 255, 0.75);
-    line-height: 1.45;
-    margin: 0;
-  }
-
-  .ww2-event-overlay-cta {
-    font-size: 0.75rem;
-    font-weight: var(--weight-semibold);
-    color: var(--color-warm-coral);
-  }
-
-  /* ================================================================
-     RESPONSIVE — Stack timeline on mobile
-     ================================================================ */
+  .ww2-hero { position: relative; min-height: 60vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 5rem var(--space-6) 60px; overflow: hidden; }
+  .ww2-hero-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+  .ww2-hero-gradient { position: absolute; inset: 0; z-index: 1; background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%); }
+  .ww2-hero-noise { position: absolute; inset: 0; z-index: 2; background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E"); pointer-events: none; }
+  .ww2-hero-content { position: relative; z-index: 3; max-width: 720px; }
+  .ww2-hero-title { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: var(--weight-bold); color: #fff; line-height: 1.1; margin: 0 0 var(--space-3); }
+  .ww2-hero-subtitle { font-size: clamp(1rem, 2vw, 1.15rem); color: rgba(255, 255, 255, 0.85); line-height: 1.6; margin: 0 0 var(--space-5); max-width: 580px; }
+  .ww2-hero-meta { display: flex; gap: var(--space-5); flex-wrap: wrap; }
+  .ww2-hero-meta-item { display: flex; flex-direction: column; gap: 2px; }
+  .ww2-hero-meta-label { font-size: 0.65rem; font-weight: var(--weight-semibold); text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.5); }
+  .ww2-hero-meta-value { font-size: 1.1rem; font-weight: var(--weight-bold); color: #fff; }
+  .ww2-scroll-hint { position: absolute; bottom: 16px; right: var(--space-6); z-index: 3; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(255, 255, 255, 0.35); text-align: center; animation: ww2Bounce 2s ease-in-out infinite; }
+  @keyframes ww2Bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+  .ww2-timeline-section { padding: var(--space-10) 0 var(--space-8); }
+  .ww2-timeline-heading { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: var(--weight-bold); color: var(--color-deep-night); margin: 0 0 var(--space-2); text-align: center; }
+  .ww2-timeline-sub { font-size: 1rem; color: var(--color-slate); text-align: center; max-width: 640px; margin: 0 auto var(--space-10); line-height: 1.6; }
+  .ww2-timeline { position: relative; max-width: 900px; margin: 0 auto; }
+  .ww2-timeline-line { position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, #B71C1C 0%, #37474F 40%, #388E3C 75%, #0D7377 100%); transform: translateX(-50%); opacity: 0.3; }
+  .ww2-era-marker { position: relative; text-align: center; margin: var(--space-8) 0 var(--space-6); z-index: 2; }
+  .ww2-era-marker:first-child { margin-top: 0; }
+  .ww2-era-pill { display: inline-block; font-size: 0.72rem; font-weight: var(--weight-bold); text-transform: uppercase; letter-spacing: 0.1em; color: #fff; padding: 8px 20px; border-radius: 40px; }
+  .ww2-event { position: relative; display: flex; margin-bottom: var(--space-6); padding: 0 var(--space-4); }
+  .ww2-event--left { justify-content: flex-start; padding-right: calc(50% + 24px); }
+  .ww2-event--right { justify-content: flex-end; padding-left: calc(50% + 24px); }
+  .ww2-event-dot { position: absolute; left: 50%; top: 24px; width: 14px; height: 14px; border-radius: 50%; transform: translateX(-50%); border: 3px solid var(--color-sand); z-index: 2; box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06); }
+  .ww2-event-card { position: relative; display: block; background: var(--color-white); border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 14px; overflow: hidden; text-decoration: none; color: inherit; width: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .ww2-event-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12); }
+  .ww2-event-card--nolink { cursor: default; border-style: dashed; border-color: rgba(0, 0, 0, 0.12); }
+  .ww2-event-card--nolink:hover { transform: none; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); }
+  .ww2-event-media { position: relative; aspect-ratio: 21 / 9; display: flex; align-items: flex-end; justify-content: flex-start; padding: var(--space-3); overflow: hidden; }
+  .ww2-event-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+  .ww2-event-date-badge { position: relative; z-index: 1; font-size: 0.65rem; font-weight: var(--weight-bold); text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255, 255, 255, 0.9); background: rgba(0, 0, 0, 0.3); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); padding: 4px 12px; border-radius: 6px; }
+  .ww2-event-body { padding: var(--space-3) var(--space-4) var(--space-5); }
+  .ww2-event-title { font-size: 0.95rem; font-weight: var(--weight-bold); color: var(--color-deep-night); margin: 0 0 4px; line-height: 1.25; }
+  .ww2-event-location { font-size: 0.72rem; color: var(--color-ocean-teal); font-weight: var(--weight-medium); margin: 0 0 var(--space-2); }
+  .ww2-event-desc { font-size: 0.78rem; color: var(--color-slate); line-height: 1.55; margin: 0 0 var(--space-3); }
+  .ww2-event-see { background: var(--color-sky); border-radius: 8px; padding: var(--space-2) var(--space-3); margin-bottom: var(--space-3); }
+  .ww2-event-see-label { font-size: 0.65rem; font-weight: var(--weight-bold); text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-ocean-teal); display: block; margin-bottom: 4px; }
+  .ww2-event-see-text { font-size: 0.75rem; color: var(--color-slate); line-height: 1.5; margin: 0; }
+  .ww2-event-cta { font-size: 0.72rem; font-weight: var(--weight-semibold); color: var(--color-ocean-teal); }
+  .ww2-event-cta-group { display: flex; gap: var(--space-3); flex-wrap: wrap; }
+  .ww2-event-cta-link { color: var(--color-ocean-teal); text-decoration: none; transition: color 0.2s ease; }
+  .ww2-event-cta-link:hover { color: var(--color-ocean-teal-dark, #095456); text-decoration: underline; }
+  .ww2-event-card--multi { cursor: default; }
+  .ww2-event-card--multi:hover { transform: translateY(-2px); }
+  .ww2-event-overlay { position: absolute; inset: 0; background: rgba(26, 35, 50, 0.94); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); display: flex; flex-direction: column; justify-content: flex-start; padding: var(--space-4); opacity: 0; transition: opacity 0.3s ease; pointer-events: none; overflow-y: auto; }
+  .ww2-event-card:hover .ww2-event-overlay { opacity: 1; pointer-events: auto; }
+  .ww2-event-overlay-text { font-size: 0.75rem; color: rgba(255, 255, 255, 0.92); line-height: 1.55; margin: 0 0 var(--space-2); }
+  .ww2-event-overlay-see { margin-bottom: var(--space-3); }
+  .ww2-event-overlay-see-label { font-size: 0.6rem; font-weight: var(--weight-bold); text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255, 255, 255, 0.5); display: block; margin-bottom: 4px; }
+  .ww2-event-overlay-see p { font-size: 0.72rem; color: rgba(255, 255, 255, 0.75); line-height: 1.45; margin: 0; }
+  .ww2-event-overlay-cta { font-size: 0.75rem; font-weight: var(--weight-semibold); color: var(--color-warm-coral); }
   @media (max-width: 768px) {
-    .ww2-timeline-line {
-      left: 20px;
-    }
-
-    .ww2-event--left,
-    .ww2-event--right {
-      padding-left: 48px;
-      padding-right: 0;
-      justify-content: flex-start;
-    }
-
-    .ww2-event-dot {
-      left: 20px;
-    }
-
-    .ww2-hero {
-      min-height: 55vh;
-      padding: 0 var(--space-4) 40px;
-    }
-
-    .ww2-scroll-hint {
-      display: none;
-    }
+    .ww2-timeline-line { left: 20px; }
+    .ww2-event--left, .ww2-event--right { padding-left: 48px; padding-right: 0; justify-content: flex-start; }
+    .ww2-event-dot { left: 20px; }
+    .ww2-hero { min-height: 55vh; padding: 0 var(--space-4) 40px; }
+    .ww2-scroll-hint { display: none; }
   }
-
-  /* ================================================================
-     BOTTOM CTA
-     ================================================================ */
-  .ww2-cta-section {
-    padding: var(--space-6) 0 var(--space-8);
-  }
-
-  .ww2-cta-card {
-    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
-    border-radius: 20px;
-    padding: var(--space-8) var(--space-6);
-    text-align: center;
-    color: #fff;
-  }
-
-  .ww2-cta-heading {
-    font-size: clamp(1.3rem, 3vw, 1.8rem);
-    font-weight: var(--weight-bold);
-    margin: 0 0 var(--space-3);
-    color: #fff;
-  }
-
-  .ww2-cta-text {
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.75);
-    max-width: 520px;
-    margin: 0 auto var(--space-5);
-    line-height: 1.6;
-  }
-
-  .ww2-cta-button {
-    display: inline-block;
-    background: var(--color-warm-coral);
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: var(--weight-semibold);
-    padding: 12px 28px;
-    border-radius: 40px;
-    text-decoration: none;
-    transition: background 0.2s ease, transform 0.2s ease;
-  }
-
-  .ww2-cta-button:hover {
-    background: #d4553b;
-    transform: translateY(-2px);
-  }
-
-  /* ================================================================
-     CROSS-LINKS
-     ================================================================ */
-  .ww2-crosslinks {
-    padding: 0 0 var(--space-10);
-  }
-
-  .ww2-crosslinks-heading {
-    font-size: 1.1rem;
-    font-weight: var(--weight-bold);
-    color: var(--color-deep-night);
-    text-align: center;
-    margin: 0 0 var(--space-4);
-  }
-
-  .ww2-crosslinks-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-4);
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 640px) {
-    .ww2-crosslinks-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  .ww2-crosslink-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-2);
-    padding: var(--space-5) var(--space-4);
-    background: var(--color-white);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-radius: 16px;
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .ww2-crosslink-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  }
-
-  .ww2-crosslink-icon {
-    font-size: 1.8rem;
-  }
-
-  .ww2-crosslink-label {
-    font-size: 0.95rem;
-    font-weight: var(--weight-bold);
-    color: var(--color-deep-night);
-  }
-
-  .ww2-crosslink-desc {
-    font-size: 0.78rem;
-    color: var(--color-slate);
-    line-height: 1.4;
-  }
-
-  /* ================================================================
-     VIEW TOGGLE
-     ================================================================ */
-  .ww2-view-toggle {
-    display: flex;
-    justify-content: center;
-    gap: 4px;
-    background: var(--color-sand-dark);
-    border-radius: 40px;
-    padding: 4px;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  .ww2-toggle-btn {
-    flex: 1;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 36px;
-    font-size: 0.82rem;
-    font-weight: var(--weight-semibold);
-    cursor: pointer;
-    background: transparent;
-    color: var(--color-slate);
-    transition: background 0.2s ease, color 0.2s ease;
-  }
-
-  .ww2-toggle-btn.active {
-    background: var(--color-ocean-teal);
-    color: #fff;
-  }
-
-  .ww2-toggle-btn:hover:not(.active) {
-    color: var(--color-deep-night);
-  }
-
-  /* ================================================================
-     MAP VIEW
-     ================================================================ */
-  .ww2-map-container {
-    border-radius: 24px;
-    position: relative;
-    overflow: hidden;
-    background: radial-gradient(ellipse at 40% 30%, #0c3547 0%, #091e2f 40%, #060f1a 100%);
-    padding: 28px 20px 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .ww2-map-container::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse 600px 300px at 30% 70%, rgba(13, 115, 119, 0.08) 0%, transparent 70%),
-      radial-gradient(ellipse 400px 200px at 70% 20%, rgba(13, 115, 119, 0.06) 0%, transparent 70%);
-    animation: ww2OceanShimmer 8s ease-in-out infinite alternate;
-    pointer-events: none;
-  }
-
-  .ww2-map-container::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image:
-      radial-gradient(circle 1px at 20% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 100%),
-      radial-gradient(circle 1px at 60% 50%, rgba(255, 255, 255, 0.02) 0%, transparent 100%),
-      radial-gradient(circle 1px at 40% 80%, rgba(255, 255, 255, 0.02) 0%, transparent 100%);
-    pointer-events: none;
-  }
-
-  @keyframes ww2OceanShimmer {
-    0% { opacity: 0.5; }
-    100% { opacity: 1; }
-  }
-
-  #ww2LeafletMap {
-    width: 100%;
-    height: 600px;
-    border-radius: 16px;
-    position: relative;
-    z-index: 1;
-  }
-
-  .ww2-map-tooltip {
-    position: absolute;
-    background: rgba(26, 35, 50, 0.95);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    padding: 10px 14px;
-    pointer-events: none;
-    opacity: 0;
-    transform: translateY(4px);
-    transition: opacity 0.2s ease, transform 0.2s ease;
-    z-index: 50;
-    min-width: 160px;
-    max-width: 280px;
-  }
-
-  .ww2-map-tooltip.ww2-tooltip-visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  .ww2-map-tooltip-title {
-    font-size: 0.85rem;
-    font-weight: var(--weight-bold);
-    color: white;
-    margin-bottom: 2px;
-    line-height: 1.3;
-  }
-
-  .ww2-map-tooltip-date {
-    font-size: 0.65rem;
-    color: rgba(255, 255, 255, 0.45);
-    font-weight: var(--weight-medium);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin-bottom: 2px;
-  }
-
-  .ww2-map-tooltip-location {
-    font-size: 0.72rem;
-    color: var(--color-warm-coral);
-    font-weight: var(--weight-medium);
-  }
-
-  .ww2-map-legend {
-    display: flex;
-    justify-content: center;
-    gap: var(--space-5);
-    padding: var(--space-3) var(--space-4);
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
-  }
-
-  .ww2-map-legend-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.45);
-  }
-
-  .ww2-map-legend-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    box-shadow: 0 0 6px rgba(13, 115, 119, 0.5);
-  }
-
-  @media (max-width: 768px) {
-    #ww2LeafletMap { height: 450px; }
-  }
-
-  /* Personal intro */
-  .ww2-personal {
-    padding-block: var(--space-8);
-  }
-
-  .ww2-personal-quote {
-    max-width: 680px;
-    margin: 0 auto;
-    padding: var(--space-6) var(--space-8);
-    border-left: 4px solid var(--color-ocean-teal);
-    background: var(--color-sky);
-    border-radius: 0 12px 12px 0;
-  }
-
-  .ww2-personal-quote p {
-    font-size: var(--text-body);
-    color: var(--color-heading);
-    line-height: var(--leading-body);
-    font-style: italic;
-    margin-bottom: var(--space-3);
-  }
-
-  .ww2-personal-quote cite {
-    font-size: var(--text-caption);
-    color: var(--color-ocean-teal);
-    font-weight: var(--weight-semibold);
-    font-style: normal;
-  }
+  .ww2-cta-section { padding: var(--space-6) 0 var(--space-8); }
+  .ww2-cta-card { background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%); border-radius: 20px; padding: var(--space-8) var(--space-6); text-align: center; color: #fff; }
+  .ww2-cta-heading { font-size: clamp(1.3rem, 3vw, 1.8rem); font-weight: var(--weight-bold); margin: 0 0 var(--space-3); color: #fff; }
+  .ww2-cta-text { font-size: 1rem; color: rgba(255, 255, 255, 0.75); max-width: 520px; margin: 0 auto var(--space-5); line-height: 1.6; }
+  .ww2-cta-button { display: inline-block; background: var(--color-warm-coral); color: #fff; font-size: 0.9rem; font-weight: var(--weight-semibold); padding: 12px 28px; border-radius: 40px; text-decoration: none; transition: background 0.2s ease, transform 0.2s ease; }
+  .ww2-cta-button:hover { background: #d4553b; transform: translateY(-2px); }
+  .ww2-crosslinks { padding: 0 0 var(--space-10); }
+  .ww2-crosslinks-heading { font-size: 1.1rem; font-weight: var(--weight-bold); color: var(--color-deep-night); text-align: center; margin: 0 0 var(--space-4); }
+  .ww2-crosslinks-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); max-width: 800px; margin: 0 auto; }
+  @media (max-width: 640px) { .ww2-crosslinks-grid { grid-template-columns: 1fr; } }
+  .ww2-crosslink-card { display: flex; flex-direction: column; align-items: center; gap: var(--space-2); padding: var(--space-5) var(--space-4); background: var(--color-white); border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 16px; text-decoration: none; color: inherit; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .ww2-crosslink-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); }
+  .ww2-crosslink-icon { font-size: 1.8rem; }
+  .ww2-crosslink-label { font-size: 0.95rem; font-weight: var(--weight-bold); color: var(--color-deep-night); }
+  .ww2-crosslink-desc { font-size: 0.78rem; color: var(--color-slate); line-height: 1.4; }
+  .ww2-view-toggle { display: flex; justify-content: center; gap: 4px; background: var(--color-sand-dark); border-radius: 40px; padding: 4px; max-width: 240px; margin: 0 auto; }
+  .ww2-toggle-btn { flex: 1; padding: 8px 20px; border: none; border-radius: 36px; font-size: 0.82rem; font-weight: var(--weight-semibold); cursor: pointer; background: transparent; color: var(--color-slate); transition: background 0.2s ease, color 0.2s ease; }
+  .ww2-toggle-btn.active { background: var(--color-ocean-teal); color: #fff; }
+  .ww2-toggle-btn:hover:not(.active) { color: var(--color-deep-night); }
+  .ww2-map-container { border-radius: 24px; position: relative; overflow: hidden; background: radial-gradient(ellipse at 40% 30%, #0c3547 0%, #091e2f 40%, #060f1a 100%); padding: 28px 20px 20px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05); max-width: 600px; margin: 0 auto; }
+  .ww2-map-container::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 600px 300px at 30% 70%, rgba(13, 115, 119, 0.08) 0%, transparent 70%), radial-gradient(ellipse 400px 200px at 70% 20%, rgba(13, 115, 119, 0.06) 0%, transparent 70%); animation: ww2OceanShimmer 8s ease-in-out infinite alternate; pointer-events: none; }
+  .ww2-map-container::after { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle 1px at 20% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 100%), radial-gradient(circle 1px at 60% 50%, rgba(255, 255, 255, 0.02) 0%, transparent 100%), radial-gradient(circle 1px at 40% 80%, rgba(255, 255, 255, 0.02) 0%, transparent 100%); pointer-events: none; }
+  @keyframes ww2OceanShimmer { 0% { opacity: 0.5; } 100% { opacity: 1; } }
+  #ww2LeafletMap { width: 100%; height: 600px; border-radius: 16px; position: relative; z-index: 1; }
+  .ww2-map-tooltip { position: absolute; background: rgba(26, 35, 50, 0.95); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 10px 14px; pointer-events: none; opacity: 0; transform: translateY(4px); transition: opacity 0.2s ease, transform 0.2s ease; z-index: 50; min-width: 160px; max-width: 280px; }
+  .ww2-map-tooltip.ww2-tooltip-visible { opacity: 1; transform: translateY(0); }
+  .ww2-map-tooltip-title { font-size: 0.85rem; font-weight: var(--weight-bold); color: white; margin-bottom: 2px; line-height: 1.3; }
+  .ww2-map-tooltip-date { font-size: 0.65rem; color: rgba(255, 255, 255, 0.45); font-weight: var(--weight-medium); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 2px; }
+  .ww2-map-tooltip-location { font-size: 0.72rem; color: var(--color-warm-coral); font-weight: var(--weight-medium); }
+  .ww2-map-legend { display: flex; justify-content: center; gap: var(--space-5); padding: var(--space-3) var(--space-4); flex-wrap: wrap; position: relative; z-index: 1; }
+  .ww2-map-legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.7rem; color: rgba(255, 255, 255, 0.45); }
+  .ww2-map-legend-dot { width: 8px; height: 8px; border-radius: 50%; box-shadow: 0 0 6px rgba(13, 115, 119, 0.5); }
+  @media (max-width: 768px) { #ww2LeafletMap { height: 450px; } }
+  .ww2-personal { padding-block: var(--space-8); }
+  .ww2-personal-quote { max-width: 680px; margin: 0 auto; padding: var(--space-6) var(--space-8); border-left: 4px solid var(--color-ocean-teal); background: var(--color-sky); border-radius: 0 12px 12px 0; }
+  .ww2-personal-quote p { font-size: var(--text-body); color: var(--color-heading); line-height: var(--leading-body); font-style: italic; margin-bottom: var(--space-3); }
+  .ww2-personal-quote cite { font-size: var(--text-caption); color: var(--color-ocean-teal); font-weight: var(--weight-semibold); font-style: normal; }
 </style>
