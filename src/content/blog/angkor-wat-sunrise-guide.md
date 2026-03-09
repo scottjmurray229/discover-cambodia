@@ -2,6 +2,7 @@
 title: "Angkor Wat Sunrise: The Complete Honest Guide"
 description: "Everything you need to know to see Angkor Wat at sunrise without the crowds — which gate to enter, where to position yourself, what time to arrive, and whether it's actually worth it."
 pubDate: 2026-02-20
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Planning"

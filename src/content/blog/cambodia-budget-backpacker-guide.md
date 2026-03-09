@@ -2,6 +2,7 @@
 title: "Cambodia on $25/Day: The Honest Budget Backpacker Guide"
 description: "Real daily budgets, actual costs for transport, food, and accommodation across Cambodia in 2026 — including what $15, $25, and $50 per day actually looks like on the ground."
 pubDate: 2026-02-22
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Planning"

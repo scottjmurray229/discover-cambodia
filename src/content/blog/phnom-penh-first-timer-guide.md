@@ -2,6 +2,7 @@
 title: "Phnom Penh First Timer: What to Expect, What to See, What to Skip"
 description: "An honest first-timer's guide to Phnom Penh — the history you need to understand, the sites worth your time, where to eat and stay, and how long to spend in Cambodia's capital."
 pubDate: 2026-02-24
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Planning"

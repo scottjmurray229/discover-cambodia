@@ -2,6 +2,7 @@
 title: "Cambodia's South Coast: Kampot, Kep, and the Islands"
 description: "The complete guide to Cambodia's underrated south coast — riverside Kampot, tiny Kep, the offshore islands, and how to connect them all in a week or less."
 pubDate: 2026-02-26
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Itineraries"

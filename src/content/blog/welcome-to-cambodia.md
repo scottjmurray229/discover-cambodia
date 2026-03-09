@@ -2,6 +2,7 @@
 title: "Welcome to Discover Cambodia"
 description: "An introduction to my Cambodia travel guides — temples, coastline, cuisine, and everything in between."
 pubDate: 2026-02-27
+dateModified: 2026-03-08
 heroImage: ""
 heroVideo: ""
 author: "Scott"
