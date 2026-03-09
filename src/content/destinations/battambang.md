@@ -50,6 +50,17 @@ highlights:
   - "Battambang art galleries"
   - "Sangker River boat to Siem Reap"
   - "Ek Phnom temple ruins"
+scottTips:
+  - topic: "Logistics"
+    tip: "Bus from Siem Reap takes 3–4 hours ($5–8). The wet-season boat from Siem Reap via the Sangker River (6–8 hours, $20) is one of Cambodia's great river journeys — worth it if water levels allow. Bicycles ($2–3/day) are the perfect transport in this flat, compact town."
+  - topic: "Best Time"
+    tip: "November through February is ideal. The wet-season boat from Siem Reap (September–February) adds a bonus transport option. March–May is brutal heat. The orange and rice harvests in November–December make the countryside especially photogenic."
+  - topic: "Getting Around"
+    tip: "Battambang is best explored by bicycle — the town is flat and the countryside roads are quiet and scenic. A tuk-tuk for the day ($15–20) covers Phnom Sampeau bat caves, the bamboo train, and Ek Phnom temple. The Phare Ponleu Selpak campus is a 15-minute bike ride from the center."
+  - topic: "Money & Safety"
+    tip: "Very affordable at $15–40/day. USD and Riel both accepted; more Riel-heavy than Phnom Penh or Siem Reap. ATMs on the main street. Battambang is extremely safe — a working Cambodian city with minimal tourist crime."
+  - topic: "Local Culture"
+    tip: "Battambang is Cambodia's arts hub — Phare Ponleu Selpak here is the original school that spawned the Siem Reap circus. The morning market is authentic local life; arrive by 7 AM for num banh chok (rice noodle soup with curry). Visit the Phare campus on any day to watch students training."
 gradientColors: "from-yellow-900 via-orange-800 to-amber-900"
 relatedDestinations:
   - "siem-reap"
@@ -66,6 +77,12 @@ faqItems:
     answer: "One day is too short. You need at least two nights to do Battambang justice — one day for the town itself (colonial architecture walk, galleries, Phare campus) and one day for the countryside circuit (bamboo train, bat caves, Ek Phnom temple, rice paddies by bicycle). Three nights allows a more relaxed pace and potentially the Sangker River boat trip."
   - question: "What is the food like in Battambang?"
     answer: "Battambang province is considered Cambodia's rice bowl and produces some of the country's finest food. The Battambang orange is famous throughout Cambodia, the rice is considered superior to other provinces, and the kroeung (paste base for curries) made here has a depth of flavor that Cambodian chefs respect. The morning market is exceptional, the num banh chok (Khmer noodles) stalls are the best in the country, and the riverside restaurants serve consistently excellent Khmer cuisine at prices lower than Siem Reap or Phnom Penh."
+  - question: "Is Battambang safe?"
+    answer: "Battambang is very safe — it's a working Cambodian provincial city with minimal tourist crime. The town is walkable and cycling the countryside is peaceful. Main practical concern is road safety when cycling to the outer sights; traffic is light but trucks share the roads."
+  - question: "What is Battambang famous for?"
+    answer: "Battambang is famous for the bamboo train (Norry), the Phnom Sampeau bat cave exodus at sunset (millions of bats emerging from cliff caves), the Phare Ponleu Selpak arts campus (birthplace of the Phare Cambodian Circus), French colonial architecture, and some of Cambodia's best Khmer cuisine and oranges."
+  - question: "How much does Battambang cost per day?"
+    answer: "Battambang is one of Cambodia's most affordable destinations at $15–40/day. Accommodation starts at $10–15/night for a guesthouse and $30–60 for a mid-range hotel. Restaurant meals run $3–8. Bicycle hire is $2–3/day. The bamboo train is $5/person and the bat cave visit is free."
 affiliatePicks:
   - name: "Bambu Hotel"
     type: "hotel"
@@ -92,6 +109,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/battambang-hero.mp4" />
 
 ## The Town That Whispers Instead of Shouts
 

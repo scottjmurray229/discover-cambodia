@@ -50,6 +50,17 @@ highlights:
   - "Pub Street and Night Market"
   - "Phare Cambodian Circus"
   - "Cambodian cooking class"
+scottTips:
+  - topic: "Logistics"
+    tip: "Fly direct to Siem Reap International Airport (REP) from Bangkok, KL, HCMC, or Singapore. Bus from Phnom Penh takes 6 hours ($10–15 Giant Ibis — the best). Grab works in town. USD everywhere. Angkor passes must be purchased at the ticket office (not at temples) and are non-refundable."
+  - topic: "Best Time"
+    tip: "November–February is peak season — clear skies, comfortable heat, best for sunrise photography. March–May is scorching (38°C+) but far fewer tourists. My secret: September–October — green landscapes, 60–70% fewer visitors, afternoon rains cool everything, moats are full."
+  - topic: "Getting Around"
+    tip: "Hire a tuk-tuk driver for the day ($15–20 small circuit, $25–30 outer temples). Bicycle ($3–5/day) for the Angkor complex if you want independence. Electric bikes ($10–15/day) are increasingly popular. In town, everything within Pub Street area is walkable."
+  - topic: "Money & Safety"
+    tip: "Buy a 3-day Angkor pass ($62) — valid for any 3 days within 10 days, worth it over the $37 single-day pass. USD everywhere; $4–5 ATM fees (ABA and Canadia banks). $25–50/day comfortable. Very safe; main risk is dehydration and sunburn at the temples."
+  - topic: "Local Culture"
+    tip: "Cover knees and shoulders at all temples — enforced, not optional. Do not buy from child vendors (it keeps children out of school). Donate to Phare or Friends restaurants instead. The Phare Cambodian Circus evening show ($18–38) is the single best thing to do in your Siem Reap evenings — I've seen it 3 times."
 gradientColors: "from-stone-900 via-amber-800 to-orange-900"
 relatedDestinations:
   - "battambang"
@@ -68,6 +79,10 @@ faqItems:
     answer: "Yes, absolutely. A licensed guide ($30-50/day) transforms the experience from looking at old rocks to understanding a civilization. They know the best angles for photos, which temples are crowded when, and the mythological stories carved into every surface. Book through your hotel or the official guide association at the ticket office. Guides speak English, French, Japanese, Korean, and Mandarin."
   - question: "How do I avoid the crowds at Angkor Wat?"
     answer: "Start with the outer temples on day one (most tour groups go to Angkor Wat first). Visit Angkor Wat in the early afternoon (12-2 PM) when tour groups break for lunch. For sunrise, go to Srah Srang or Pre Rup instead of Angkor Wat — far fewer people, equally beautiful. On your Angkor Wat sunrise morning, stay until 7:30 AM when the crowds leave, then explore the upper levels in peace."
+  - question: "What is Siem Reap famous for?"
+    answer: "Siem Reap is famous as the gateway to the Angkor Archaeological Park — the world's largest religious monument complex and a UNESCO World Heritage Site since 1992. Beyond the temples, it's known for the Phare Cambodian Circus, the Tonle Sap floating villages, Pub Street's nightlife, and an impressive social enterprise dining scene."
+  - question: "How much does a Siem Reap trip cost?"
+    answer: "Budget travelers: $25–40/day. Mid-range: $60–100/day. The biggest single cost is the Angkor pass: $37 (1-day), $62 (3-day), $72 (7-day). Tuk-tuk for the day $15–25. Phare Circus $18–38. A comfortable mid-range hotel runs $40–80/night. USD is accepted everywhere; $4–5 ATM withdrawal fees are standard."
 affiliatePicks:
   - name: "Shinta Mani Angkor"
     type: "hotel"
@@ -99,6 +114,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/siem-reap-hero.mp4" />
 
 ## The First Time You See Angkor Wat
 

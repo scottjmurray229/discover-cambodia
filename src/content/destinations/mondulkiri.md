@@ -50,6 +50,17 @@ highlights:
   - "Jungle camping"
   - "Waterfall swimming"
   - "Sunrise over rolling hills"
+scottTips:
+  - topic: "Logistics"
+    tip: "Bus from Phnom Penh takes 7–8 hours ($10–12). The road is now fully paved. Bring cash — ATMs in Sen Monorom (the provincial capital) are limited to 1–2 ABA Bank machines. Book the Elephant Valley Project well in advance; it fills quickly."
+  - topic: "Best Time"
+    tip: "November through March is ideal. The highlands are cooler than the Cambodian lowlands (18–30°C), and the trails and waterfalls are accessible. December–January nights can drop to 15°C — pack a layer. Wet season makes trails muddy but the forest is extraordinarily green."
+  - topic: "Getting Around"
+    tip: "Hire a motorbike driver in Sen Monorom for the Elephant Valley Project ($15–20 half day), Bou Sra waterfall ($20–25 round trip), and village visits. The town itself is walkable. Self-driving on a motorbike is possible if confident off-road."
+  - topic: "Money & Safety"
+    tip: "$20–50/day covers Mondulkiri well. Bring all the cash you need from Phnom Penh. The EVP day visit is $65 but worth every dollar. Very safe in town and trails; standard precautions for jungle trekking (guide recommended for remote trails)."
+  - topic: "Local Culture"
+    tip: "The Bunong (Pnong) people have distinct animist spiritual traditions and are the original inhabitants of these highlands. Visit through Bunong-run operations that direct revenue to the communities. Do not photograph people without permission. The traditional crossbow ceremony and rice wine rituals are offered through community tourism programs."
 gradientColors: "from-green-900 via-emerald-800 to-lime-900"
 relatedDestinations:
   - "kratie"
@@ -66,6 +77,12 @@ faqItems:
     answer: "Yes, with respect and ideally with a local guide. Several tour operators in Sen Monorom offer village visits that include meeting community elders, learning about traditional Bunong customs (including rice wine ceremonies), and trekking through the surrounding forest. The best experiences are arranged through organizations that employ Bunong guides and direct revenue to the communities. Avoid showing up at villages independently — a guide provides cultural context and ensures your visit is welcome."
   - question: "What is the best time to visit Mondulkiri?"
     answer: "November through March is ideal — the landscape is still green from the receding wet season, temperatures are pleasant (18-28°C), trails are drier, and waterfalls are at their most powerful. December and January nights can be surprisingly cool (15°C), so bring a jacket. Wet season (June-October) makes trails muddy and some waterfalls inaccessible, but the forests are at their most lush and the region receives very few visitors."
+  - question: "Is Mondulkiri safe?"
+    answer: "Mondulkiri is safe. Sen Monorom town is quiet and peaceful, and the trails around the Elephant Valley Project and Bou Sra waterfall are well-used. For more remote forest trekking, hire a local Bunong guide — not for safety reasons (no significant threats) but for navigation and cultural knowledge."
+  - question: "What is Mondulkiri famous for?"
+    answer: "Mondulkiri is famous for the Elephant Valley Project (ethical elephant encounters where rescued elephants roam freely), Bou Sra waterfall (Cambodia's largest), the Bunong indigenous community's unique highland culture, pine-forested landscapes unlike anywhere else in Cambodia, and the dramatic climate change from the lowland heat."
+  - question: "Is the Elephant Valley Project worth $65?"
+    answer: "Absolutely. The EVP day visit ($65) includes a forest trek to find free-roaming rescued elephants, watching them bathe in the river from a respectful distance, a Bunong-prepared lunch, and the knowledge that your money directly funds elephant rescue and care. This is the most ethical elephant experience in Cambodia and among the best in Southeast Asia."
 affiliatePicks:
   - name: "Elephant Valley Project Day Visit"
     type: "activity"
@@ -93,6 +110,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/mondulkiri-hero.mp4" />
 
 ## Climbing Out of the Heat
 

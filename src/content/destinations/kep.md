@@ -50,6 +50,17 @@ highlights:
   - "Pepper farm tours"
   - "Sunset from the crab statue"
   - "Kayaking along the coastline"
+scottTips:
+  - topic: "Logistics"
+    tip: "Bus from Phnom Penh takes 3.5–4 hours ($8–10). From Kampot it's a 25-minute tuk-tuk ($8–10) — easy to combine. Bring cash from Kampot or Phnom Penh as ATMs in Kep are limited. Most accommodation is in the $30–150 range along the seafront."
+  - topic: "Best Time"
+    tip: "November through April is ideal — calm seas, warm sun, and crab market at full operation. Wet season (May–October) sees fewer tourists but the crab is still excellent. Avoid the October–November peak monsoon for Rabbit Island trips — ferries may be cancelled."
+  - topic: "Getting Around"
+    tip: "Kep is small enough that a bicycle ($3–4/day) or motorbike ($7–10/day) covers everything — crab market, national park trailhead, abandoned villas, and the Rabbit Island boat pier. Tuk-tuks are available for hire all day (~$20)."
+  - topic: "Money & Safety"
+    tip: "$15–50/day. Bring USD cash — ATMs are scarce and unreliable. Kep is very safe. The main cost you won't expect: a full crab feast at the market runs $15–25 per person for crab + sides + drinks, which is worth every dollar."
+  - topic: "Local Culture"
+    tip: "The Kep crab market is a genuine local institution — fishermen selling directly to restaurant kitchens on stilts over the water. The abandoned French colonial villas are a haunting legacy of Cambodia's complex history. The national park jungle trails start from the crab market area and are free to hike."
 gradientColors: "from-sky-900 via-blue-800 to-indigo-900"
 relatedDestinations:
   - "kampot"
@@ -66,6 +77,12 @@ faqItems:
     answer: "The abandoned French colonial villas scattered along the hillside are an atmospheric highlight, but exercise caution. Many have unstable floors, crumbling walls, and overgrown vegetation that hides drop-offs. Stick to the villas accessible from the road and do not climb to upper floors. The best viewing is from the outside — the jungle-consumed architecture photographs beautifully from the roadside without requiring you to enter collapsing structures."
   - question: "Is Kep good for swimming?"
     answer: "The main Kep beach is a narrow strip of imported sand that is adequate for wading but not Cambodia's best swimming spot. The water is calm and warm but shallow, and the beach can be crowded on weekends with Phnom Penh families. For proper beach swimming, take the boat to Rabbit Island, where the beach is wider, the water clearer, and the crowds nonexistent on weekdays."
+  - question: "Is Kep safe for tourists?"
+    answer: "Kep is very safe — it's a small town with a relaxed atmosphere and minimal crime. The main practical concerns are limited ATMs (bring cash), motorbike safety on the hillside roads near the abandoned villas, and not swimming in rough seas during monsoon season."
+  - question: "What is Kep famous for?"
+    answer: "Kep is famous for its crab market where fishermen sell the day's catch directly to waterside restaurants, the signature dish of crab with green Kampot pepper, Rabbit Island day trips, the abandoned French colonial villas being slowly consumed by jungle, and Kep National Park's jungle hiking trails."
+  - question: "How much does Kep cost per day?"
+    answer: "Kep is affordable — $15–25/day for budget travelers, $40–70/day for mid-range comfort. The big expense is the crab market feast: budget $15–25 per person for a full spread. Rabbit Island costs $7–10 return by boat. Accommodation ranges from $10 guesthouses to the $130–250 Knai Bang Chatt at the luxury end."
 affiliatePicks:
   - name: "Knai Bang Chatt"
     type: "hotel"
@@ -92,6 +109,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/kep-hero.mp4" />
 
 ## A Resort Town Frozen in Time
 

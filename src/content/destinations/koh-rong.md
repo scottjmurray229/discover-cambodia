@@ -51,6 +51,17 @@ highlights:
   - "Beach parties at the pier village"
   - "Kayaking to hidden beaches"
   - "Sunset from the west coast"
+scottTips:
+  - topic: "Logistics"
+    tip: "Speed ferry from Sihanoukville takes 45 minutes ($12–15). NO ATMs on the island — bring enough USD cash for your entire stay. Budget $30–50/day in small bills. Bring any medications you might need; medical facilities on the island are minimal."
+  - topic: "Best Time"
+    tip: "November through April is prime — calm seas, dry weather, and bioluminescent plankton visible on new moon nights. June–October is wet season with rougher ferries. The plankton is actually best June–November on dark nights, but the ferry and beach experience is better in dry season."
+  - topic: "Getting Around"
+    tip: "Koh Tuch village (ferry pier area) is the busy end. Long Set Beach on the west side of the island is where you want to base yourself — a 20-minute jungle walk or $4 boat taxi. There are no roads across the island. Water taxis connect the beaches."
+  - topic: "Money & Safety"
+    tip: "No ATMs. Bring all cash. Strong currents on some beaches — always ask locals before swimming in unfamiliar spots. Sand flies are bad at dawn and dusk — DEET repellent is essential. The bioluminescent plankton swim is safest on guided tours."
+  - topic: "Local Culture"
+    tip: "Koh Rong is one of Cambodia's most ecologically significant marine areas. Choose dive operators and resorts that participate in the Koh Rong Marine Conservation Project. Avoid touching coral or marine life. The beach parties at Koh Tuch village run until 3–4 AM on weekends — stay at Long Set Beach if you want to sleep."
 gradientColors: "from-cyan-900 via-blue-800 to-sky-900"
 relatedDestinations:
   - "sihanoukville"
@@ -69,6 +80,10 @@ faqItems:
     answer: "Koh Rong has decent diving for Southeast Asia, though it is not world-class. Visibility ranges from 5-15 meters depending on season, and the marine life includes seahorses, nudibranchs, rays, and abundant reef fish. There are two PADI dive shops on the island offering Discover Scuba ($60-70) and Open Water certification ($300-350). The best diving is around the smaller islands south of Koh Rong Sanloem. Experienced divers may find it underwhelming compared to Thailand or Indonesia."
   - question: "Can I do a day trip to Koh Rong from Sihanoukville?"
     answer: "Technically yes, but I would not recommend it. The 45-minute ferry each way eats into your day, and the island rewards slow exploration rather than a rushed visit. You would arrive around 10:00 AM and need to catch the last return ferry around 3:00-4:00 PM, giving you only 5-6 hours. Stay at least two nights to experience the bioluminescent plankton and the different beaches."
+  - question: "What is Koh Rong famous for?"
+    answer: "Koh Rong is famous for Long Set Beach (7 km of white sand), bioluminescent plankton (swimming in glowing blue water on dark nights), the lively Koh Tuch village beach party scene, jungle trekking across the island, and diving and snorkeling around the surrounding islands."
+  - question: "Is Koh Rong worth the trip from Sihanoukville?"
+    answer: "Absolutely — Koh Rong is one of Cambodia's most beautiful destinations and justifies the ferry trip. The bioluminescent plankton experience alone is worth the journey. Plan 3–5 nights: two nights minimum to see the plankton, experience Long Set Beach, and recover from the travel."
 affiliatePicks:
   - name: "Song Saa Private Island"
     type: "hotel"
@@ -95,6 +110,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/koh-rong-hero.mp4" />
 
 ## The Water Was Glowing
 

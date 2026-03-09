@@ -50,6 +50,17 @@ highlights:
   - "Street food crawl through BKK1"
   - "National Museum of Cambodia"
   - "Nightlife on Bassac Lane"
+scottTips:
+  - topic: "Logistics"
+    tip: "Phnom Penh airport is 10 km from the center. Use PassApp or Grab (tuk-tuk $6–8, car $5–6) — avoid unlicensed drivers. Giant Ibis buses ($10–15) are the best option to/from Siem Reap. USD is the primary currency; keep small bills ($1–5) for tuk-tuks and markets."
+  - topic: "Best Time"
+    tip: "November through March is ideal — cooler (27–32°C) and dry. April and May are brutal heat. The wet season (June–October) brings afternoon storms but also lush green surroundings and far fewer tourists."
+  - topic: "Getting Around"
+    tip: "PassApp (Cambodian Grab) is the most reliable and transparent option for tuk-tuks and cars. Tuk-tuks are negotiable for all-day hire — $15–25 for a full day covers Tuol Sleng, Killing Fields, and the Royal Palace. The riverside is walkable."
+  - topic: "Money & Safety"
+    tip: "USD everywhere for amounts over $1; Riel change for amounts under. Budget $20–60/day. Main safety concern: bag snatching from motorbikes on busy streets — keep bags on inside shoulder. Bassac Lane and BKK1 nightlife areas are generally safe."
+  - topic: "Local Culture"
+    tip: "The Khmer Rouge history is recent — many older Cambodians lost family members. Approach Tuol Sleng and Choeng Ek with appropriate gravity. The resurgent art and food scene in BKK1 shows how much the country has rebuilt. Tipping 10% is appreciated and makes a genuine difference."
 gradientColors: "from-amber-900 via-red-800 to-yellow-900"
 relatedDestinations:
   - "siem-reap"
@@ -66,6 +77,12 @@ faqItems:
     answer: "The most comfortable option is a direct bus (6 hours, $10-15 with Giant Ibis or Mekong Express). Flying takes 45 minutes and costs $50-80 one way with Cambodia Angkor Air or Lanmei Airlines. The overnight bus is budget-friendly but less comfortable. Avoid shared taxis unless you enjoy being sardined into a Camry with five other people."
   - question: "Can I use US dollars everywhere in Phnom Penh?"
     answer: "USD is the primary currency in Phnom Penh for anything over $1. You will receive Cambodian Riel (KHR) as change for amounts under $1 — the exchange rate is roughly 4,000 Riel to $1. ATMs dispense USD. Only market vendors and tuk-tuk drivers regularly deal in Riel for small amounts."
+  - question: "Is Phnom Penh worth visiting?"
+    answer: "Phnom Penh is one of Southeast Asia's most rewarding and challenging capitals. The Khmer Rouge history at Tuol Sleng and Choeung Ek is confronting but essential. The Royal Palace, the riverside, and the rapidly growing food and arts scene in BKK1 provide balance. Skip it and you'll miss the context that makes Cambodia fully comprehensible."
+  - question: "What is Phnom Penh famous for?"
+    answer: "Phnom Penh is famous for the Royal Palace and Silver Pagoda, the Tuol Sleng Genocide Museum (the Khmer Rouge's S-21 prison), the Choeung Ek Killing Fields memorial, the Central Market's Art Deco dome, and its riverside setting at the confluence of the Mekong, Bassac, and Tonle Sap rivers."
+  - question: "How much does Phnom Penh cost per day?"
+    answer: "Budget travelers: $20–30/day in guesthouses eating at local restaurants. Mid-range: $50–80/day with a good hotel and restaurant meals. The main attraction costs are nominal — Royal Palace $10, Tuol Sleng $8, Killing Fields $6 including audio guide. USD is accepted everywhere."
 affiliatePicks:
   - name: "Plantation Urban Resort & Spa"
     type: "hotel"
@@ -97,6 +114,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/phnom-penh-hero.mp4" />
 
 ## Arriving in Cambodia's Beating Heart
 

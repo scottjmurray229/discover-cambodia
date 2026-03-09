@@ -50,6 +50,17 @@ highlights:
   - "Flooded forest boat rides"
   - "Fishing community life"
   - "Sunset on the lake"
+scottTips:
+  - topic: "Village Choice"
+    tip: "Skip Chong Khneas — it's 30 minutes from Siem Reap but heavily commercialized. Kompong Khleang (90 min) is the real deal. If time is short, Mechrey is the middle ground: less touristy than Chong Khneas and combined with birdwatching."
+  - topic: "Best Season"
+    tip: "Visit September through November for maximum impact — the lake is fully flooded, the flooded forest is navigable by boat, and the contrast between what you see and what the same landscape looks like in March is extraordinary."
+  - topic: "Photography"
+    tip: "Bring a zoom lens. The floating village life — fishing nets, children in boats, monks doing alms rounds on water — is best captured without getting close enough to intrude. Golden hour on the open lake is spectacular."
+  - topic: "Money"
+    tip: "There are no ATMs on the lake or in the floating villages. Bring all USD cash from Siem Reap. $1 and $5 bills are useful for food stalls, tips, and small purchases from village shops."
+  - topic: "Responsible Tourism"
+    tip: "Don't hand candy or money to children — it pulls them away from school. Buy from village shops, tip guides generously, and book through operators that contribute a portion of fees to the community directly."
 gradientColors: "from-blue-900 via-slate-800 to-cyan-900"
 relatedDestinations:
   - "siem-reap"
@@ -66,6 +77,12 @@ faqItems:
     answer: "Tonle Sap is connected to the Mekong River by the Tonle Sap River. During wet season (June-October), monsoon rains cause the Mekong to flood, and the pressure actually reverses the flow of the Tonle Sap River — pushing water backward into the lake. The lake expands from approximately 2,500 square kilometers to over 16,000 square kilometers, a six-fold increase. The surrounding forest floods to a depth of 8-10 meters. When the monsoon ends, the flow reverses again and the lake drains back into the Mekong. This annual pulse sustains one of the world's most productive freshwater fisheries."
   - question: "Is the Prek Toal Bird Sanctuary worth visiting?"
     answer: "For birdwatchers, absolutely. Prek Toal protects a breeding colony of rare waterbirds including milky storks, spot-billed pelicans, painted storks, and greater adjutants. The sanctuary is accessed by boat from Mechrey or Chong Khneas and requires a guided tour ($30-50 including boat and guide). The best season is December through February when nesting colonies are active. The flooded forest environment is extraordinary even for non-birders."
+  - question: "How do I avoid the tourist trap floating village experience?"
+    answer: "Three things matter: village choice, operator, and time of day. Choose Kompong Khleang or Mechrey over Chong Khneas. Book through a Siem Reap operator that employs local guides from the village — this ensures the community sees direct benefit and you get genuine insight rather than a scripted loop. Go in the morning (8-10am) when village life is active — fishermen returning, children heading to school, markets busy — rather than afternoon when it is quieter and hotter."
+  - question: "Can I visit Tonle Sap as a day trip from Siem Reap?"
+    answer: "Yes, and it's the most common approach. A half-day trip to Chong Khneas or Mechrey (3-4 hours including transport) works well. A full-day trip to Kompong Khleang including the drive, boat tour, and lunch takes 6-8 hours. The Sangker River boat from Siem Reap to Battambang (6-8 hours, $20-25) crosses the lake and is a legitimate alternative if you're heading west anyway — it's one of the most scenic journeys in Cambodia."
+  - question: "How does the Tonle Sap experience change by season?"
+    answer: "Wet season (Sep-Nov): The lake is vast, the flooded forest is navigable, the stilted houses are surrounded by water up to their floors — visually spectacular. Dry season (Dec-Feb): More comfortable, better for birdwatching, lake still large. Late dry (Mar-May): The lake shrinks dramatically, exposing mud flats — less scenic but fascinating for understanding the scale of seasonal change. The community's life changes with the water too: in high season, children paddle to school; in low season, they walk."
 affiliatePicks:
   - name: "Kompong Khleang Village Tour"
     type: "tour"
@@ -92,6 +109,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/tonle-sap-hero.mp4" />
 
 ## The Lake That Breathes
 

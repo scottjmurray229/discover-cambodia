@@ -49,6 +49,17 @@ highlights:
   - "Sunset drinks at Otres"
   - "Fresh seafood BBQ on the beach"
   - "Snorkeling day trips"
+scottTips:
+  - topic: "Honest Assessment"
+    tip: "Sihanoukville town itself has been dramatically changed by Chinese casino development. Don't spend more than a night in town — head to Otres Beach or use it as a transit hub for the islands."
+  - topic: "Best Beach"
+    tip: "Otres 2 is quieter than Otres 1 and worth seeking out. Walk 20 minutes south along the beach from the main Otres cluster for genuine tranquility."
+  - topic: "Island Ferry Tips"
+    tip: "Buy ferry tickets to Koh Rong at Serendipity Pier the morning you travel. In dry season (Nov-Apr) boats run reliably; in wet season (Jun-Oct) they can cancel with little notice — book flexible onward transport."
+  - topic: "Money"
+    tip: "USD is universal here. ATMs exist on the main roads but are scarce at Otres Beach itself — bring enough cash from Phnom Penh or withdraw in town before heading to Otres."
+  - topic: "Safety"
+    tip: "Otres Beach is safe. Avoid the downtown casino district at night — it feels disorienting and bag snatching occurs. Use Grab for tuk-tuks rather than accepting unsolicited offers near the pier."
 gradientColors: "from-blue-900 via-cyan-800 to-teal-900"
 relatedDestinations:
   - "koh-rong"
@@ -65,6 +76,12 @@ faqItems:
     answer: "Speed ferries (45 minutes, $12-15 one way) depart from the Serendipity Pier operated by Speed Ferry Cambodia and Buva Sea. Slow boats (2.5 hours, $7-8) are cheaper but less comfortable. Buy tickets at the pier or online. In wet season (June-October), ferry cancellations are common due to rough seas — build flexibility into your schedule."
   - question: "What is the best beach in Sihanoukville?"
     answer: "Otres Beach is the clear winner — a long stretch of sand with beach bars, guesthouses, and restaurants that retains the relaxed vibe the rest of Sihanoukville has lost. Otres 1 is slightly more developed with more restaurant options, while Otres 2 is quieter and more suited to travelers wanting genuine tranquility. Independence Beach near the Sokha resort is also pleasant but less accessible to budget travelers."
+  - question: "How much does Sihanoukville cost per day?"
+    answer: "Budget travelers staying at Mushroom Point or similar guesthouses on Otres Beach spend $15-25/day including accommodation, food, and drinks. A beachfront bungalow runs $15-20/night, a beach bar meal $4-8, and beer $1.50-2. Mid-range travelers with a comfortable hotel, sit-down meals, and a day trip to the islands spend $50-80/day. Island day trips ($25-40) and Ream National Park tours ($20-30) are the main additional expenses."
+  - question: "Can I visit Ream National Park independently?"
+    answer: "You can hire a tuk-tuk to the park entrance ($10-15 round trip) and explore the trails independently, but the best section — the mangrove channel and beach — requires a boat, which means joining a guided tour ($20-30) or hiring a local boat at the park. The guided tours are genuinely worth the money: the guides spot wildlife you would walk past and the community income goes directly to families living near the park. Book through your guesthouse or a reputable operator in Otres rather than at the park gates."
+  - question: "Is it worth visiting Sihanoukville if I've already been to Koh Rong?"
+    answer: "If you've done the islands, Sihanoukville offers two reasons to stop: Otres Beach for a relaxed beach day or two before moving on, and Ream National Park for wildlife and mangroves. The town itself adds nothing. Coming from Kampot, you can easily spend a night at Otres and catch a morning ferry to the islands, or use it as a southbound transit point. The seafood at Otres (particularly the BBQ stalls near the port) is excellent and slightly cheaper than island prices."
 affiliatePicks:
   - name: "Tamu Hotel Otres"
     type: "hotel"
@@ -91,6 +108,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/sihanoukville-hero.mp4" />
 
 ## A Beach Town in Transformation
 

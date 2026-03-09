@@ -50,6 +50,17 @@ highlights:
   - "Crab market seafood"
   - "Salt fields and countryside cycling"
   - "Rock climbing at Klimb Kampot"
+scottTips:
+  - topic: "Logistics"
+    tip: "Bus from Phnom Penh takes 3–4 hours ($6–10 with Giant Ibis). No airport — nearest is Phnom Penh or Sihanoukville. Rent a bicycle or motorbike ($2–7/day) for maximum independence. Kep is 30 min away by motorbike — easily combined in one day."
+  - topic: "Best Time"
+    tip: "November through May is excellent. The pepper harvest runs October–February — the best time to visit plantations. Wet season (June–October) is quieter but the surrounding countryside is lush green."
+  - topic: "Getting Around"
+    tip: "Town center is walkable. Motorbike is ideal for Bokor (20 km uphill — the road is paved), pepper farms, and Kep. Kayaking and SUP on the Kampot River are available for hire near the riverside restaurants."
+  - topic: "Money & Safety"
+    tip: "$15–45/day is very comfortable. ATMs on the main riverside street. Kampot is one of Cambodia's safest towns — expat community keeps it well-monitored. Kampot pepper is cheapest at the plantation gates; expect to pay $5–8 per 100g for premium white or red pepper."
+  - topic: "Local Culture"
+    tip: "Kampot is Cambodia's most relaxed town — the vibe is genuinely bohemian. The riverside cafe culture is real, not performative. Firefly boat tours on the river at night are a remarkable experience. The cave temples at Phnom Chhnork (free) predate Angkor and see almost no tourists."
 gradientColors: "from-emerald-900 via-teal-800 to-green-900"
 relatedDestinations:
   - "kep"
@@ -66,6 +77,12 @@ faqItems:
     answer: "Kampot nightlife is mellow by design. The riverside bars keep things civilized with cocktails and live music. Oh Neil's and Banyan Tree are the social hubs. The Old Market area has a few bars that get lively on weekends. This is not Siem Reap's Pub Street — it is more like a village pub atmosphere where everyone knows everyone. If you want to party, Kampot is the wrong town. If you want to sit on a riverbank drinking a gin and tonic while someone plays acoustic guitar, you are home."
   - question: "Can I combine Kampot with Koh Rong in one trip?"
     answer: "Yes. A natural itinerary is Phnom Penh to Kampot (3 hours) for 2-3 days, then Kampot to Sihanoukville (2 hours) for a night, then ferry to Koh Rong (45 minutes) for 2-3 days, and return. The south coast loop works beautifully as a one-week circuit. In the opposite direction, you can end in Kep for a final day of crab market seafood before busing back to Phnom Penh."
+  - question: "Is Kampot safe for solo travelers?"
+    answer: "Kampot is one of Cambodia's safest destinations. The established expat community and backpacker scene means there are always people around. Standard precautions apply — use PassApp or Grab for rides, keep valuables secure, and avoid walking alone on unlit rural roads at night."
+  - question: "What is Kampot famous for?"
+    answer: "Kampot is famous for its pepper (Kampot Pepper holds a geographical indication status and is considered among the world's finest), the French colonial riverside town atmosphere, Bokor Hill Station's abandoned ghost buildings at 1,080m elevation, sunset river cruises, and the laid-back cafe culture that has made it one of Southeast Asia's most beloved slow-travel destinations."
+  - question: "How much does Kampot cost per day?"
+    answer: "Kampot is extremely affordable. Budget travelers manage $15–20/day in a guesthouse and eating at local stalls. Mid-range comfort — boutique hotel, restaurant meals, a plantation tour — runs $40–60/day. The best things to do (cycling, riverside, cave temples, sunset cruise) cost very little."
 affiliatePicks:
   - name: "The Columns Kampot"
     type: "hotel"
@@ -92,6 +109,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/kampot-hero.mp4" />
 
 ## Finding the Slow Lane
 

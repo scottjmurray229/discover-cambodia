@@ -49,6 +49,17 @@ highlights:
   - "Phnom Sambok hilltop pagoda"
   - "Local homestay experiences"
   - "Mekong turtle conservation center"
+scottTips:
+  - topic: "Logistics"
+    tip: "Bus from Phnom Penh takes 6–7 hours ($8–10). No airport — fly to Phnom Penh and bus from there. Kratie is a genuine off-the-beaten-path destination; plan for longer travel times and fewer tourist amenities. Bring ATM cash from Phnom Penh."
+  - topic: "Best Time"
+    tip: "December through April is ideal for dolphin watching (lower water levels concentrate the dolphins in known pools). The Mekong is also most beautiful in dry season — wide, brown, and majestic at sunset."
+  - topic: "Getting Around"
+    tip: "Rent a bicycle ($2–3/day) for Koh Trong island. Hire a moto ($10–15) for the dolphin watching site at Kampi (15 km north). Boat to Koh Trong is a free 10-minute crossing by small ferry."
+  - topic: "Money & Safety"
+    tip: "Very affordable — $12–30/day. Bring USD cash as ATMs are limited and sometimes out of service. Kratie is extremely safe — a working provincial town where tourists are rare and warmly welcomed."
+  - topic: "Local Culture"
+    tip: "The Irrawaddy dolphins are critically endangered (approximately 105 remain in the Cambodian Mekong). Your boat fee funds conservation patrols. Koh Trong island's Mekong residents live as they have for generations — visit the homestay operation to experience this directly."
 gradientColors: "from-slate-900 via-stone-800 to-zinc-900"
 relatedDestinations:
   - "mondulkiri"
@@ -65,6 +76,12 @@ faqItems:
     answer: "Koh Trong island (10-minute ferry, free with bicycle) is a peaceful cycling loop through orchards and fishing villages. The colonial architecture in Kratie town rewards a walking tour. Phnom Sambok, a hilltop pagoda 30 km south, offers panoramic Mekong views. The Mekong Turtle Conservation Center rehabilitates critically endangered river turtles and is worth a visit. And the Mekong sunsets from the town promenade are genuinely spectacular — the river is so wide here that the sky fills with color from horizon to horizon."
   - question: "Where should I stay in Kratie?"
     answer: "For the town experience, Le Tonle Tourism Training Center is a social enterprise hotel with comfortable rooms and good food. For immersion, book a homestay on Koh Trong island — sleeping in a traditional Cambodian wooden house with a family, eating home-cooked meals, and waking to the sound of the river is an experience you cannot get in any Cambodian city. Budget guesthouses on the riverside start at $5-8."
+  - question: "Is Kratie safe?"
+    answer: "Kratie is very safe. It's a provincial Cambodian town with minimal tourist crime. The area around the Kampi dolphin pool requires a boat — ensure the boat is seaworthy before boarding. Bring insect repellent for evening river walks."
+  - question: "What is Kratie famous for?"
+    answer: "Kratie is famous for being one of the few places in the world where you can reliably see Irrawaddy freshwater dolphins — critically endangered and numbering fewer than 105 in the Cambodian Mekong. It's also known for Koh Trong island cycling, French colonial architecture, and the most authentic Mekong riverside experience in Cambodia."
+  - question: "Is Kratie worth the journey?"
+    answer: "If you want to see critically endangered wildlife in the wild and experience rural Cambodia without tourist infrastructure, yes. Kratie rewards travelers who want to go beyond the standard Angkor-Phnom Penh circuit. Plan at least 2 nights: one for the dolphins and one for Koh Trong island cycling."
 affiliatePicks:
   - name: "Le Tonle Tourism Training Center"
     type: "hotel"
@@ -86,6 +103,8 @@ lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false
 ---
+
+<ImmersiveBreak videoSrc="/videos/destinations/kratie-hero.mp4" />
 
 ## The River That Holds Everything
 
