@@ -120,6 +120,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/sihanoukville-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0369A1 35%, #38BDF8 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">A beach town in genuine transformation — use Sihanoukville as the ferry port to Koh Rong and Koh Rong Samloem rather than a destination in itself, and you will be glad you came.</p>
+  </div>
+</div>
+
 ## A Beach Town in Transformation
 
 I need to be honest about Sihanoukville before I recommend anything, because the town I first visited in 2018 and the town I returned to in 2025 are almost unrecognizable as the same place. The sandy backpacker haven that budget travelers once raved about — cheap bungalows on the beach, sunset cocktails for a dollar, a vaguely anarchic freedom — has been substantially replaced by a Chinese-funded construction boom of towering casinos, half-finished apartment blocks, and a commercial energy that transformed the downtown area beyond recognition.
@@ -129,6 +137,14 @@ That said, writing Sihanoukville off entirely would be a mistake, and here is wh
 The real value of Sihanoukville in 2026 is as a gateway. The speed ferries to Koh Rong and Koh Rong Sanloem depart from Serendipity Pier, and the islands remain some of the most beautiful in Southeast Asia. Ream National Park, accessible by boat from Sihanoukville, offers mangrove forests, deserted beaches, and wildlife encounters that feel worlds removed from the casino district a few kilometers away. Used strategically — a night at Otres before an early ferry, a day trip to Ream, a seafood dinner watching the sun drop behind the Gulf of Thailand — Sihanoukville still has something to offer.
 
 I arrived on a Giant Ibis bus from Phnom Penh, a comfortable four-hour ride that delivered me to the station in the mid-afternoon. A tuk-tuk to Otres Beach cost $5 and took fifteen minutes. Within an hour of arrival, I was in the ocean with a $2 beer waiting on the sand. Sometimes the best travel moments are the simplest ones.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</html>
+    <p class="ib-text">Otres Beach for the remaining backpacker vibe, the ferry terminals for island access, Ochheuteal Beach for the sunset strip, and the seafood market for the best dinner in town.</p>
+  </div>
+</div>
 
 ## What Makes Sihanoukville Different
 
@@ -186,6 +202,14 @@ A small restaurant on the road between Otres 1 and 2 that does excellent Khmer h
 
 A more upscale option near Serendipity with a menu spanning Khmer, Thai, and international dishes. The rooftop terrace has views toward the port, the cocktails are well-made, and the BBQ ribs are the best non-seafood dish I found in Sihanoukville. A good choice for travelers who want one meal that feels slightly polished.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Otres Beach guesthouses for the backpacker vibe, Serendipity Beach area for ferry convenience, or skip the main town and head straight to the islands — that is what most experienced travelers do.</p>
+  </div>
+</div>
+
 ## Where to Stay in Sihanoukville
 
 ### Budget: Mushroom Point ($12-25/night)
@@ -201,6 +225,14 @@ A boutique hotel directly on Otres Beach with a pool, restaurant, and modern roo
 The grande dame of Sihanoukville hotels occupies a private stretch of Independence Beach with manicured gardens, multiple pools, a spa, and beach access that is dramatically more polished than the public beaches. The rooms are large and well-appointed, the breakfast buffet is extensive, and the grounds create a resort bubble that insulates you from the construction chaos of downtown. Not the most authentic Cambodian experience, but a comfortable and reliable luxury option.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">The ferry to Koh Rong departs from the Sihanoukville pier multiple times daily, the Giant Ibis bus from Phnom Penh is the most comfortable option, and Otres Beach is the only part of town that still has the old Sihanoukville character.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

@@ -121,6 +121,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/kep-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0369A1 35%, #38BDF8 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The Gulf of Thailand, the Crab Market, the vine-wrapped ruins of former French resort villas, and Rabbit Island visible across the bay — Kep is Cambodia's most quietly beautiful corner.</p>
+  </div>
+</div>
+
 ## A Resort Town Frozen in Time
 
 The giant crab statue at the entrance to Kep tells you two things immediately: this town does not take itself too seriously, and the seafood here is going to be excellent. Both proved accurate. I arrived from Kampot in a rattling tuk-tuk that deposited me at the crab market just as the lunch rush was building, and within twenty minutes I was seated at a waterfront table with a whole crab stir-fried in green kampot pepper, a plate of grilled prawns, cold Angkor Beer, and a view of fishing boats bobbing on the Gulf of Thailand. The crab cost $8. The prawns cost $5. The experience was priceless in the way that travel cliche demands I say, except in this case I actually mean it.
@@ -130,6 +138,14 @@ Kep was once Cambodia's most glamorous destination. In the 1950s and 1960s, duri
 What you find in Kep today is a town caught between its glamorous past and its quiet present. The abandoned villas still dot the hillside, their modernist lines visible beneath curtains of strangler figs and flowering vines. The beach that once hosted Cambodia's fashionable set is now a modest strip of imported sand where local families picnic on weekends. The national park trails wind through the same forest that engulfed the villas, offering glimpses of the coastline through the canopy. And at the water's edge, the crab market operates with a simplicity that the resort-era patrons might not recognize but would certainly appreciate — fresh seafood, served immediately, at prices that make you wonder why restaurants anywhere else charge what they do.
 
 I spent three days in Kep and found a rhythm that I think represents the town perfectly: morning hike in the national park, afternoon on Rabbit Island, evening at the crab market watching the sky turn colors behind the fishing boats. Kep does not offer the range of activities you find in Kampot or the monumental grandeur of Siem Reap. What it offers instead is a concentrated dose of coastal Cambodia at its most genuine — a place where the main question each day is not "what should I do?" but "which crab should I eat?"
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Kep Crab Market, Rabbit Island boat trip, the coastal walking trail past abandoned villas, and the perfect pairing of Kampot pepper crab with a cold Angkor beer at sunset.</p>
+  </div>
+</div>
 
 ## What Makes Kep Different
 
@@ -193,6 +209,14 @@ A French-Cambodian restaurant in a breezy hillside setting with views over the c
 
 The bamboo shack restaurants on Rabbit Island serve a limited menu — fried fish, fried rice, grilled squid, fruit shakes — at island prices that are still remarkably cheap. The fish is caught that morning and grilled over coconut husks. A complete meal with beer costs $5-7. The dining experience — barefoot on sand, sound of waves, zero pretension — is the point.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Hillside bungalows above the gulf, boutique lodges in pepper farm gardens, and Rabbit Island's beach bungalows for those who want to sleep within sound of the waves.</p>
+  </div>
+</div>
+
 ## Where to Stay in Kep
 
 ### Budget: Botanica Guesthouse ($12-20/night)
@@ -208,6 +232,14 @@ Hillside bungalows set within Kep National Park, connected by wooden walkways th
 The jewel of Kep accommodation. Three modernist villas designed in the 1960s by Vann Molyvann (a student of Le Corbusier and Cambodia's most celebrated architect) have been meticulously restored into a boutique hotel that is equal parts design museum and luxury retreat. The infinity pool overlooks the Gulf of Thailand, the restaurant (Sailing Club) serves the best food in Kep, and the architectural details — concrete brise-soleil, cantilevered overhangs, seamless indoor-outdoor flow — represent a chapter of Cambodian cultural history that nearly disappeared. I splurged for one night and do not regret a dollar.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Combine Kep with Kampot for a perfect two-destination southern Cambodia itinerary, eat crab at the market not the restaurants, and take the ferry to Rabbit Island on a weekday morning.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

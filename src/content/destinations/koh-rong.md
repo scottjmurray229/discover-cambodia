@@ -122,6 +122,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/koh-rong-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0369A1 35%, #38BDF8 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The ferry from Sihanoukville takes 45 minutes and lands you on an island with no ATMs, limited electricity, bioluminescent plankton in the bay, and the clearest water in Cambodia.</p>
+  </div>
+</div>
+
 ## The Water Was Glowing
 
 I will never forget the first time I saw the bioluminescent plankton. It was my second night on Koh Rong, a moonless evening with more stars than I had seen since childhood. My guesthouse host had mentioned the plankton might be active, so I walked to the darkest stretch of Long Set Beach, away from the scattered light of bungalow restaurants, kicked off my shoes, and waded into the warm water.
@@ -133,6 +141,14 @@ That moment encapsulates what Koh Rong does best. This is an island that deliver
 I have spent a cumulative three weeks on Koh Rong across multiple visits, and each trip reinforces the same conclusion: this is Cambodia's finest island, operating at a level of natural beauty that most Southeast Asian beach destinations lost to development years ago. The island is changing — the pier village grows louder, the construction of a new airport on the island threatens to accelerate development dramatically — but for now, Koh Rong remains the real thing. If you are reading this in 2026, go soon.
 
 My approach on every visit has been the same: take the first ferry from Sihanoukville, hire a boat from the pier to Long Set Beach (the opposite side of the island from the party village), check into a bungalow, and not leave that beach for three days. It sounds boring on paper. In practice, it was the most restorative travel experience I have had in a decade.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Long Set Beach, bioluminescent night swimming, jungle hiking to the lighthouse viewpoint, snorkelling the coral garden, and the kind of beach party that runs until 4 AM if you want it to.</p>
+  </div>
+</div>
 
 ## What Makes Koh Rong Different
 
@@ -196,6 +212,14 @@ The restaurant at The One Resort on Long Set Beach serves the most polished food
 
 Several guesthouses on Long Set Beach organize evening BBQs where fresh fish, prawns, and squid are grilled over coals on the sand. The meal typically includes rice, salad, and unlimited beer. The cost ($10-15 per person) is fixed and covers everything. Eating grilled seafood on a dark beach with the Milky Way overhead and the occasional glow of bioluminescent waves is a peak Koh Rong experience.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Beach bungalows on Koh Rong village beach, backpacker hostels near the bars, or the quieter Koh Rong Samloem's bungalows for those who want the island experience without the party.</p>
+  </div>
+</div>
+
 ## Where to Stay on Koh Rong
 
 ### Budget: Nest Beach Club ($6-10 dorm, $15-25 bungalow)
@@ -211,6 +235,14 @@ My accommodation of choice on Koh Rong. Beachfront bungalows on Long Set Beach w
 Cambodia's most exclusive resort occupies two private islands connected by a bridge near Koh Rong. Overwater villas, a marine conservation program, a spa with ocean views, and a restaurant using ingredients from their own garden and local fishing communities. This is one of those properties where the price includes not just a room but a complete experience — private snorkeling excursions, sunset cruises, cooking classes, and a silence that money can purchase but not replicate. Not in my budget, but worth mentioning as the pinnacle of Cambodian island luxury.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Bring enough cash from Sihanoukville, swim at dusk to see the bioluminescence, and choose Koh Rong Samloem over the main island if you want quiet — they are completely different experiences.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

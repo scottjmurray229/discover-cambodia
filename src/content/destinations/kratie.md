@@ -115,6 +115,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/kratie-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The Mekong at its widest and most unhurried, Irrawaddy dolphins in a deep-water pool 15 kilometers upstream, and a colonial riverside town where the sunset is worth every hour of the bus journey.</p>
+  </div>
+</div>
+
 ## The River That Holds Everything
 
 The bus from Phnom Penh to Kratie takes about seven hours, and somewhere around hour five, as the road straightens into an endless corridor between rice paddies and the landscape flattens into the Mekong basin, most travelers begin to wonder if the destination is worth the journey. I had the same thought. Then the bus crossed a rise and the Mekong appeared — not the narrow channel I had seen in Phnom Penh, but a wide, slow, continent-sized river that looked more like a moving lake than a waterway. The town of Kratie materialized on the eastern bank: a cluster of colonial-era buildings, a tree-lined promenade, and a pagoda spire catching the late afternoon light. I checked into a riverside guesthouse, walked to the promenade, and watched the sun set over the widest stretch of freshwater I had ever seen. The journey was worth it.
@@ -124,6 +132,14 @@ Kratie exists for two reasons on the Cambodian travel circuit. The first is the 
 I spent three days in Kratie, which is longer than most travelers allocate and exactly right. The dolphin trip consumed one morning. Koh Trong island filled a glorious afternoon and the following morning. The remaining time dissolved into riverside walks, market explorations, conversations with guesthouse owners about Cambodia's recovery, and the kind of unstructured wandering that produces the memories I value most. Kratie does not compete for your attention. It waits for you to notice what is there.
 
 The town itself operates at a pace that will either frustrate or liberate you, depending on your tolerance for slowness. There is one main street. There are a handful of restaurants. There is a market. There is the river. The absence of tourist infrastructure means that every interaction — buying coffee from a street vendor, asking directions to the ferry, negotiating a tuk-tuk to the dolphin site — is an unmediated encounter with rural Cambodian life. I found this thrilling in a way that the polished tourist experiences of Siem Reap cannot replicate.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Irrawaddy dolphin watching at Kampi pool, cycling the river island of Koh Trong, the Phnom Sambok hilltop pagoda, and the best-preserved French colonial architecture in the Cambodian provinces.</p>
+  </div>
+</div>
 
 ## What Makes Kratie Different
 
@@ -177,6 +193,14 @@ The morning market near the ferry dock has food stalls serving breakfast to loca
 
 If you stay on Koh Trong, your hosts will prepare home-cooked meals that are among the best dining experiences in Kratie. Fresh river fish (often caught that morning), vegetable dishes from the garden, rice, and fruit for dessert. Dinner is typically served communal-style on the floor of the wooden house, and eating with the family — sharing dishes, attempting Khmer phrases, watching the sun set over the Mekong from the veranda — is the kind of travel experience that transcends the food itself.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Riverside guesthouses facing the widest stretch of the Mekong, family-run colonial hotels in the town center, and a price range that makes three nights here cost less than one night in Siem Reap.</p>
+  </div>
+</div>
+
 ## Where to Stay in Kratie
 
 ### Budget: Star Backpackers ($4-6 dorm, $8-12 private)
@@ -192,6 +216,14 @@ My recommendation for Kratie accommodation. This social enterprise hotel trains 
 For the most immersive experience, stay with a family on Koh Trong island. Accommodation is in a traditional wooden stilt house — basic but clean, with mosquito nets and fans. Dinner and breakfast are prepared by your hosts and served communally. The experience of sleeping on an island in the Mekong, waking to roosters and river sounds, and cycling through orchards at dawn is worth every minor comfort sacrifice. Arrange through Le Tonle or directly with families at the island ferry dock.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4A1D96 0%, #6D28D9 35%, #C084FC 65%, #4A1D96 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">The dolphin pool is best visited at dawn, rent a bicycle to cycle Koh Trong island in the afternoon, and stop at the hilltop pagoda for sunset over the Mekong — three perfect activities in a single day.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

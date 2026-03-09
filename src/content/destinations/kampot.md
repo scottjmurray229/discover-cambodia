@@ -121,6 +121,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/kampot-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The Kampot River, pepper farms on the hillside, colonial shophouses half-swallowed by vines, and a pace of life that makes you feel guilty for ever having been in a hurry.</p>
+  </div>
+</div>
+
 ## Finding the Slow Lane
 
 My introduction to Kampot was an accident. The original plan was a quick overnight stop between Phnom Penh and Sihanoukville — a logistical pitstop to break a long bus journey. I booked two nights and stayed six. The town had taken hold of me with the quiet persistence of the river that defines it, and I kept finding reasons not to leave.
@@ -132,6 +140,14 @@ Kampot has attracted a particular kind of traveler and expat — artists, writer
 The surrounding countryside amplifies the appeal. Kampot province produces the world's most celebrated pepper — a spice so revered that it carries its own geographical indication, like Champagne — and the plantation tours are a genuine revelation. Bokor Hill Station, a crumbling French ghost town perched at 1,080 meters above the coast, delivers equal parts history and atmosphere. Cave temples, salt fields, crab markets, and the mangrove forests along the river fill out a destination that could easily consume a week for the unhurried traveler.
 
 I have returned to Kampot three times, and each visit has reinforced my belief that this is one of Southeast Asia's most underappreciated towns. Not because it lacks tourists — they come, in increasing numbers — but because the travelers who rush through on the way to beaches miss the thing that makes this place special: Kampot does not try to entertain you. It invites you to slow down, and if you accept the invitation, it rewards you in ways that the louder destinations cannot.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Bokor Mountain's abandoned French hill station, pepper farm visits, kayaking the Kampot River at sunset, and the old town's crumbling colonial architecture that nobody has gotten around to renovating yet.</p>
+  </div>
+</div>
 
 ## What Makes Kampot Different
 
@@ -203,6 +219,14 @@ A riverside restaurant specializing in Khmer tapas — small plates designed for
 
 A French-Khmer bistro in a restored colonial building that does excellent brunch and dinner. The croissants are proper (flaky, buttery, clearly made by someone who cares), the eggs florentine is reliable, and the evening menu features dishes like duck confit with kampot pepper glaze. The wine list is modest but functional. Good for a meal when you want something slightly elevated.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Riverside guesthouses with hammocks facing the pepper-covered hills, boutique hotels in the old town, and eco-lodges at the foot of Bokor Mountain.</p>
+  </div>
+</div>
+
 ## Where to Stay in Kampot
 
 ### Budget: Arcadia Backpackers ($5-8 dorm, $15-20 private)
@@ -218,6 +242,14 @@ A grand colonial mansion converted into a boutique hotel with period-appropriate
 A resort-style property on the riverbank with spacious rooms, a stunning infinity pool overlooking the water, a spa, and a restaurant that sources ingredients from local farms. The design blends contemporary comfort with Khmer architectural elements. The river-view suites are worth the premium — waking up to the sight of the Praek Tuek Chhu flowing past your private balcony is the kind of luxury that does not require opulence, just placement.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0369A1 35%, #38BDF8 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Rent a bicycle and visit a pepper farm on day one, kayak at sunset on day two, and don't leave without eating Kampot pepper crab at least once.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

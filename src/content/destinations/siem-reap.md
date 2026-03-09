@@ -126,6 +126,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/siem-reap-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Five towers rising from the pre-dawn dark, a crowd of hundreds falling silent at sunrise, and the realisation that Angkor Wat is not a monument — it is a landscape you enter and stay in for days.</p>
+  </div>
+</div>
+
 ## The First Time You See Angkor Wat
 
 Nothing prepares you. I had seen the photographs — every traveler has — and I assumed the reality would be a diminished version, the way the Mona Lisa feels smaller than you expect. I was spectacularly wrong. Arriving at the western causeway in the blue-black pre-dawn dark, following the bobbing flashlights of hundreds of other pilgrims toward the silhouette of five towers, I felt the scale of the place settle into my bones before my eyes could fully process it. Angkor Wat is not a building. It is a landscape.
@@ -135,6 +143,14 @@ My first sunrise was partly clouded, and it did not matter. As the sky shifted f
 I have been to Siem Reap five times now. The first visit was the standard three-day temple blitz — Angkor Wat, Bayon, Ta Prohm, check, check, check. The second time I stayed a week and began to understand that the Angkor Archaeological Park contains over a thousand temples spread across 400 square kilometers, and the three everyone visits are merely the overture. By my third visit, I was renting a bicycle and spending entire mornings at single temples, watching the light change on bas-reliefs that have been telling stories for nine centuries. By my fifth visit, I realized Siem Reap itself — the town beyond the temples — had become one of my favorite places in Southeast Asia.
 
 The town has evolved dramatically since the backpacker era of the early 2000s. Pub Street still thumps with $0.50 beers, but now it coexists with a sophisticated food scene, boutique hotels that rival anything in Bali, social enterprise restaurants that train disadvantaged youth, and the Phare Cambodian Circus, which I consider the single best live performance in mainland Southeast Asia. Siem Reap is no longer just a base for temple visits. It is a destination.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Angkor Wat at sunrise, Bayon's stone faces, Ta Prohm's jungle roots, Banteay Srei's pink sandstone, Phare Circus at night — the Siem Reap experience is wider and deeper than most visitors expect.</p>
+  </div>
+</div>
 
 ## What Makes Siem Reap Different
 
@@ -204,6 +220,14 @@ The Cambodian food court experience at its finest. A row of stalls on Street 60 
 
 A French-Khmer bistro that serves perfect brunch. The eggs Benedict with kampot pepper hollandaise, the croissants (actual, proper, flaky croissants — rare in Cambodia), and the Cambodian iced coffee kept me coming back. The dinner menu leans French with Khmer accents. The wine list is surprisingly decent for a Cambodian town.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">From $5 hostel pods to the Amansara's $1,000-a-night private temple tours — Siem Reap offers genuinely excellent accommodation at every price point.</p>
+  </div>
+</div>
+
 ## Where to Stay in Siem Reap
 
 ### Budget: Onederz Hostel ($5-8 dorm, $18-25 private)
@@ -219,6 +243,14 @@ A boutique hotel that gets every detail right — the rooms are spacious with Kh
 If budget is not a consideration, Amansara is the Angkor experience elevated to art. Originally built as a guesthouse for King Sihanouk's guests, the property offers private temple tours with resident archaeologists, custom sunrise experiences at lesser-known temples, and suites designed with Japanese minimalism. The pool courtyard at dusk, with lotus ponds and soft gamelan music, is the most peaceful place I have found in Siem Reap. Even a single night here transforms your understanding of what temple tourism can be.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Buy a 3-day pass, hire a guide for at least one day, bring 3 liters of water to the temples, and book the Phare Circus for your first evening — in that order.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

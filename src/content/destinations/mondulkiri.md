@@ -122,6 +122,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/mondulkiri-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Rolling grasslands, pine forests, elephant sanctuaries, and cool highland air — Mondulkiri is a Cambodia that most visitors never see, and one of the most rewarding destinations in the country.</p>
+  </div>
+</div>
+
 ## Climbing Out of the Heat
 
 The moment I knew Mondulkiri was going to be special was approximately five hours into the bus ride from Phnom Penh, when the flat, baking Mekong basin began to tilt upward and the air through the open window turned from humid furnace to something approaching coolness. Rice paddies gave way to red-earth roads lined with cashew trees. Then the cashew trees gave way to pines. Actual pine trees, the kind I associate with mountain hikes in temperate forests, not tropical Cambodia. My seatmate, a Khmer man returning home, saw my expression and grinned. "Different, yes?" he said. "Mondulkiri is different."
@@ -133,6 +141,14 @@ Sen Monorom sits at the center of Mondulkiri province, Cambodia's largest and le
 But Mondulkiri's appeal extends far beyond climate therapy. This is the homeland of the Bunong people, an indigenous hill tribe whose animist traditions, distinctive language, and forest-based way of life have survived centuries of Khmer, French, and modern Cambodian influence. The Elephant Valley Project — an ethical elephant sanctuary that rescues animals from logging and tourism operations — has become the region's most celebrated attraction, and deservedly so. And the waterfalls, particularly the two-tiered Bou Sra, are the most dramatic in Cambodia.
 
 I spent four days in Mondulkiri and used every one of them. The elephant project consumed one full day. A waterfall and village trek took another. The third day I rented a motorbike and explored the highland roads on my own, stopping at viewpoints, passing through Bunong villages, and eating lunch at a roadside stall where the owner made me try her homemade rice wine (potent, slightly sweet, and dangerously drinkable). The fourth day I slept in, drank coffee on the terrace, and watched the morning mist burn off the hills. Mondulkiri earned every hour.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Elephant Valley Project, Bunong village treks, Sen Monorom waterfalls, motorbike trails through pine forest, and encounters with the indigenous communities who have farmed this plateau for generations.</p>
+  </div>
+</div>
 
 ## What Makes Mondulkiri Different
 
@@ -196,6 +212,14 @@ The central market in Sen Monorom has a food section serving Bunong and Khmer di
 
 A local BBQ restaurant popular with Cambodian families on weekends. You grill marinated meats and vegetables on a charcoal brazier at your table, accompanied by rice and a variety of dipping sauces. The highland beef, sourced from cattle grazing the nearby hills, has noticeably better flavor than the lowland equivalent. Beer is cold, prices are fair, and the atmosphere is convivial.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Eco-lodges on the plateau edge, guesthouses in Sen Monorom town, and the Elephant Valley Project's accommodation for those who want full immersion in the elephant care program.</p>
+  </div>
+</div>
+
 ## Where to Stay in Mondulkiri
 
 ### Budget: Happy Elephant Guesthouse ($8-15/night)
@@ -211,6 +235,14 @@ The best hotel in Mondulkiri and it knows it. Perched on a hill above Sen Monoro
 For the full cultural immersion experience, arrange a homestay in a Bunong village through the Mondulkiri Indigenous People's Association or your guesthouse in Sen Monorom. You sleep in a traditional communal house, eat meals cooked over an open fire, and participate in daily village activities. The accommodation is basic — a mat on a wooden floor, a mosquito net, and a shared latrine. The experience is extraordinary — rice wine ceremonies, stories told by firelight, and an intimacy with a living indigenous culture that no hotel can approximate.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4A1D96 0%, #6D28D9 35%, #C084FC 65%, #4A1D96 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Book the Elephant Valley Project at least a week ahead, expect cold nights (pack a layer), and allow four days — the overland journey and the remote location both reward those who commit the time.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

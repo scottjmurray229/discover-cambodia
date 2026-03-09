@@ -126,6 +126,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/phnom-penh-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Heat, dust, the Tonle Sap meeting the Mekong, monks on the riverside at dawn, and Bassac Lane at midnight — Phnom Penh earns your affection through rhythm rather than spectacle.</p>
+  </div>
+</div>
+
 ## Arriving in Cambodia's Beating Heart
 
 I did not fall in love with Phnom Penh immediately. My first afternoon was a sensory assault — the staggering heat that pressed against my skin like a wet blanket, the cacophony of motorbikes that seemed to follow traffic laws written in invisible ink, and the dust that coated everything in a fine golden layer. I stood on the corner of Sisowath Quay watching the Tonle Sap River slide by, jet-lagged and overwhelmed, wondering if I had made a mistake starting my Cambodia trip here instead of heading straight to the temples.
@@ -137,6 +145,14 @@ What makes Phnom Penh irreplaceable is the collision of timelines. In a single m
 I spent five days here on my first visit and have returned three times since. Every trip reveals a neighborhood I missed, a dish I had not tried, a rooftop bar that did not exist six months ago. Phnom Penh is Cambodia's most misunderstood city — travelers treat it as a layover on the way to Angkor Wat and miss one of Southeast Asia's most dynamic capitals.
 
 The city sits at the confluence of four rivers — a geographic fact that explains both its historical importance and its daily beauty. When the late afternoon light hits the water and the fishermen cast their nets from wooden longboats while teenagers take selfies on the promenade, you see a place that holds contradiction without apology. That is the essential Phnom Penh experience.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">The Royal Palace, the Tuol Sleng Genocide Museum, the Killing Fields of Choeung Ek, the National Museum, and a riverside food scene that has become one of Asia's most exciting.</p>
+  </div>
+</div>
 
 ## What Makes Phnom Penh Different
 
@@ -206,6 +222,14 @@ Another NGO-run restaurant in the same network as Romdeng, Friends focuses on ta
 
 Where Phnom Penh families go for celebrations. Sovanna is a Cambodian barbecue experience — a charcoal grill embedded in your table, platters of marinated beef, pork, and seafood, and a moat of broth around the grill for cooking vegetables and noodles simultaneously. The meat quality is excellent and the atmosphere is loud, chaotic, and joyful. Grab a group of fellow travelers and order the set menu for $5 per person. Bring a change of clothes — you will smell like barbecue smoke for hours.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">BKK1 boutique hotels, riverside guesthouses near the palace, and a growing luxury scene — Phnom Penh's accommodation range has improved dramatically in the last five years.</p>
+  </div>
+</div>
+
 ## Where to Stay in Phnom Penh
 
 ### Budget: Mad Monkey Hostel ($6-10 dorm, $20-30 private)
@@ -221,6 +245,14 @@ This is where I stay in Phnom Penh, and I recommend it without hesitation. A col
 Operating since 1929, Raffles is Phnom Penh's grand dame. Jacqueline Kennedy stayed here. The Elephant Bar serves what might be the best gin and tonic in Cambodia — the Femme Fatale cocktail was created for her. The rooms blend colonial charm with modern luxury, the gardens are an oasis from the city noise, and the poolside service makes you feel like you have stepped into a Graham Greene novel. Even if you do not stay here, come for a drink at the Elephant Bar. You deserve it.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4A1D96 0%, #6D28D9 35%, #C084FC 65%, #4A1D96 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Visit Tuol Sleng and Choeung Ek on the same day and give yourself the afternoon to process them — this is not optional if you want to understand Cambodia.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

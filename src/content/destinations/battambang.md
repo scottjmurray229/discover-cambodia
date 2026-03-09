@@ -121,6 +121,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/battambang-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">French colonial shophouses, a bamboo railway, temples on hillsides above the plain, and the most vibrant arts scene in Cambodia — Battambang whispers where Phnom Penh shouts.</p>
+  </div>
+</div>
+
 ## The Town That Whispers Instead of Shouts
 
 I arrived in Battambang on the Sangker River boat from Siem Reap, a decision that remains one of the best I have made in Cambodia. Six hours on the water, navigating channels barely wider than the boat, ducking under low-hanging branches while water hyacinths scraped the hull, passing through flooded forests where the trees rose from still water like cathedral columns. Children in riverside villages paused their games to wave. Fishermen lifted nets with practiced indifference. By the time the boat rounded the final bend and the colonial facades of Battambang town appeared along the riverbank, I had already fallen for the place without setting foot in it.
@@ -130,6 +138,14 @@ Battambang is Cambodia's second-largest city, which sounds impressive until you 
 I spent three days in Battambang and left knowing I had only scratched the surface. This is a town built for slow discovery — the kind of place where a bicycle ride to buy oranges at the morning market becomes a two-hour detour through rice paddies and pagodas. The art scene here is genuine and grassroots, rooted in the Phare Ponleu Selpak organization that uses circus and visual arts to rehabilitate children affected by poverty and the Khmer Rouge legacy. The food, widely considered the best in Cambodia, reflects the agricultural abundance of the surrounding province. And the countryside excursions — bat caves, hilltop temples, the bamboo train — provide just enough adventure to justify the journey without trying too hard.
 
 If Siem Reap is the blockbuster and Phnom Penh is the capital, Battambang is the independent film that wins the audience award. It does not demand your attention. It earns it.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">The Bamboo Railway, Phare Circus rehearsals, Banan Temple on its hilltop, the Killing Caves of Phnom Sampeau, and a colonial town center with the finest vintage shophouses in Cambodia.</p>
+  </div>
+</div>
 
 ## What Makes Battambang Different
 
@@ -191,6 +207,14 @@ This unmarked stall near the central market serves what Battambang locals consid
 
 A traveler-friendly cafe with excellent coffee, smoothies, and a menu spanning Khmer and Western dishes. The eggs Benedict with kampot pepper hollandaise is a guilty pleasure, and the iced coffees are strong enough to power a full day of cycling. Good WiFi makes it a solid working spot. The owner is a wealth of local knowledge.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Colonial guesthouses on the riverside, boutique hotels in the old town, and a price range that makes staying three nights instead of two an easy decision.</p>
+  </div>
+</div>
+
 ## Where to Stay in Battambang
 
 ### Budget: Here Be Dragons ($5-8 dorm, $15-22 private)
@@ -206,6 +230,14 @@ A colonial-era building renovated with genuine architectural care into a boutiqu
 A collection of traditional Khmer wooden houses in the heritage village of Wat Kor, just outside the town center. Each house has been restored and converted into a unique suite with private gardens. The setting — surrounded by fruit trees, lotus ponds, and working rice paddies — feels like stepping into rural Cambodia a century ago. The restaurant serves refined Khmer cuisine using ingredients from the property's own garden. Bicycles are provided for the 10-minute ride into town.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4A1D96 0%, #6D28D9 35%, #C084FC 65%, #4A1D96 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Book the bamboo railway in the morning, visit the Killing Caves at Phnom Sampeau at sunset for the bat emergence, and allow at least two full days for a town that consistently overdelivers.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 

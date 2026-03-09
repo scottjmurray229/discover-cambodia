@@ -121,6 +121,14 @@ draft: false
 
 <ImmersiveBreak videoSrc="/videos/destinations/tonle-sap-hero.mp4" />
 
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #064E3B 0%, #065F46 35%, #10B981 65%, #064E3B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Southeast Asia's largest freshwater lake expands sixfold during the rainy season, flooding the forest for miles — the floating villages move with it, rising and falling with a tide measured in months.</p>
+  </div>
+</div>
+
 ## The Lake That Breathes
 
 I did not understand Tonle Sap until I saw it in two seasons. My first visit was in December, during the receding wet season, when the lake was still swollen from the monsoon and the village of Kompong Khleang rose from the water on wooden stilts that stretched 8 meters from waterline to floor. My boat navigated between the houses — past a floating school where children in white uniforms waved from the windows, past a convenience store built on a platform where a woman sold instant noodles and cigarettes from a hammock, past a pagoda whose monks descended to their boat each morning to collect alms on the water instead of on roads. An entire civilization built on the assumption that the ground would disappear for half the year.
@@ -132,6 +140,14 @@ Tonle Sap is Southeast Asia's largest freshwater lake, and its seasonal flooding
 This cycle sustains approximately 1.5 million Cambodians who live around and on the lake, working as fishermen, farmers, and traders in communities that have calibrated their entire existence to the water's rhythm. The floating villages — communities built on boats and platforms that rise and fall with the water — are the most visible manifestation of this adaptation. But the stilted villages, the flooded forest ecosystems, and the vast fishing industry that provides the majority of Cambodia's animal protein tell a story of human-environment interaction that is increasingly rare and increasingly threatened.
 
 Visiting Tonle Sap is not a conventional tourist experience. There are no admission gates, no audio guides, no carefully curated pathways. You get in a boat, you enter a community, and you observe a way of life that is extraordinary precisely because the people living it consider it ordinary. The potential for the experience to feel voyeuristic is real — which is why choosing the right village and the right tour operator matters more here than almost anywhere else in Cambodia.
+
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0369A1 35%, #38BDF8 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Kompong Khleang floating village (the real one), the flooded forest boat ride in wet season, Kompong Phluk on stilts 6 meters above the dry-season ground, and the bird sanctuary at Prek Toal.</p>
+  </div>
+</div>
 
 ## What Makes Tonle Sap Different
 
@@ -191,6 +207,14 @@ Most visitors eat in Siem Reap before or after their Tonle Sap excursion. See th
 
 For full-day trips to Kompong Khleang, Prek Toal, or combined village-and-birdwatching tours, some operators provide a packed lunch and others expect you to bring your own. Confirm with your operator. If packing your own, grab supplies from the Siem Reap market or a convenience store the evening before — sandwiches, fruit, nuts, and plenty of water.
 
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #84CC16 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">The Tonle Sap is best visited as a day trip from Siem Reap — but the genuine floating village experience at Kompong Khleang can be combined with an overnight homestay for those who want the full immersion.</p>
+  </div>
+</div>
+
 ## Where to Stay at Tonle Sap
 
 ### Siem Reap Base (most common approach)
@@ -206,6 +230,14 @@ For the most immersive experience, arrange an overnight homestay in Kompong Khle
 Birdwatchers can occasionally arrange overnight stays at the Prek Toal research station, which positions you for dawn departures to the bird colonies when activity is highest. Contact the Wildlife Conservation Society (WCS) Cambodia office in Siem Reap for availability and arrangements. Facilities are basic but functional — dormitory-style rooms, shared meals, and access to areas normally restricted to researchers.
 
 <div class="scott-tips">
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #78350F 0%, #92400E 35%, #D97706 65%, #78350F 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Avoid the touristy Chong Khneas — go to Kompong Khleang instead, visit in wet season (July–October) for the flooded forest boat ride, and book through a guide who pays the community directly.</p>
+  </div>
+</div>
 
 ## Scott's Pro Tips
 
