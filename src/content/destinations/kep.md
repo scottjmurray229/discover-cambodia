@@ -3,6 +3,7 @@ title: "Kep"
 description: "Discover Kep, Cambodia's forgotten seaside resort — famous crab market, Rabbit Island day trips, jungle-covered abandoned villas, national park hikes, and some of the best seafood in Southeast Asia."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Kep crab market wooden stalls and mangrove coast of Kep-sur-Mer, Cambodia"
 tagline: "Cambodia's Seaside Secret"
 region: "south-coast"
 bestMonths:

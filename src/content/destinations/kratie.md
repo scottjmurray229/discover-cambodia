@@ -3,6 +3,7 @@ title: "Kratie"
 description: "The complete guide to Kratie, Cambodia — Irrawaddy dolphin watching on the Mekong, Koh Trong island homestays, colonial architecture, and the most authentic rural Cambodian experience on the tourist trail."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Freshwater Irrawaddy dolphins surfacing in the Mekong River at Kratie, Cambodia"
 tagline: "Where Dolphins Dance in the Mekong"
 region: "northeast"
 bestMonths:

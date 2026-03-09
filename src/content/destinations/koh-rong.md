@@ -3,6 +3,7 @@ title: "Koh Rong"
 description: "The complete guide to Koh Rong island — Long Set Beach, bioluminescent plankton, jungle treks, diving, beach parties, and how to choose between Koh Rong and Koh Rong Sanloem."
 heroVideo: ""
 heroImage: ""
+heroAlt: "White sand Long Beach and jungle-backed turquoise waters at Koh Rong, Cambodia"
 tagline: "Paradise Found Off the Coast"
 region: "south-coast"
 bestMonths:

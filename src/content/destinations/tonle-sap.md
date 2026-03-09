@@ -3,6 +3,7 @@ title: "Tonle Sap"
 description: "The complete guide to Tonle Sap, Southeast Asia's great lake — floating villages of Kompong Khleang and Mechrey, birdwatching, fishing communities, and the incredible seasonal flooding that defines Cambodian life."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Floating village stilt houses on Southeast Asia's largest freshwater lake, Cambodia"
 tagline: "Life on Southeast Asia's Great Lake"
 region: "northwest"
 bestMonths:

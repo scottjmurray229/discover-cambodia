@@ -3,6 +3,7 @@ title: "Siem Reap"
 description: "The complete guide to Siem Reap and Angkor Wat — temple itineraries, sunrise tips, best restaurants, hotels at every budget, and local secrets from someone who has been five times."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Angkor Wat temple towers reflected in the sacred moat at sunrise, Cambodia"
 tagline: "Gateway to the Temples of Angkor"
 region: "northwest"
 bestMonths:

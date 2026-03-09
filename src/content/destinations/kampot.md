@@ -3,6 +3,7 @@ title: "Kampot"
 description: "The complete guide to Kampot, Cambodia — pepper plantations, Bokor Hill Station, riverside cafes, cave temples, sunset cruises, and the most laid-back town in Southeast Asia."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Durian pepper farms and French villa–lined Kampot River at sunset, Cambodia"
 tagline: "River Town with a Bohemian Spirit"
 region: "south-coast"
 bestMonths:

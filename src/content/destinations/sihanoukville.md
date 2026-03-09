@@ -3,6 +3,7 @@ title: "Sihanoukville"
 description: "The honest guide to Sihanoukville in 2026 — what has changed, where to find the remaining good beaches, island hopping options, and why it is still worth a stop on the Cambodian coast."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Ream National Park mangrove boat tour near Sihanoukville, Cambodia"
 tagline: "Gateway to Cambodia's Islands"
 region: "south-coast"
 bestMonths:

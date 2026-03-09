@@ -3,6 +3,7 @@ title: "Battambang"
 description: "Discover Battambang — Cambodia's cultural capital with its bamboo train, Phare circus birthplace, colonial architecture, bat caves, and the most authentic rural experience in the country."
 heroVideo: ""
 heroImage: ""
+heroAlt: "French colonial train station and iconic bamboo train tracks near Battambang, Cambodia"
 tagline: "Cambodia's Creative Soul"
 region: "northwest"
 bestMonths:

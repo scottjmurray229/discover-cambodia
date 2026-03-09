@@ -3,6 +3,7 @@ title: "Phnom Penh"
 description: "Discover Phnom Penh, Cambodia's vibrant capital where ancient temples meet modern riverside cafes. Complete travel guide with prices, restaurants, hotels, and insider tips."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Golden Royal Palace spire reflected in the Tonle Sap River, Phnom Penh, Cambodia"
 tagline: "Where Ancient and Modern Collide"
 region: "central"
 bestMonths:

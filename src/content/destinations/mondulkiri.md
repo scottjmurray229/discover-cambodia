@@ -3,6 +3,7 @@ title: "Mondulkiri"
 description: "Discover Mondulkiri, Cambodia's wild eastern frontier — ethical elephant encounters, Bou Sra waterfall, Bunong indigenous culture, pine forests, and the most dramatic landscape change in the country."
 heroVideo: ""
 heroImage: ""
+heroAlt: "Elephant Valley Project sanctuary and forested highlands of Mondulkiri, Cambodia"
 tagline: "Cambodia's Wild Eastern Frontier"
 region: "northeast"
 bestMonths:
