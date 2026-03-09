@@ -23,6 +23,20 @@ export const CAMBODIA_CONFIG: PackingConfig = {
   plugType: 'Type A/C/G',
   plugVoltage: '230V',
   affiliateTag: 'discoverphili-20',
+  seasons: [
+    { value: 'dry', label: 'Dry Season' },
+    { value: 'rainy', label: 'Wet / Rainy Season' },
+    { value: 'shoulder', label: 'Shoulder Season' },
+  ],
+  activities: [
+    { value: 'snorkeling', label: 'Snorkeling', icon: '🤿' },
+    { value: 'diving', label: 'Diving', icon: '🐟' },
+    { value: 'hiking', label: 'Hiking', icon: '🥾' },
+    { value: 'surfing', label: 'Surfing', icon: '🏄' },
+    { value: 'temples', label: 'Temples', icon: '🛕' },
+    { value: 'photography', label: 'Photography', icon: '📸' },
+    { value: 'nightlife', label: 'Nightlife', icon: '🍹' },
+  ],
   destinationEssentials: CAMBODIA_ESSENTIALS,
   gearRecommendations: CAMBODIA_GEAR_RECOMMENDATIONS,
 };
