@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 15
   midRange: 50
   luxury: 180
-gettingThere: "From Phnom Penh, buses to Kep take 3.5-4 hours ($8-10). From Kampot, a tuk-tuk is 25 minutes ($8-10) or minivan ($3). Kep has no airport — use Phnom Penh (PNH) or Sihanoukville (KOS)."
+gettingThere: 'From Phnom Penh, buses to Kep take 3.5-4 hours ($8-10). From Kampot, a tuk-tuk is 25 minutes ($8-10) or minivan ($3). Kep has no airport — use Phnom Penh (PNH) or Sihanoukville (KOS). <a href="https://airasia.prf.hn/click/camref:1101l5F4ob">AirAsia</a> flies to Phnom Penh and Siem Reap from Bangkok and KL.'
 essentials:
   - icon: "🌡️"
     label: "Climate"
@@ -97,7 +97,7 @@ affiliatePicks:
     type: "hotel"
     price: "$130-250/night"
     personalNote: "A modernist masterpiece built by a student of Le Corbusier in the 1960s, restored into a boutique hotel with an infinity pool overlooking the ocean. The architecture alone justifies the stay. The restaurant serves the best meal in Kep. Waking up here feels like staying in a design museum."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=kep"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=kep"
     badge: "Where I Stay"
   - name: "Rabbit Island Day Trip"
     type: "activity"
@@ -113,7 +113,7 @@ affiliatePicks:
     type: "hotel"
     price: "$65-120/night"
     personalNote: "Hillside bungalows in the national park with stunning views over the coastline. The infinity pool seems to merge with the tree canopy. Perfect for travelers who want nature immersion without sacrificing comfort."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=kep+cambodia"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=kep%20cambodia"
 lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false

@@ -5,6 +5,36 @@ export const CAMBODIA_ESSENTIALS: PackingItem[] = [
   { id: 'kh-repellent', name: 'DEET Insect Repellent', category: 'destination', description: 'Dengue is endemic in Cambodia, peaks during rainy season. Mosquitoes are present at Angkor and in Siem Reap at dusk. DEET-based repellent is non-negotiable.', essential: true, amazonSearchFallback: 'deet+insect+repellent+tropical', affiliatePrice: '$8–15' },
   { id: 'kh-cash', name: 'USD Cash ($100–200)', category: 'destination', description: 'Cambodia runs almost entirely on US dollars. Most ATMs dispense USD. Tuk-tuks, guesthouses, and restaurants are cash-only. Small bills ($1, $5) are essential — change is given in Riel.', essential: true, quantityMultiplier: 0 },
   { id: 'kh-waterpurify', name: 'Water Purification Tablets / Filter', category: 'destination', description: 'Tap water is not safe to drink anywhere in Cambodia. Bottled water is cheap but generates plastic waste. A SteriPen or purification tablets let you refill safely.', essential: true, amazonSearchFallback: 'water+purification+tablets+steripen+travel', affiliatePrice: '$15–50' },
+  {
+    id: 'vpn-subscription',
+    name: 'VPN Subscription',
+    category: 'electronics',
+    description: 'Secure your data on public WiFi — essential for hotel, airport, and cafe networks abroad.',
+    essential: false,
+    affiliateUrl: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=XXXXX&url_id=902',
+    affiliatePrice: '~$3/month',
+    affiliatePartner: 'NordVPN',
+  },
+  {
+    id: 'action-camera',
+    name: 'Waterproof Action Camera',
+    category: 'gear',
+    description: 'Capture snorkeling, diving, and beach adventures hands-free.',
+    essential: false,
+    affiliateUrl: 'https://www.insta360.com/sal/go-ultra?utm_source=AffiliateCenter&utm_medium=copylink&utm_term=INRSG7H5RTR',
+    affiliatePrice: '~$299',
+    affiliatePartner: 'Insta360',
+  },
+  {
+    id: 'phone-gimbal',
+    name: 'Phone Gimbal for Travel Vlogging',
+    category: 'electronics',
+    description: 'Stabilized video from your phone — no editing needed.',
+    essential: false,
+    affiliateUrl: 'https://www.insta360.com/sal/flow-2-pro?utm_source=AffiliateCenter&utm_medium=copylink&utm_term=INRSG7H5RTR',
+    affiliatePrice: '~$149',
+    affiliatePartner: 'Insta360',
+  },
 ];
 
 export const CAMBODIA_GEAR_RECOMMENDATIONS: GearRecommendation[] = [

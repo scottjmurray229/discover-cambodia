@@ -97,7 +97,7 @@ affiliatePicks:
     type: "hotel"
     price: "$55-90/night"
     personalNote: "A beautifully restored colonial building in the town center with a salt-water pool, elegant rooms mixing Khmer and French aesthetics, and the best breakfast in Battambang. The owner is an architect who renovated the building with genuine care. My favorite hotel in the town."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=battambang"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=battambang"
     badge: "Where I Stay"
   - name: "Battambang Countryside Cycling Tour"
     type: "tour"

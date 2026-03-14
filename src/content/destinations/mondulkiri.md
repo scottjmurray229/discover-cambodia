@@ -24,7 +24,7 @@ budgetPerDay:
   backpacker: 20
   midRange: 50
   luxury: 120
-gettingThere: "Buses from Phnom Penh to Sen Monorom (7-8 hours, $10-12). The road has been dramatically improved and is now fully paved. No airport — Phnom Penh (PNH) is the nearest."
+gettingThere: 'Buses from Phnom Penh to Sen Monorom (7-8 hours, $10-12). The road has been dramatically improved and is now fully paved. No airport — Phnom Penh (PNH) is the nearest. <a href="https://airasia.prf.hn/click/camref:1101l5F4ob">AirAsia</a> flies to Phnom Penh and Siem Reap from Bangkok and KL.'
 essentials:
   - icon: "🌡️"
     label: "Climate"
@@ -103,7 +103,7 @@ affiliatePicks:
     type: "hotel"
     price: "$45-80/night"
     personalNote: "The nicest hotel in Sen Monorom by a considerable margin. Hilltop location with views over the rolling countryside, comfortable rooms with heating (yes, heating — you will need it in December), and a restaurant that serves better food than you expect this far from civilization."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=sen+monorom+mondulkiri"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=sen%20monorom%20mondulkiri"
     badge: "Where I Stay"
   - name: "Mondulkiri Trekking & Waterfall Tour"
     type: "tour"
@@ -114,7 +114,7 @@ affiliatePicks:
     type: "hotel"
     price: "$10-20/night with meals"
     personalNote: "Spending a night in a Bunong village, drinking rice wine with the family, eating food cooked over an open fire, and sleeping in a traditional longhouse is an experience that strips travel back to its essence. Not comfortable. Completely unforgettable."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=mondulkiri"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=mondulkiri"
 lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false

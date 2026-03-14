@@ -24,7 +24,7 @@ budgetPerDay:
   backpacker: 15
   midRange: 45
   luxury: 150
-gettingThere: "Buses from Phnom Penh (3-4 hours, $6-10 via Giant Ibis). From Sihanoukville, minivans run in 2 hours ($8). Kampot has no airport — the nearest is Sihanoukville (KOS) or Phnom Penh (PNH)."
+gettingThere: 'Buses from Phnom Penh (3-4 hours, $6-10 via Giant Ibis). From Sihanoukville, minivans run in 2 hours ($8). Kampot has no airport — the nearest is Sihanoukville (KOS) or Phnom Penh (PNH). <a href="https://airasia.prf.hn/click/camref:1101l5F4ob">AirAsia</a> flies to Phnom Penh and Siem Reap from Bangkok and KL.'
 essentials:
   - icon: "🌡️"
     label: "Climate"
@@ -97,7 +97,7 @@ affiliatePicks:
     type: "hotel"
     price: "$60-100/night"
     personalNote: "A colonial mansion converted into a boutique hotel with a gorgeous pool, attentive service, and the kind of architectural details — original tile floors, wooden shutters, ceiling fans — that transport you to another era. The riverside location is perfect for morning walks."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=kampot"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=kampot"
     badge: "Where I Stay"
   - name: "Kampot Pepper Plantation Tour"
     type: "tour"

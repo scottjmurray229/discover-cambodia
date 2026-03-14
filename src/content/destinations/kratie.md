@@ -24,7 +24,7 @@ budgetPerDay:
   backpacker: 12
   midRange: 30
   luxury: 80
-gettingThere: "Buses from Phnom Penh (6-7 hours, $8-10) via Kampong Cham. From Siem Reap, it is a long overland journey (10-12 hours, $15). No airport — Phnom Penh (PNH) is the nearest."
+gettingThere: 'Buses from Phnom Penh (6-7 hours, $8-10) via Kampong Cham. From Siem Reap, it is a long overland journey (10-12 hours, $15). No airport — Phnom Penh (PNH) is the nearest. <a href="https://airasia.prf.hn/click/camref:1101l5F4ob">AirAsia</a> flies to Phnom Penh and Siem Reap from Bangkok and KL.'
 essentials:
   - icon: "🌡️"
     label: "Climate"
@@ -96,7 +96,7 @@ affiliatePicks:
     type: "hotel"
     price: "$25-45/night"
     personalNote: "A social enterprise that trains disadvantaged Cambodians in hospitality, with clean rooms, a riverside restaurant, and staff who are genuinely learning their craft. My room overlooked the Mekong. The food was the best in town. Supporting this place felt as good as staying in it."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=kratie"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=kratie"
     badge: "Where I Stay"
   - name: "Dolphin Watching Boat Tour"
     type: "tour"
@@ -107,7 +107,7 @@ affiliatePicks:
     type: "hotel"
     price: "$8-15/night including meals"
     personalNote: "Sleeping in a traditional Khmer wooden house on an island in the middle of the Mekong, eating home-cooked fish curry with a Cambodian family, and cycling through pomelo orchards at sunrise was the most authentic travel experience I had in Cambodia."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=koh+trong+kratie"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=koh%20trong%20kratie"
 lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false

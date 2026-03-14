@@ -25,7 +25,7 @@ budgetPerDay:
   backpacker: 15
   midRange: 50
   luxury: 150
-gettingThere: "Direct buses from Phnom Penh (4-5 hours, $8-12 via Giant Ibis or Mekong Express). Sihanoukville Airport (KOS) has limited flights. Boats to Koh Rong and Koh Rong Sanloem depart from Serendipity pier."
+gettingThere: 'Direct buses from Phnom Penh (4-5 hours, $8-12 via Giant Ibis or Mekong Express). Sihanoukville Airport (KOS) has limited flights. Boats to Koh Rong and Koh Rong Sanloem depart from Serendipity pier. <a href="https://airasia.prf.hn/click/camref:1101l5F4ob">AirAsia</a> flies to Phnom Penh and Siem Reap from Bangkok and KL.'
 essentials:
   - icon: "🌡️"
     label: "Climate"
@@ -96,7 +96,7 @@ affiliatePicks:
     type: "hotel"
     price: "$45-75/night"
     personalNote: "A stylish mid-range option right on Otres Beach with pool, restaurant, and rooms that feel far more expensive than they are. Waking up to the sound of waves 30 meters away was the highlight of my Sihanoukville stay."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=sihanoukville"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=sihanoukville"
     badge: "Where I Stay"
   - name: "Koh Rong Island Hopping Day Trip"
     type: "tour"
@@ -112,7 +112,7 @@ affiliatePicks:
     type: "hotel"
     price: "$12-25/night"
     personalNote: "Mushroom-shaped bungalows on a hillside overlooking Otres Beach. Quirky, fun, and ridiculously affordable. The communal vibe attracts a creative crowd of long-term travelers."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=sihanoukville+otres"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=sihanoukville%20otres"
 lastVerified: 2026-02-27
 contentStatus: "published"
 draft: false

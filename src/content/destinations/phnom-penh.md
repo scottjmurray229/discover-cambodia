@@ -24,7 +24,7 @@ budgetPerDay:
   backpacker: 20
   midRange: 60
   luxury: 200
-gettingThere: "Phnom Penh International Airport (PNH) receives direct flights from Bangkok, Ho Chi Minh City, Kuala Lumpur, and Singapore. Buses run from Siem Reap (6 hours) and Ho Chi Minh City (6-7 hours)."
+gettingThere: 'Phnom Penh International Airport (PNH) receives direct flights from Bangkok, Ho Chi Minh City, Kuala Lumpur, and Singapore. Buses run from Siem Reap (6 hours) and Ho Chi Minh City (6-7 hours). <a href="https://airasia.prf.hn/click/camref:1101l5F4ob">AirAsia</a> flies to Phnom Penh and Siem Reap from Bangkok and KL.'
 essentials:
   - icon: "🌡️"
     label: "Climate"
@@ -97,7 +97,7 @@ affiliatePicks:
     type: "hotel"
     price: "$85-130/night"
     personalNote: "Colonial-era building transformed into a gorgeous boutique hotel in BKK1. The rooftop pool alone is worth the stay. My favorite mid-range option in the city."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=phnom+penh"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=phnom%20penh"
     badge: "Where I Stay"
   - name: "Phnom Penh Sunset Cruise"
     type: "tour"
@@ -113,7 +113,7 @@ affiliatePicks:
     type: "hotel"
     price: "$180-350/night"
     personalNote: "If you want to splurge in the capital, this is where to do it. Modern luxury right on the riverfront. The restaurant is among the city's best."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=phnom+penh"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=phnom%20penh"
   - name: "Phnom Penh Street Food Tour"
     type: "activity"
     price: "$20-30"

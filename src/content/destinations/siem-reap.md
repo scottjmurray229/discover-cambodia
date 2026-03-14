@@ -24,7 +24,7 @@ budgetPerDay:
   backpacker: 25
   midRange: 80
   luxury: 300
-gettingThere: "Siem Reap International Airport (REP) receives direct flights from Bangkok, Kuala Lumpur, Ho Chi Minh City, and Singapore. Buses from Phnom Penh take 6 hours ($10-15 with Giant Ibis)."
+gettingThere: 'Siem Reap International Airport (REP) receives direct flights from Bangkok, Kuala Lumpur, Ho Chi Minh City, and Singapore. Buses from Phnom Penh take 6 hours ($10-15 with Giant Ibis). <a href="https://airasia.prf.hn/click/camref:1101l5F4ob">AirAsia</a> flies to Phnom Penh and Siem Reap from Bangkok and KL.'
 essentials:
   - icon: "🌡️"
     label: "Climate"
@@ -97,7 +97,7 @@ affiliatePicks:
     type: "hotel"
     price: "$120-200/night"
     personalNote: "My favorite hotel in Siem Reap. Boutique rooms with Khmer design touches, a pool that is pure bliss after a day of temple climbing, and a social enterprise model that funds local community programs. The location puts you 5 minutes from Pub Street but in blissful quiet."
-    affiliateUrl: "https://www.booking.com/searchresults.html?aid=2778866&label=discovercambodia&ss=siem+reap"
+    affiliateUrl: "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1959462&hl=en-us&textToSearch=siem%20reap"
     badge: "Where I Stay"
   - name: "Angkor Wat Sunrise Small Group Tour"
     type: "tour"
